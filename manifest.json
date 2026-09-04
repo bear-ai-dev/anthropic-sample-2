@@ -69,7 +69,7 @@
       "verifier_repair": {
         "date": "2026-09-04",
         "evaluation_sha256": "6cc5da16edfad5649195992c02b34ec2ff4bc2b96e7b3acf67906586b3777718",
-        "evidence": "results/regrades/verifier-repair-20260904/manifest.json",
+        "evidence": "analysis/verifier-repair-summary.json",
         "scope": "verifier-only repair; model trajectories were replayed without new model calls"
       },
       "family": "Real-SWE",
@@ -87,7 +87,7 @@
       "verifier_repair": {
         "date": "2026-09-04",
         "evaluation_sha256": "1ebaf007ebd10a05e9c420d93f94aa91de34fe2de7a1201ba2d4ea86c99803d7",
-        "evidence": "results/regrades/verifier-repair-20260904/manifest.json",
+        "evidence": "analysis/verifier-repair-summary.json",
         "scope": "verifier-only repair; model trajectories were replayed without new model calls"
       },
       "family": "Real-SWE",

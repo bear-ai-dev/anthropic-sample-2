@@ -5,6 +5,7 @@ Anthropic Sample 2 is a Real SWE benchmark sample of engineering tasks on privat
 ## Table of contents
 
 - [Pass rates](#pass-rates)
+- [Trace analysis and verifier repair](#trace-analysis-and-verifier-repair)
 - [Efficiency](#efficiency)
 - [Task distribution](#task-distribution)
 - [Evidence and validity](#evidence-and-validity)
@@ -20,7 +21,15 @@ Anthropic Sample 2 is a Real SWE benchmark sample of engineering tasks on privat
 | Kimi K3 | Kimi Code | 15 | 80 | 18.8% |
 | GPT-5.6 Sol | Codex CLI | 13 | 80 | 16.2% |
 
-All pass rates aggregate the complete Real SWE benchmark by model and listed harness family. The Grok Build row combines 64 Grok Build rollouts and 16 Grok Build ACP rollouts.
+These pass rates cover this release's complete ten-task benchmark. The Grok row combines 64 Grok Build rollouts and 16 Grok Build ACP rollouts; no base-model-only comparison is implied.
+
+## Trace analysis and verifier repair
+
+- [`analysis/trace-report.md`](analysis/trace-report.md) gives the task-level resolution matrix, repaired failure-mode table, and interpretation.
+- [`analysis/failure-modes.csv`](analysis/failure-modes.csv) provides one primary cause, attribution, concrete mechanism, and evidence path for every rollout on the eight repository-backed Real-SWE tasks.
+- [`analysis/verifier-repair-summary.json`](analysis/verifier-repair-summary.json) indexes the original and repaired evidence for the affected rows.
+
+The September 4 verifier repair replayed saved submissions without making new model calls. Twelve affected rows in this release were replayed: seven changed from 0 to 1 and five remained genuine model failures. After repair, none of the five proposal configurations has a task-side failure in the eight-task qualitative taxonomy. The two licensed company-workflow tasks remain in the pass-rate and resolution tables but are not pooled into that taxonomy.
 
 ## Efficiency
 
@@ -36,7 +45,7 @@ Wall clock is `finished_at - started_at` for a complete scored rollout and is ro
 
 ## Task distribution
 
-The benchmark contains ten Real SWE tasks:
+The release contains ten tasks: eight repository-backed Real-SWE tasks and two licensed company-workflow tasks.
 
 1. [Task 1: Entitlement overage lines](tasks/01-entitlement-overage-lines/instruction.md)
 2. [Task 2: Multi-region sweep](tasks/02-multi-region-sweep/instruction.md)
@@ -60,7 +69,9 @@ A rollout is scored only when it has no harness exception, a numeric verifier re
 - [`results/`](results/) preserves configuration-level cohort and redaction metadata.
 - [`indexes/controls.json`](indexes/controls.json) records the task oracle/no-op evidence used for validity checks.
 
-The licensed application workspaces for two Real SWE tasks are intentionally omitted. Their task contracts, verifiers, reference materials, source hashes, trajectories, and verifier evidence are retained after credential and restricted-name redaction.
+Run `python3 analysis/verify.py` from the repository root to recompute the pass table, task cells, taxonomy coverage, and repair outcomes from the checked-in evidence.
+
+The licensed application workspaces for the two company-workflow tasks are intentionally omitted. Their task contracts, verifiers, reference materials, source hashes, trajectories, and verifier evidence are retained after credential and restricted-name redaction.
 
 Private chain-of-thought fields and encrypted provider reasoning blobs are intentionally blanked in every trajectory. Observable assistant messages, tool activity, final answers, metrics, and verifier evidence are retained.
 
