@@ -1,0 +1,38 @@
+reward 0.0
+failed: registration_shape, windowed_rollup, platform_account, request_path_meters
+
+[FAIL] registration_shape
+        each API call becomes one registration in the aggregate bucket
+        - A: billed to None, not 'cus-2d83-harborline-prod'
+        - A: account None, not 'meteringco-production'
+        - A: dimension None is not the one for 'meteringco-production'
+        - A: recorded None, not 0.001
+        - B: billed to None, not 'cus-2d83-harborline-prod'
+        - B: account None, not 'meteringco-production'
+        - B: dimension None is not the one for 'meteringco-production'
+        - B: recorded None, not 0.001
+        - D: billed to None, not 'cus-2d83-harborline-prod'
+        - D: account None, not 'meteringco-production'
+        - D: dimension None is not the one for 'meteringco-production'
+        - D: recorded None, not 0.001
+[pass] identity_in_series_key
+        calls sharing an instant stay apart by identity
+[pass] call_time_placement
+        a registration sits at the time of the call, not the time it was recorded
+[pass] redelivery_idempotent
+        a redelivered call leaves one registration, whichever batch it arrives in
+[FAIL] windowed_rollup
+        each window produces one billable roll-up worth the window's traffic
+        - billed [0.0, 0.0] for cus-2d83-harborline-prod, the windows are worth [0.003, 0.008]
+        - billed [0.0] for cus-6a17-harborline-alt, the windows are worth [0.001]
+[FAIL] platform_account
+        the roll-up is billed to the platform's own account for that customer
+        - cus-2d83-harborline-prod: roll-up dimension 'meteringco-production-api-calls' is not meteringco-production's
+        - cus-2d83-harborline-prod: roll-up dimension 'meteringco-production-api-calls' is not meteringco-production's
+        - cus-6a17-harborline-alt: roll-up dimension 'meteringco-sandbox-api-calls' is not meteringco-sandbox's
+[FAIL] request_path_meters
+        serving a measurement meters the call that asked for it
+        - serving a measurement registered no API call of its own
+
+registrations written: True
+billable roll-up produced: True

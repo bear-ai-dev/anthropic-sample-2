@@ -8,6 +8,7 @@ import hashlib
 import json
 from collections import Counter
 from pathlib import Path
+from evidence_checks import failure_checks
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,7 @@ assert len({(r['task'], r['model_label'], r['trial_number']) for r in trials}) =
 assert Counter(r['admission'] for r in trials) == {'strict-valid': 398, 'scored-terminal-failure': 2}
 for row in trials:
     trajectory = ROOT / row['trajectory']
+    assert 'bedrock' not in trajectory.parent.name and 'openrouter' not in trajectory.parent.name
     assert hashlib.sha256(trajectory.read_bytes()).hexdigest() == row['trajectory_sha256']
     assert read_json(trajectory).get('steps')
     verdict = read_json(ROOT / row['verification'] / 'canonical-verdict.json')
@@ -113,10 +115,33 @@ for task in manifest["tasks"]:
     if repair:
         assert (ROOT / repair["evidence"]).is_file()
 
+recovery = read_json(ROOT / 'analysis/evidence-recovery.json')
+review = read_json(ROOT / 'analysis/grok-evidence-review.json')['trials']
+assert len(recovery['trials']) == len(review) == 64
+assert len(recovery['controls']) == 16
+assert Counter((r['agent'], r['reward']) for r in recovery['controls']) == {('oracle', 1.0): 8, ('nop', 0.0): 8}
+for record in recovery['trials'] + recovery['controls']:
+    for artifact in record['files']:
+        assert hashlib.sha256((ROOT / artifact['path']).read_bytes()).hexdigest() == artifact['sha256']
+        assert len(artifact['source_sha256']) == 64
+    result_path = next(f['path'] for f in record['files'] if f['path'].endswith('/result-summary.json'))
+    result = read_json(ROOT / result_path)
+    assert result['exception_info'] is None and result['finished_at']
+    assert result['verifier_result']['rewards']['reward'] == record.get('original_reward', record.get('reward'))
+for record in review:
+    trial = indexed[(record['task'], 'Grok 4.6', record['trial'])]
+    assert record['effective_reward'] == trial['reward']
+    assert record['trajectory'] == trial['trajectory']
+    checks, source = failure_checks(ROOT / record['original_verifier'], trial['reward'])
+    assert checks == record['recorded_failing_checks'] and source == record['checks_source']
+    assert trial['passed'] or checks
+assert sum(r['effective_reward'] == 0 for r in review) == 46
+
 print("PASS: 400 scored rows (398 strict-valid completions + 2 turn-limit failures); 10 x 5 x 8")
 print(f"PASS: {len(artifacts)} artifact hashes and 400 trajectories verified")
 for model in MODELS:
     print(f"  {model}: {totals[model]}/80 = {100 * totals[model] / 80:.1f}%")
 print("PASS: 320 Real-SWE taxonomy rows; each failure has one recorded label and evidence reference")
 print("PASS: 12 recorded repairs = 7 flips to pass + 5 retained zeroes")
-print("LIMIT: numerical consistency does not adjudicate entry-point fairness or reward-only causal labels; see HANDOFF.md")
+print("PASS: 64 exact Grok original evidence bundles, 46 detailed failure records, 16 original controls")
+print("LIMIT: recovered evidence is not a fresh replay or causal sign-off; entry-point fairness remains open. See HANDOFF.md")

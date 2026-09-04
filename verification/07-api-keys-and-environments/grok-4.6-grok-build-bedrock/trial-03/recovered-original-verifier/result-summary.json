@@ -1,0 +1,22 @@
+{
+  "task_name": "meteringco/api-keys-and-environments",
+  "trial_name": "07-api-keys-and-environments__KQ8hZAq",
+  "task_checksum": "3f6269b97803f429411916a6f0dc1325aecfd69f3a1e995fbd20d5c7bbb17d16",
+  "started_at": "2026-08-28T04:26:36.118888Z",
+  "finished_at": "2026-08-28T04:49:45.563700Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0,
+      "score": 1.0
+    }
+  }
+}

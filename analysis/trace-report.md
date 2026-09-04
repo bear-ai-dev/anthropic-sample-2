@@ -48,7 +48,13 @@ The taxonomy below covers the eight repository-backed Real-SWE tasks (64 rollout
 | Wrong file | — | 9% | — | 4% | — |
 | Trial incomplete | — | 5% | — | 2% | — |
 
-Every failing row has exactly one recorded primary label, attribution, mechanism, and evidence path in [`failure-modes.csv`](failure-modes.csv). These labels are provisional: nine API-token-metering entry-point labels require adjudication, and 46 Grok failures have only reward-level verifier evidence. The absence of task-side labels in the current CSV does not prove the absence of grader defects. The two GLM turn-limit zeroes are labeled Trial incomplete under the termination rule. Failure taxonomy adapted from DeepSWE.
+Every failing row has exactly one recorded primary label, attribution, mechanism, and evidence path in [`failure-modes.csv`](failure-modes.csv). These labels are provisional: nine API-token-metering entry-point labels require adjudication. The former Grok reward-only gap is closed: all 46 current Grok failures now link to original detailed consequences in [`grok-evidence-review.json`](grok-evidence-review.json). Recovery does not independently certify every causal label or replay the remaining S3 zeroes under a repaired grader. The absence of task-side labels in the current CSV does not prove the absence of grader defects. The two GLM turn-limit zeroes are labeled Trial incomplete under the termination rule. Failure taxonomy adapted from DeepSWE.
+
+## Original evidence recovery
+
+The September 4 recovery matched all 64 Grok repository-task traces to the original canonical audit using trajectory session IDs, step sequences, original hashes, result identities, and task checksums. It recovered 538 redacted files covering those trials and sixteen original controls. The controls retain eight oracle rewards of 1 and eight no-op rewards of 0. Source and released hashes are recorded in [`evidence-recovery.json`](evidence-recovery.json). These are historical results, not newly run controls. Scores, primary labels, cohort membership, and trajectory contents are unchanged.
+
+The recovered reports record missing zero-price invoice lines, omitted snapshot regions, tax-contract mismatches, metering registration/account problems, ineffective key revocation, S3 configuration/DLQ failures, and billing-schedule routing failures. These are observed check outcomes; the retained mechanism labels are a separate inference. The API entry-point question still requires explicit fairness adjudication, and original S3 diagnostics must not be mistaken for a fresh repaired-grader replay.
 
 ## Recorded label distribution (provisional)
 

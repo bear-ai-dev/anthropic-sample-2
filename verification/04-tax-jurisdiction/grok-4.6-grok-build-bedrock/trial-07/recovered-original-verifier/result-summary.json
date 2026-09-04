@@ -1,0 +1,22 @@
+{
+  "task_name": "meteringco/tax-computation-jurisdiction-resolution",
+  "trial_name": "04-tax-jurisdiction__2zZ8kBe",
+  "task_checksum": "5b16d2a7b5fd0a1f7bc8a5dcc6a1fae988ae33ecbc0739670fcc52ec2c0c77f5",
+  "started_at": "2026-08-28T05:19:22.460849Z",
+  "finished_at": "2026-08-28T05:42:33.881563Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0,
+      "score": 0.0
+    }
+  }
+}

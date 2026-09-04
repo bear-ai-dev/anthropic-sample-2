@@ -1,0 +1,22 @@
+{
+  "task_name": "meteringco/api-token-metering",
+  "trial_name": "06-api-token-metering__thnBUMg",
+  "task_checksum": "4752c91a46310743198600c4182aafad05b54023c6cfec7c75e6497e1f62c96e",
+  "started_at": "2026-08-28T04:34:12.175875Z",
+  "finished_at": "2026-08-28T04:50:01.467305Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0,
+      "score": 0.0
+    }
+  }
+}

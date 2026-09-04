@@ -2751,7 +2751,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2759,22 +2759,14 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2782,7 +2774,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2790,7 +2782,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2798,14 +2790,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
-    "changes": [
-      "secret-pattern-11",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2813,7 +2798,22 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-07.json",
+    "changes": [
+      "secret-pattern-11",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/01-entitlement-overage-lines/fable-5.1-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -2822,7 +2822,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -2830,7 +2830,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -2838,7 +2838,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -2846,16 +2846,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -2864,7 +2855,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -2873,7 +2864,16 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-07.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/01-entitlement-overage-lines/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -2881,14 +2881,14 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2896,14 +2896,14 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2911,13 +2911,13 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2925,19 +2925,19 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/01-entitlement-overage-lines/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2945,7 +2945,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2953,14 +2953,14 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2968,7 +2968,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2976,7 +2976,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2984,7 +2984,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -2992,7 +2992,7 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3000,60 +3000,60 @@
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "secret-pattern-14"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14"
     ]
   },
   {
-    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/01-entitlement-overage-lines/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-01.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-02.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3063,7 +3063,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-03.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3073,7 +3073,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-04.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3084,7 +3084,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-05.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3094,7 +3094,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-06.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3104,7 +3104,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-07.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3114,7 +3114,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trajectory-trial-08.json",
+    "path": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3130,7 +3130,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3138,7 +3138,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3147,7 +3147,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3155,7 +3155,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3165,7 +3165,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "absolute-local-path",
       "private-reasoning",
@@ -3175,7 +3175,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3184,7 +3184,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3193,7 +3193,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/01-linearizable-scan/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3202,21 +3202,21 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-10",
@@ -3224,14 +3224,14 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3239,28 +3239,28 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3269,14 +3269,14 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3284,7 +3284,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "absolute-local-path",
       "restricted-name",
@@ -3293,7 +3293,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "absolute-local-path",
       "restricted-name",
@@ -3312,20 +3312,20 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-15"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/01-linearizable-scan/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3333,7 +3333,7 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "absolute-local-path",
       "restricted-name",
@@ -3341,28 +3341,28 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3370,42 +3370,42 @@
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/01-linearizable-scan/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3413,34 +3413,34 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/02-multi-region-sweep/fable-5.1-claude-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -3448,7 +3448,7 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -3456,7 +3456,7 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -3464,7 +3464,7 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11",
@@ -3472,29 +3472,14 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
-    "changes": [
-      "private-reasoning",
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3502,77 +3487,92 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-07.json",
+    "changes": [
+      "private-reasoning",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/02-multi-region-sweep/glm-5.3-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-07.json",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/02-multi-region-sweep/gpt-5.6-sol-codex/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3580,7 +3580,7 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3588,13 +3588,13 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3602,26 +3602,26 @@
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/02-multi-region-sweep/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/02-multi-region-sweep/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/02-multi-region-sweep/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-01.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3630,7 +3630,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-02.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3638,7 +3638,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-03.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3646,7 +3646,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-04.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3654,7 +3654,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-05.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3662,21 +3662,21 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-06.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-07.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trajectory-trial-08.json",
+    "path": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3684,7 +3684,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3692,7 +3692,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3700,7 +3700,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3708,7 +3708,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3716,7 +3716,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3724,7 +3724,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3733,7 +3733,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3741,7 +3741,7 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/03-analytics-stream-reducer/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3749,170 +3749,170 @@
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/03-analytics-stream-reducer/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/03-analytics-stream-reducer/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3921,7 +3921,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14",
@@ -3929,16 +3929,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-14",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3947,7 +3938,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3956,7 +3947,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3965,7 +3956,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3974,7 +3965,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -3983,7 +3974,16 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/04-tax-jurisdiction/fable-5.1-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-14",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -3993,7 +3993,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4003,7 +4003,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4013,7 +4013,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4023,7 +4023,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4033,7 +4033,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4043,7 +4043,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4053,7 +4053,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/04-tax-jurisdiction/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4063,7 +4063,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4071,7 +4071,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4080,7 +4080,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4089,7 +4089,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14",
@@ -4097,32 +4097,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-14"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-14",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
-    "changes": [
-      "secret-pattern-11",
-      "secret-pattern-14",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4130,7 +4105,32 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-06.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-14",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-07.json",
+    "changes": [
+      "secret-pattern-11",
+      "secret-pattern-14",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/04-tax-jurisdiction/gpt-5.6-sol-codex/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-14"
+    ]
+  },
+  {
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4139,7 +4139,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4147,7 +4147,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4155,7 +4155,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4165,7 +4165,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4173,7 +4173,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4182,7 +4182,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4190,7 +4190,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4198,14 +4198,14 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14"
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14",
@@ -4213,7 +4213,7 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4221,37 +4221,13 @@
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-14"
     ]
   },
   {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-14",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-14"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-14"
-    ]
-  },
-  {
-    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4260,21 +4236,45 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-06.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-14"
+    ]
+  },
+  {
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-07.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-14"
+    ]
+  },
+  {
+    "path": "trajectories/04-tax-jurisdiction/kimi-k3-kimi-code/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-14",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4282,22 +4282,14 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4305,7 +4297,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4313,7 +4305,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4321,7 +4313,15 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4330,7 +4330,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4338,16 +4338,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4356,7 +4347,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4365,7 +4356,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4374,7 +4365,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4383,7 +4374,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4392,35 +4383,44 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/06-api-token-metering/glm-5.3-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4428,28 +4428,28 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/06-api-token-metering/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4457,7 +4457,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4465,7 +4465,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4473,7 +4473,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4481,14 +4481,14 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4496,7 +4496,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4504,7 +4504,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4512,14 +4512,14 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4527,14 +4527,14 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4542,7 +4542,7 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4550,14 +4550,14 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4565,14 +4565,14 @@
     ]
   },
   {
-    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-16"
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4581,7 +4581,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4591,7 +4591,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4600,7 +4600,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "absolute-local-path",
       "restricted-name",
@@ -4610,7 +4610,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4619,7 +4619,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4628,7 +4628,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4637,7 +4637,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/07-api-keys-and-environments/fable-5.1-claude-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4646,28 +4646,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-14",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4677,27 +4656,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
-    "changes": [
-      "private-reasoning",
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4708,7 +4667,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4718,7 +4677,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -4728,7 +4687,48 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-05.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-06.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-14",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-07.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/glm-5.3-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "private-reasoning",
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4737,7 +4737,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-14",
@@ -4746,7 +4746,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-15",
@@ -4754,16 +4754,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4772,7 +4763,16 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-05.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4781,7 +4781,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-15",
@@ -4789,7 +4789,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/07-api-keys-and-environments/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4798,7 +4798,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4808,7 +4808,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4817,7 +4817,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4827,7 +4827,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4837,7 +4837,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4847,7 +4847,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4857,7 +4857,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4866,7 +4866,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4876,7 +4876,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11",
       "secret-pattern-15",
@@ -4884,32 +4884,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
-    "changes": [
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
-    "changes": [
-      "secret-pattern-11",
-      "secret-pattern-15",
-      "secret-pattern-16"
-    ]
-  },
-  {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4918,7 +4893,23 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-03.json",
+    "changes": [
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-04.json",
+    "changes": [
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4927,7 +4918,7 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4936,7 +4927,16 @@
     ]
   },
   {
-    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-07.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11",
+      "secret-pattern-15",
+      "secret-pattern-16"
+    ]
+  },
+  {
+    "path": "trajectories/07-api-keys-and-environments/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -4944,59 +4944,59 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-06.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/09-s3-datastore-measurement/fable-5.1-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5004,7 +5004,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5012,7 +5012,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5021,7 +5021,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5029,7 +5029,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5037,7 +5037,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5045,7 +5045,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5053,7 +5053,7 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5061,222 +5061,222 @@
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-07.json",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/09-s3-datastore-measurement/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
-      "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
-      "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
-      "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
-      "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
-      "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-08.json",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-03.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-04.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-05.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-06.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-07.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/fable-5.1-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5284,7 +5284,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5292,7 +5292,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5300,7 +5300,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5308,7 +5308,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5316,7 +5316,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5324,7 +5324,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5332,7 +5332,7 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/10-customer-identity-migration/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5340,223 +5340,223 @@
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/10-customer-identity-migration/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/10-customer-identity-migration/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-01.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-02.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-02.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-03.json",
-    "changes": [
-      "restricted-name",
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-04.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-05.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-06.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-07.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code-bedrock-real-swe/trajectory-trial-08.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/fable-5.1-claude-code/trajectory-trial-08.json",
+    "changes": [
+      "restricted-name",
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-01.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5564,7 +5564,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-02.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5572,7 +5572,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-03.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5580,7 +5580,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-04.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5588,7 +5588,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-05.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5596,7 +5596,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-06.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5604,7 +5604,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-07.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5612,7 +5612,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/glm-5.3-claude-code/trajectory-trial-08.json",
     "changes": [
       "private-reasoning",
       "restricted-name",
@@ -5620,21 +5620,21 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -5642,7 +5642,7 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11",
@@ -5650,127 +5650,127 @@
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-01.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-02.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-03.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-04.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-05.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-06.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-07.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-08.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-01.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-01.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-02.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-02.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-03.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-03.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-04.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-04.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-05.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-05.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-06.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-06.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-07.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-07.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trajectory-trial-08.json",
+    "path": "trajectories/11-customer-billing-schedule-migration/kimi-k3-kimi-code/trajectory-trial-08.json",
     "changes": [
       "restricted-name"
     ]

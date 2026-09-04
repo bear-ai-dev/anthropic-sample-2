@@ -1,0 +1,19 @@
+{
+  "task_name": "meteringco/tax-computation-jurisdiction-resolution",
+  "trial_name": "04-tax-jurisdiction__LsqoKgM",
+  "task_checksum": "5b16d2a7b5fd0a1f7bc8a5dcc6a1fae988ae33ecbc0739670fcc52ec2c0c77f5",
+  "started_at": "2026-08-28T04:20:46.040901Z",
+  "finished_at": "2026-08-28T04:31:12.347678Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "nop",
+    "version": "1.0.0",
+    "model_info": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0,
+      "score": 0.0
+    }
+  }
+}

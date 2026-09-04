@@ -1,0 +1,21 @@
+{
+  "task_name": "10-customer-identity-migration",
+  "trial_name": "10-customer-identity-migration__b7ZQWdC",
+  "task_checksum": "e5de03fd975b2aa24a19d9caa3b3e9a4daa345840855d263baefe8f6c68fa338",
+  "started_at": "2026-08-28T04:56:09.094677Z",
+  "finished_at": "2026-08-28T05:10:54.947476Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  }
+}

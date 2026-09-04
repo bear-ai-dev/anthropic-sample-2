@@ -1,0 +1,14 @@
+
+> meteringco-backend@1.0.0 prebuild
+> rimraf dist
+
+
+> meteringco-backend@1.0.0 build
+> nest build
+
+[96msrc/users/entities/user.entity.ts[0m:[93m69[0m:[93m77[0m - [91merror[0m[90m TS2339: [0mProperty 'softDelete' does not exist on type 'UserTable'.
+
+[7m69[0m         const [{ subject, accountExpiryDate, temp, businessID, environment, softDelete }] = dbModel;
+[7m  [0m [91m                                                                            ~~~~~~~~~~[0m
+
+Found 1 error(s).

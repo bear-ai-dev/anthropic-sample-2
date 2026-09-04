@@ -1,0 +1,17 @@
+/app/src/influx/influx.service.ts:1
+import { Injectable, Logger } from '@nestjs/common';
+^
+
+ReferenceError: Cannot access 'InfluxService' before initialization
+    at Object.InfluxService (/app/src/influx/influx.service.ts:1:1)
+    at Object.get [as InfluxService] (/app/src/influx/influx.service.ts:2:720)
+    at cacheManager (/app/src/token-consumer/token-consumer.service.ts:27:39)
+    at Object.<anonymous> (/app/src/token-consumer/token-consumer.service.ts:24:14)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object.transformer (/usr/local/lib/node_modules/tsx/dist/register-DCnOAxY2.cjs:2:1186)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.require (node:internal/modules/cjs/loader:1527:12)
+
+Node.js v22.23.2

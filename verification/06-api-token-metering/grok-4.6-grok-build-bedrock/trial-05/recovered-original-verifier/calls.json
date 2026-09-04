@@ -1,0 +1,11 @@
+{
+  "calls": [
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1787895595.0708332
+    }
+  ],
+  "fault_counters": {}
+}

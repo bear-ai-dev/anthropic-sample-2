@@ -9,10 +9,21 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/01-entitlement-overage-lines__oracle__trial-01/01-entitlement-overage-lines__pWvEsE2/result.json",
+        "result": "controls/original-real-swe/01-entitlement-overage-lines/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/01-entitlement-overage-lines__oracle__trial-01/01-entitlement-overage-lines__pWvEsE2/result.json",
+        "evidence": [
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/driver.log",
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/observed.json",
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/report.txt",
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/reward.json",
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/reward.txt",
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/test-stdout.txt",
+          "controls/original-real-swe/01-entitlement-overage-lines/oracle/result-summary.json"
+        ],
+        "task_checksum": "9882c7ceae2027c37b898cd3bd9e9bb8c08275e8e65ca9349b10f11fe086b68d"
       },
       {
         "task": "01-entitlement-overage-lines",
@@ -21,10 +32,21 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/01-entitlement-overage-lines__nop__trial-01/01-entitlement-overage-lines__VrADVaK/result.json",
+        "result": "controls/original-real-swe/01-entitlement-overage-lines/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/01-entitlement-overage-lines__nop__trial-01/01-entitlement-overage-lines__VrADVaK/result.json",
+        "evidence": [
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/driver.log",
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/observed.json",
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/report.txt",
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/reward.json",
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/reward.txt",
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/test-stdout.txt",
+          "controls/original-real-swe/01-entitlement-overage-lines/nop/result-summary.json"
+        ],
+        "task_checksum": "9882c7ceae2027c37b898cd3bd9e9bb8c08275e8e65ca9349b10f11fe086b68d"
       },
       {
         "task": "02-multi-region-sweep",
@@ -33,10 +55,21 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/02-multi-region-sweep__oracle__trial-01/02-multi-region-sweep__Q8xE4Gv/result.json",
+        "result": "controls/original-real-swe/02-multi-region-sweep/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/02-multi-region-sweep__oracle__trial-01/02-multi-region-sweep__Q8xE4Gv/result.json",
+        "evidence": [
+          "controls/original-real-swe/02-multi-region-sweep/oracle/driver.log",
+          "controls/original-real-swe/02-multi-region-sweep/oracle/observed.json",
+          "controls/original-real-swe/02-multi-region-sweep/oracle/report.txt",
+          "controls/original-real-swe/02-multi-region-sweep/oracle/reward.json",
+          "controls/original-real-swe/02-multi-region-sweep/oracle/reward.txt",
+          "controls/original-real-swe/02-multi-region-sweep/oracle/test-stdout.txt",
+          "controls/original-real-swe/02-multi-region-sweep/oracle/result-summary.json"
+        ],
+        "task_checksum": "668f5e9fe03c4629e9fd786867f91048839699e91335529b72add30c5ca393a3"
       },
       {
         "task": "02-multi-region-sweep",
@@ -45,10 +78,21 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/02-multi-region-sweep__nop__trial-01/02-multi-region-sweep__tTJEnTm/result.json",
+        "result": "controls/original-real-swe/02-multi-region-sweep/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/02-multi-region-sweep__nop__trial-01/02-multi-region-sweep__tTJEnTm/result.json",
+        "evidence": [
+          "controls/original-real-swe/02-multi-region-sweep/nop/driver.log",
+          "controls/original-real-swe/02-multi-region-sweep/nop/observed.json",
+          "controls/original-real-swe/02-multi-region-sweep/nop/report.txt",
+          "controls/original-real-swe/02-multi-region-sweep/nop/reward.json",
+          "controls/original-real-swe/02-multi-region-sweep/nop/reward.txt",
+          "controls/original-real-swe/02-multi-region-sweep/nop/test-stdout.txt",
+          "controls/original-real-swe/02-multi-region-sweep/nop/result-summary.json"
+        ],
+        "task_checksum": "668f5e9fe03c4629e9fd786867f91048839699e91335529b72add30c5ca393a3"
       },
       {
         "task": "04-tax-jurisdiction",
@@ -57,10 +101,21 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/04-tax-jurisdiction__oracle__trial-01/04-tax-jurisdiction__x84CJbc/result.json",
+        "result": "controls/original-real-swe/04-tax-jurisdiction/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/04-tax-jurisdiction__oracle__trial-01/04-tax-jurisdiction__x84CJbc/result.json",
+        "evidence": [
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/driver.log",
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/observed.json",
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/report.json",
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/reward.json",
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/reward.txt",
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/test-stdout.txt",
+          "controls/original-real-swe/04-tax-jurisdiction/oracle/result-summary.json"
+        ],
+        "task_checksum": "5b16d2a7b5fd0a1f7bc8a5dcc6a1fae988ae33ecbc0739670fcc52ec2c0c77f5"
       },
       {
         "task": "04-tax-jurisdiction",
@@ -69,10 +124,21 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/04-tax-jurisdiction__nop__trial-01/04-tax-jurisdiction__LsqoKgM/result.json",
+        "result": "controls/original-real-swe/04-tax-jurisdiction/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/04-tax-jurisdiction__nop__trial-01/04-tax-jurisdiction__LsqoKgM/result.json",
+        "evidence": [
+          "controls/original-real-swe/04-tax-jurisdiction/nop/driver.log",
+          "controls/original-real-swe/04-tax-jurisdiction/nop/observed.json",
+          "controls/original-real-swe/04-tax-jurisdiction/nop/report.json",
+          "controls/original-real-swe/04-tax-jurisdiction/nop/reward.json",
+          "controls/original-real-swe/04-tax-jurisdiction/nop/reward.txt",
+          "controls/original-real-swe/04-tax-jurisdiction/nop/test-stdout.txt",
+          "controls/original-real-swe/04-tax-jurisdiction/nop/result-summary.json"
+        ],
+        "task_checksum": "5b16d2a7b5fd0a1f7bc8a5dcc6a1fae988ae33ecbc0739670fcc52ec2c0c77f5"
       },
       {
         "task": "06-api-token-metering",
@@ -81,10 +147,24 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/06-api-token-metering__oracle__trial-01/06-api-token-metering__Law2XMn/result.json",
+        "result": "controls/original-real-swe/06-api-token-metering/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/06-api-token-metering__oracle__trial-01/06-api-token-metering__Law2XMn/result.json",
+        "evidence": [
+          "controls/original-real-swe/06-api-token-metering/oracle/calls.json",
+          "controls/original-real-swe/06-api-token-metering/oracle/driver.log",
+          "controls/original-real-swe/06-api-token-metering/oracle/observed.json",
+          "controls/original-real-swe/06-api-token-metering/oracle/report.json",
+          "controls/original-real-swe/06-api-token-metering/oracle/report.txt",
+          "controls/original-real-swe/06-api-token-metering/oracle/reward-detail.json",
+          "controls/original-real-swe/06-api-token-metering/oracle/reward.json",
+          "controls/original-real-swe/06-api-token-metering/oracle/reward.txt",
+          "controls/original-real-swe/06-api-token-metering/oracle/test-stdout.txt",
+          "controls/original-real-swe/06-api-token-metering/oracle/result-summary.json"
+        ],
+        "task_checksum": "4752c91a46310743198600c4182aafad05b54023c6cfec7c75e6497e1f62c96e"
       },
       {
         "task": "06-api-token-metering",
@@ -93,10 +173,24 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/06-api-token-metering__nop__trial-01/06-api-token-metering__sLRs8DK/result.json",
+        "result": "controls/original-real-swe/06-api-token-metering/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/06-api-token-metering__nop__trial-01/06-api-token-metering__sLRs8DK/result.json",
+        "evidence": [
+          "controls/original-real-swe/06-api-token-metering/nop/calls.json",
+          "controls/original-real-swe/06-api-token-metering/nop/driver.log",
+          "controls/original-real-swe/06-api-token-metering/nop/observed.json",
+          "controls/original-real-swe/06-api-token-metering/nop/report.json",
+          "controls/original-real-swe/06-api-token-metering/nop/report.txt",
+          "controls/original-real-swe/06-api-token-metering/nop/reward-detail.json",
+          "controls/original-real-swe/06-api-token-metering/nop/reward.json",
+          "controls/original-real-swe/06-api-token-metering/nop/reward.txt",
+          "controls/original-real-swe/06-api-token-metering/nop/test-stdout.txt",
+          "controls/original-real-swe/06-api-token-metering/nop/result-summary.json"
+        ],
+        "task_checksum": "4752c91a46310743198600c4182aafad05b54023c6cfec7c75e6497e1f62c96e"
       },
       {
         "task": "07-api-keys-and-environments",
@@ -105,10 +199,22 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/07-api-keys-and-environments__oracle__trial-01/07-api-keys-and-environments__rNftUsR/result.json",
+        "result": "controls/original-real-swe/07-api-keys-and-environments/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/07-api-keys-and-environments__oracle__trial-01/07-api-keys-and-environments__rNftUsR/result.json",
+        "evidence": [
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/build.log",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/driver.log",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/observed.json",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/reward-detail.json",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/reward.json",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/reward.txt",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/test-stdout.txt",
+          "controls/original-real-swe/07-api-keys-and-environments/oracle/result-summary.json"
+        ],
+        "task_checksum": "3f6269b97803f429411916a6f0dc1325aecfd69f3a1e995fbd20d5c7bbb17d16"
       },
       {
         "task": "07-api-keys-and-environments",
@@ -117,10 +223,22 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/07-api-keys-and-environments__nop__trial-01/07-api-keys-and-environments__YfL2LDk/result.json",
+        "result": "controls/original-real-swe/07-api-keys-and-environments/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/07-api-keys-and-environments__nop__trial-01/07-api-keys-and-environments__YfL2LDk/result.json",
+        "evidence": [
+          "controls/original-real-swe/07-api-keys-and-environments/nop/build.log",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/driver.log",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/observed.json",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/reward-detail.json",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/reward.json",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/reward.txt",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/test-stdout.txt",
+          "controls/original-real-swe/07-api-keys-and-environments/nop/result-summary.json"
+        ],
+        "task_checksum": "3f6269b97803f429411916a6f0dc1325aecfd69f3a1e995fbd20d5c7bbb17d16"
       },
       {
         "task": "09-s3-datastore-measurement",
@@ -129,10 +247,19 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/09-s3-datastore-measurement__oracle-exact-snapshot-v2__trial-01/09-s3-datastore-measurement__PdR8XJQ/result.json",
+        "result": "controls/original-real-swe/09-s3-datastore-measurement/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/09-s3-datastore-measurement__oracle-exact-snapshot-v2__trial-01/09-s3-datastore-measurement__PdR8XJQ/result.json",
+        "evidence": [
+          "controls/original-real-swe/09-s3-datastore-measurement/oracle/output.json",
+          "controls/original-real-swe/09-s3-datastore-measurement/oracle/reward.txt",
+          "controls/original-real-swe/09-s3-datastore-measurement/oracle/stdout.txt",
+          "controls/original-real-swe/09-s3-datastore-measurement/oracle/test-stdout.txt",
+          "controls/original-real-swe/09-s3-datastore-measurement/oracle/result-summary.json"
+        ],
+        "task_checksum": "08a1572ad1dcbd29d7ed5363ac7f36bd4bf925c620845b403ad574d76e7fc563"
       },
       {
         "task": "09-s3-datastore-measurement",
@@ -141,10 +268,19 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/09-s3-datastore-measurement__nop-exact-snapshot-v2__trial-01/09-s3-datastore-measurement__H9kTQCY/result.json",
+        "result": "controls/original-real-swe/09-s3-datastore-measurement/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/09-s3-datastore-measurement__nop-exact-snapshot-v2__trial-01/09-s3-datastore-measurement__H9kTQCY/result.json",
+        "evidence": [
+          "controls/original-real-swe/09-s3-datastore-measurement/nop/output.json",
+          "controls/original-real-swe/09-s3-datastore-measurement/nop/reward.txt",
+          "controls/original-real-swe/09-s3-datastore-measurement/nop/stdout.txt",
+          "controls/original-real-swe/09-s3-datastore-measurement/nop/test-stdout.txt",
+          "controls/original-real-swe/09-s3-datastore-measurement/nop/result-summary.json"
+        ],
+        "task_checksum": "08a1572ad1dcbd29d7ed5363ac7f36bd4bf925c620845b403ad574d76e7fc563"
       },
       {
         "task": "10-customer-identity-migration",
@@ -153,10 +289,19 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/10-customer-identity-migration__oracle-exact-snapshot-v2__trial-01/10-customer-identity-migration__NyMCjX8/result.json",
+        "result": "controls/original-real-swe/10-customer-identity-migration/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/10-customer-identity-migration__oracle-exact-snapshot-v2__trial-01/10-customer-identity-migration__NyMCjX8/result.json",
+        "evidence": [
+          "controls/original-real-swe/10-customer-identity-migration/oracle/output.json",
+          "controls/original-real-swe/10-customer-identity-migration/oracle/reward.txt",
+          "controls/original-real-swe/10-customer-identity-migration/oracle/stdout.txt",
+          "controls/original-real-swe/10-customer-identity-migration/oracle/test-stdout.txt",
+          "controls/original-real-swe/10-customer-identity-migration/oracle/result-summary.json"
+        ],
+        "task_checksum": "e5de03fd975b2aa24a19d9caa3b3e9a4daa345840855d263baefe8f6c68fa338"
       },
       {
         "task": "10-customer-identity-migration",
@@ -165,10 +310,19 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/10-customer-identity-migration__nop-exact-snapshot-v2__trial-01/10-customer-identity-migration__6tJxR4A/result.json",
+        "result": "controls/original-real-swe/10-customer-identity-migration/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/10-customer-identity-migration__nop-exact-snapshot-v2__trial-01/10-customer-identity-migration__6tJxR4A/result.json",
+        "evidence": [
+          "controls/original-real-swe/10-customer-identity-migration/nop/output.json",
+          "controls/original-real-swe/10-customer-identity-migration/nop/reward.txt",
+          "controls/original-real-swe/10-customer-identity-migration/nop/stdout.txt",
+          "controls/original-real-swe/10-customer-identity-migration/nop/test-stdout.txt",
+          "controls/original-real-swe/10-customer-identity-migration/nop/result-summary.json"
+        ],
+        "task_checksum": "e5de03fd975b2aa24a19d9caa3b3e9a4daa345840855d263baefe8f6c68fa338"
       },
       {
         "task": "11-customer-billing-schedule-migration",
@@ -177,10 +331,19 @@
         "expected_reward": 1.0,
         "reward": 1.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/11-customer-billing-schedule-migration__oracle-exact-snapshot-v2__trial-01/11-customer-billing-schedule-mig__CsPHUDY/result.json",
+        "result": "controls/original-real-swe/11-customer-billing-schedule-migration/oracle/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/11-customer-billing-schedule-migration__oracle-exact-snapshot-v2__trial-01/11-customer-billing-schedule-mig__CsPHUDY/result.json",
+        "evidence": [
+          "controls/original-real-swe/11-customer-billing-schedule-migration/oracle/output.json",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/oracle/reward.txt",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/oracle/stdout.txt",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/oracle/test-stdout.txt",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/oracle/result-summary.json"
+        ],
+        "task_checksum": "cc54dd2de1bca0362ac33ab0d8b3f2e85bacb598ab6eb1826ad55a0d6a5a558c"
       },
       {
         "task": "11-customer-billing-schedule-migration",
@@ -189,10 +352,19 @@
         "expected_reward": 0.0,
         "reward": 0.0,
         "valid": true,
-        "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/11-customer-billing-schedule-migration__nop-exact-snapshot-v2__trial-01/11-customer-billing-schedule-mig__zySWa3G/result.json",
+        "result": "controls/original-real-swe/11-customer-billing-schedule-migration/nop/result-summary.json",
         "problem": null,
-        "result_reference_type": "external source path; not bundled in this audit repository",
-        "detailed_evidence_bundled": false
+        "result_reference_type": "bundled redacted projection of original result; original source hash retained",
+        "detailed_evidence_bundled": true,
+        "original_result_reference": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/11-customer-billing-schedule-migration__nop-exact-snapshot-v2__trial-01/11-customer-billing-schedule-mig__zySWa3G/result.json",
+        "evidence": [
+          "controls/original-real-swe/11-customer-billing-schedule-migration/nop/output.json",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/nop/reward.txt",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/nop/stdout.txt",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/nop/test-stdout.txt",
+          "controls/original-real-swe/11-customer-billing-schedule-migration/nop/result-summary.json"
+        ],
+        "task_checksum": "cc54dd2de1bca0362ac33ab0d8b3f2e85bacb598ab6eb1826ad55a0d6a5a558c"
       }
     ],
     "oracle_expected_reward_matches": 8,

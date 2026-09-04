@@ -1,0 +1,21 @@
+{
+  "task_name": "11-customer-billing-schedule-migration",
+  "trial_name": "11-customer-billing-schedule-mig__GGxXpnq",
+  "task_checksum": "cc54dd2de1bca0362ac33ab0d8b3f2e85bacb598ab6eb1826ad55a0d6a5a558c",
+  "started_at": "2026-08-28T05:32:49.981709Z",
+  "finished_at": "2026-08-28T05:38:01.950478Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  }
+}

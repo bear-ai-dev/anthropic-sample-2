@@ -15,7 +15,7 @@
     "wall_clock_seconds": 1077.592,
     "output_tokens": 38158,
     "steps": 67,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-01.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "trajectory_sha256": "4c4dea140861b5056d56a44406ffa6ec707ffa04887b5ba8f4869dfe21ac05aa",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-01",
     "verifier_artifacts": [
@@ -50,7 +50,7 @@
     "wall_clock_seconds": 1057.812,
     "output_tokens": 39439,
     "steps": 77,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-02.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "trajectory_sha256": "d4eb65d69996c163337d4dd22df4e4f3a3741722b19345e45a2195bc7c31274f",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-02",
     "verifier_artifacts": [
@@ -85,7 +85,7 @@
     "wall_clock_seconds": 975.166,
     "output_tokens": 38093,
     "steps": 66,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-03.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "trajectory_sha256": "33d148e76529d95a52a00a2748b81908b7205e2eedcba9c06dee601a6254d77e",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-03",
     "verifier_artifacts": [
@@ -120,7 +120,7 @@
     "wall_clock_seconds": 858.668,
     "output_tokens": 36884,
     "steps": 88,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-04.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "trajectory_sha256": "39a573c9a7391dd5a855c8609b9d776c0c18823b3169f7939cd227fb2cf80b39",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-04",
     "verifier_artifacts": [
@@ -155,7 +155,7 @@
     "wall_clock_seconds": 972.491,
     "output_tokens": 34490,
     "steps": 69,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-05.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "trajectory_sha256": "8b49f3ab17333a73367a0c0d9b31677657c7a039a6ac260e4978c791d92d94c9",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-05",
     "verifier_artifacts": [
@@ -190,7 +190,7 @@
     "wall_clock_seconds": 858.268,
     "output_tokens": 34849,
     "steps": 62,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-06.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "trajectory_sha256": "1fa723526ea2f9e0ade55568cd859cee322e551605ddb49b85a3fc6e83fd9bfe",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-06",
     "verifier_artifacts": [
@@ -225,7 +225,7 @@
     "wall_clock_seconds": 951.162,
     "output_tokens": 40101,
     "steps": 79,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-07.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "trajectory_sha256": "ee6983c67a1221529d74c63017dbf98e7e0cd1cbd96da563d5c0029a65232fe0",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-07",
     "verifier_artifacts": [
@@ -260,7 +260,7 @@
     "wall_clock_seconds": 975.315,
     "output_tokens": 36394,
     "steps": 79,
-    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trajectory-trial-08.json",
+    "trajectory": "trajectories/01-linearizable-scan/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "trajectory_sha256": "e224f904c93a50a8849dcf5d83c8f0b08c9a7b0383350621c5384a8412f7f37f",
     "verification": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-08",
     "verifier_artifacts": [
@@ -295,7 +295,7 @@
     "wall_clock_seconds": 531.402,
     "output_tokens": 29794,
     "steps": 40,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-01.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-01.json",
     "trajectory_sha256": "aedfb8661b86b10015fbef99c9df7a0a74fd73f8cedfed9189daf63ce3bd7d81",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-01",
     "verifier_artifacts": [
@@ -330,7 +330,7 @@
     "wall_clock_seconds": 498.293,
     "output_tokens": 30372,
     "steps": 38,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-02.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-02.json",
     "trajectory_sha256": "ca4a92f949de589ef600a80ef4e42266acf027d00ef0ab36b6c742437d38c564",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-02",
     "verifier_artifacts": [
@@ -365,7 +365,7 @@
     "wall_clock_seconds": 512.914,
     "output_tokens": 30735,
     "steps": 35,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-03.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-03.json",
     "trajectory_sha256": "11be3bf4476b0bde3dd0c93c4f5415977fcbda335b6eb59891d6d6ec6883e9e1",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-03",
     "verifier_artifacts": [
@@ -400,7 +400,7 @@
     "wall_clock_seconds": 546.724,
     "output_tokens": 31271,
     "steps": 37,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-04.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-04.json",
     "trajectory_sha256": "43915bb1dfc70f2bc73e2d9be86cfa4c3719f4b8c72b2425c46edbc6b01ae5bd",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-04",
     "verifier_artifacts": [
@@ -435,7 +435,7 @@
     "wall_clock_seconds": 515.75,
     "output_tokens": 29093,
     "steps": 35,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-05.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-05.json",
     "trajectory_sha256": "4862bf9c328458d035f5f9a033faf17098c2e4e8d8dc6c4f72425af44d3bd77f",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-05",
     "verifier_artifacts": [
@@ -470,7 +470,7 @@
     "wall_clock_seconds": 435.465,
     "output_tokens": 22649,
     "steps": 34,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-06.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-06.json",
     "trajectory_sha256": "fb69ab40c483c146d0157e53a762b36c85ca5a3e44e441e777668088525313ec",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-06",
     "verifier_artifacts": [
@@ -505,7 +505,7 @@
     "wall_clock_seconds": 557.966,
     "output_tokens": 28521,
     "steps": 33,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-07.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-07.json",
     "trajectory_sha256": "a8185ae8ae3f6c02756db7f96c38ef0ab074507852a803ac7bc558abce91458c",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-07",
     "verifier_artifacts": [
@@ -540,7 +540,7 @@
     "wall_clock_seconds": 622.711,
     "output_tokens": 35993,
     "steps": 47,
-    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trajectory-trial-08.json",
+    "trajectory": "trajectories/03-analytics-stream-reducer/gpt-5.6-sol-codex/trajectory-trial-08.json",
     "trajectory_sha256": "101192bcd272f3329b8f8c670de67cb5bed2d8fcc595e75fcc48b7db166e94f5",
     "verification": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-08",
     "verifier_artifacts": [
