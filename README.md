@@ -1,6 +1,6 @@
 # Anthropic Sample 2
 
-Anthropic Sample 2 is a Real SWE benchmark containing **576 strict-scored rollouts across 10 tasks**. Every row below is computed from [`indexes/trials.json`](indexes/trials.json), and each scored rollout resolves to a normalized trajectory and verifier verdict.
+Anthropic Sample 2 is a Real SWE benchmark sample of engineering tasks on private, real world company codebases. It contains **400 strict-scored rollouts across 10 tasks**. Every row below is computed from [`indexes/trials.json`](indexes/trials.json), and each scored rollout resolves to a normalized trajectory and verifier verdict.
 
 ## Table of contents
 
@@ -14,33 +14,23 @@ Anthropic Sample 2 is a Real SWE benchmark containing **576 strict-scored rollou
 
 | Model | Harness | Passes | Scored rollouts | Pass rate |
 |---|---|---:|---:|---:|
-| Opus 5 | Claude Code | 41 | 80 | 51.2% |
 | Fable 5.1 | Claude Code | 31 | 80 | 38.8% |
-| Grok 4.6 | mini-SWE-agent | 5 | 16 | 31.2% |
 | GLM 5.3 | Claude Code | 23 | 80 | 28.8% |
-| Grok 4.6 | Grok Build | 18 | 64 | 28.1% |
+| Grok 4.6 | Grok Build | 19 | 80 | 23.8% |
 | Kimi K3 | Kimi Code | 15 | 80 | 18.8% |
 | GPT-5.6 Sol | Codex CLI | 13 | 80 | 16.2% |
-| Grok 4.6 | Grok Build ACP | 1 | 16 | 6.2% |
-| Gemini 3.1 Pro | Antigravity | 2 | 64 | 3.1% |
-| GLM 5.3 | mini-SWE-agent | 0 | 16 | 0.0% |
 
-All pass rates aggregate the complete Real SWE benchmark by model and harness. Harness versions and execution routes are combined, while different harnesses remain separate evaluation configurations.
+All pass rates aggregate the complete Real SWE benchmark by model and listed harness family. The Grok Build row combines 64 Grok Build rollouts and 16 Grok Build ACP rollouts.
 
 ## Efficiency
 
 | Model | Harness | Mean wall clock | Mean output tokens | Mean steps |
 |---|---|---:|---:|---:|
-| Opus 5 | Claude Code | 33m | 71,201.8 | 103.8 |
 | Fable 5.1 | Claude Code | 21m | 63,749.6 | 25.8 |
-| Grok 4.6 | mini-SWE-agent | 41m | 135,940.6 | 65.2 |
 | GLM 5.3 | Claude Code | 39m | 117,404.9 | 144.4 |
-| Grok 4.6 | Grok Build | 16m | 11,364.6 | 26.1 |
+| Grok 4.6 | Grok Build | 30m | 66,666.1 | 36.4 |
 | Kimi K3 | Kimi Code | 32m | Not recorded | 77.8 |
 | GPT-5.6 Sol | Codex CLI | 15m | 22,678.0 | 42.8 |
-| Grok 4.6 | Grok Build ACP | 1h 27m | 287,871.8 | 77.5 |
-| Gemini 3.1 Pro | Antigravity | 13m | Not recorded | 169.9 |
-| GLM 5.3 | mini-SWE-agent | 36m | 118,574.2 | 176.6 |
 
 Wall clock is `finished_at - started_at` for a complete scored rollout and is rounded to the nearest minute. Output tokens are the total completion/output tokens recorded by the native harness. Steps are normalized trajectory events. Means use only recorded values, and missing values are not treated as zero.
 

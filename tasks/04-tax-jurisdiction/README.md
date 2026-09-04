@@ -5,12 +5,10 @@
 | Model | Solves `c/n` | pass@1 | pass@3 | pass@8 |
 | --- | ---: | ---: | ---: | ---: |
 | Grok 4.6 | 0/8 | 0.0000 | 0.0000 | 0.0000 |
-| Opus 5 | 5/8 | 0.6250 | 0.9821 | 1.0000 |
 
-These are pooled descriptive totals across a matched four-run Daytona stratum
-and a separately matched four-run AWS Fargate stratum; see the
-[canonical trial index](../../indexes/trials.json) for the
-stratified 0/4 versus 4/4 and 0/4 versus 1/4 results.
+These are pooled descriptive totals across a four-run Daytona stratum and a
+four-run AWS Fargate stratum. Grok 4.6 scored 0/4 in each stratum; see the
+[trial index](../../indexes/trials.json) for the individual results.
 
 ## The capability, in one sentence
 
