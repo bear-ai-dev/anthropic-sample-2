@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "06-api-token-metering",
+  "arm": "opus-5-claude-code-bedrock-real-swe",
+  "trial_number": 8,
+  "reward": 1.0,
+  "passed": true,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

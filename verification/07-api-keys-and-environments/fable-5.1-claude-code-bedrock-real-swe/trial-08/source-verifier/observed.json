@@ -1,0 +1,357 @@
+{
+  "booted": true,
+  "reachable": true,
+  "operatorTokenMinted": true,
+  "viewerTokenMinted": true,
+  "keyTokenMinted": true,
+  "exchanges": [
+    {
+      "label": "list.production",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found keys\",\"data\":[{\"keyId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"environment\":\"production\",\"businessID\":\"windermere\",\"subject\":\"keyWindermereProdBilling@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"},{\"keyId\":\"keyWindermereProdEvents\",\"name\":\"Windermere production events\",\"environment\":\"production\",\"businessID\":\"windermere\",\"subject\":\"keyWindermereProdEvents@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"}]}",
+      "json": {
+        "message": "Found keys",
+        "data": [
+          {
+            "keyId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "environment": "production",
+            "businessID": "windermere",
+            "subject": "keyWindermereProdBilling@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          },
+          {
+            "keyId": "keyWindermereProdEvents",
+            "name": "Windermere production events",
+            "environment": "production",
+            "businessID": "windermere",
+            "subject": "keyWindermereProdEvents@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          }
+        ]
+      },
+      "ms": 71
+    },
+    {
+      "label": "rotate.otherTenant",
+      "method": "PUT",
+      "route": "/keys/keyAshcombeProdEvents",
+      "status": 404,
+      "body": "{\"message\":\"Key keyAshcombeProdEvents is not held by this account in the current environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Key keyAshcombeProdEvents is not held by this account in the current environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 34
+    },
+    {
+      "label": "revoke.unclaimed",
+      "method": "DELETE",
+      "route": "/keys/appMeteringCoDocsSite",
+      "status": 404,
+      "body": "{\"message\":\"Key appMeteringCoDocsSite is not held by this account in the current environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Key appMeteringCoDocsSite is not held by this account in the current environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 13
+    },
+    {
+      "label": "rotate.retired",
+      "method": "PUT",
+      "route": "/keys/keyWindermereProdLegacy",
+      "status": 404,
+      "body": "{\"message\":\"Key keyWindermereProdLegacy is not held by this account in the current environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Key keyWindermereProdLegacy is not held by this account in the current environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 15
+    },
+    {
+      "label": "switch.sandbox",
+      "method": "PUT",
+      "route": "/users/environment",
+      "status": 200,
+      "body": "{\"message\":\"Environment updated\",\"environment\":\"sandbox\",\"subject\":\"auth0|opwindermere93\"}",
+      "json": {
+        "message": "Environment updated",
+        "environment": "sandbox",
+        "subject": "auth0|opwindermere93"
+      },
+      "ms": 22
+    },
+    {
+      "label": "list.sandbox",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found keys\",\"data\":[{\"keyId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxDrill@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"},{\"keyId\":\"keyWindermereSbxEvents\",\"name\":\"Windermere sandbox events\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxEvents@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"}]}",
+      "json": {
+        "message": "Found keys",
+        "data": [
+          {
+            "keyId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxDrill@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          },
+          {
+            "keyId": "keyWindermereSbxEvents",
+            "name": "Windermere sandbox events",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxEvents@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          }
+        ]
+      },
+      "ms": 21
+    },
+    {
+      "label": "rotate.otherEnvironment",
+      "method": "PUT",
+      "route": "/keys/keyWindermereProdEvents",
+      "status": 404,
+      "body": "{\"message\":\"Key keyWindermereProdEvents is not held by this account in the current environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Key keyWindermereProdEvents is not held by this account in the current environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 16
+    },
+    {
+      "label": "revoke.otherEnvironment",
+      "method": "DELETE",
+      "route": "/keys/keyWindermereProdEvents",
+      "status": 404,
+      "body": "{\"message\":\"Key keyWindermereProdEvents is not held by this account in the current environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Key keyWindermereProdEvents is not held by this account in the current environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 23
+    },
+    {
+      "label": "viewer.list",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found keys\",\"data\":[{\"keyId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxDrill@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"},{\"keyId\":\"keyWindermereSbxEvents\",\"name\":\"Windermere sandbox events\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxEvents@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"}]}",
+      "json": {
+        "message": "Found keys",
+        "data": [
+          {
+            "keyId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxDrill@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          },
+          {
+            "keyId": "keyWindermereSbxEvents",
+            "name": "Windermere sandbox events",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxEvents@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          }
+        ]
+      },
+      "ms": 20
+    },
+    {
+      "label": "viewer.rotate",
+      "method": "PUT",
+      "route": "/keys/keyWindermereSbxDrill",
+      "status": 403,
+      "body": "{\"message\":\"Permission denied\",\"error\":\"Forbidden\",\"statusCode\":403}",
+      "json": {
+        "message": "Permission denied",
+        "error": "Forbidden",
+        "statusCode": 403
+      },
+      "ms": 9
+    },
+    {
+      "label": "viewer.revoke",
+      "method": "DELETE",
+      "route": "/keys/keyWindermereSbxEvents",
+      "status": 403,
+      "body": "{\"message\":\"Permission denied\",\"error\":\"Forbidden\",\"statusCode\":403}",
+      "json": {
+        "message": "Permission denied",
+        "error": "Forbidden",
+        "statusCode": 403
+      },
+      "ms": 7
+    },
+    {
+      "label": "key.beforeRevocation",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found keys\",\"data\":[{\"keyId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxDrill@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"},{\"keyId\":\"keyWindermereSbxEvents\",\"name\":\"Windermere sandbox events\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxEvents@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"}]}",
+      "json": {
+        "message": "Found keys",
+        "data": [
+          {
+            "keyId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxDrill@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          },
+          {
+            "keyId": "keyWindermereSbxEvents",
+            "name": "Windermere sandbox events",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxEvents@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          }
+        ]
+      },
+      "ms": 19
+    },
+    {
+      "label": "rotate.sandbox",
+      "method": "PUT",
+      "route": "/keys/keyWindermereSbxDrill",
+      "status": 200,
+      "body": "{\"message\":\"Rotated key secret\",\"data\":[{\"keyId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxDrill@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\",\"clientSecret\":\"sk_12be9bffefbc8f02acc8d52e210f5d873fb68b5c\"}]}",
+      "json": {
+        "message": "Rotated key secret",
+        "data": [
+          {
+            "keyId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxDrill@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z",
+            "clientSecret": "sk_12be9bffefbc8f02acc8d52e210f5d873fb68b5c"
+          }
+        ]
+      },
+      "ms": 14
+    },
+    {
+      "label": "revoke.sandbox",
+      "method": "DELETE",
+      "route": "/keys/keyWindermereSbxEvents",
+      "status": 200,
+      "body": "{\"message\":\"Retired key\"}",
+      "json": {
+        "message": "Retired key"
+      },
+      "ms": 13
+    },
+    {
+      "label": "key.afterRevocation",
+      "method": "GET",
+      "route": "/keys",
+      "status": 401,
+      "body": "{\"message\":\"Unauthorized\",\"statusCode\":401}",
+      "json": {
+        "message": "Unauthorized",
+        "statusCode": 401
+      },
+      "ms": 13
+    },
+    {
+      "label": "list.afterChanges",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found keys\",\"data\":[{\"keyId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"environment\":\"sandbox\",\"businessID\":\"windermere-sandbox\",\"subject\":\"keyWindermereSbxDrill@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"}]}",
+      "json": {
+        "message": "Found keys",
+        "data": [
+          {
+            "keyId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "environment": "sandbox",
+            "businessID": "windermere-sandbox",
+            "subject": "keyWindermereSbxDrill@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          }
+        ]
+      },
+      "ms": 11
+    },
+    {
+      "label": "switch.production",
+      "method": "PUT",
+      "route": "/users/environment",
+      "status": 200,
+      "body": "{\"message\":\"Environment updated\",\"environment\":\"production\",\"subject\":\"auth0|opwindermere93\"}",
+      "json": {
+        "message": "Environment updated",
+        "environment": "production",
+        "subject": "auth0|opwindermere93"
+      },
+      "ms": 13
+    },
+    {
+      "label": "list.productionAgain",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found keys\",\"data\":[{\"keyId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"environment\":\"production\",\"businessID\":\"windermere\",\"subject\":\"keyWindermereProdBilling@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"},{\"keyId\":\"keyWindermereProdEvents\",\"name\":\"Windermere production events\",\"environment\":\"production\",\"businessID\":\"windermere\",\"subject\":\"keyWindermereProdEvents@clients\",\"claimedAt\":\"2024-02-05T09:00:00.000000000Z\"}]}",
+      "json": {
+        "message": "Found keys",
+        "data": [
+          {
+            "keyId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "environment": "production",
+            "businessID": "windermere",
+            "subject": "keyWindermereProdBilling@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          },
+          {
+            "keyId": "keyWindermereProdEvents",
+            "name": "Windermere production events",
+            "environment": "production",
+            "businessID": "windermere",
+            "subject": "keyWindermereProdEvents@clients",
+            "claimedAt": "2024-02-05T09:00:00.000000000Z"
+          }
+        ]
+      },
+      "ms": 14
+    },
+    {
+      "label": "environments",
+      "method": "GET",
+      "route": "/users/environment",
+      "status": 200,
+      "body": "[{\"subject\":\"auth0|opwindermere93\",\"businessID\":\"windermere\",\"environment\":\"production\"},{\"subject\":\"auth0|opwindermere93\",\"businessID\":\"windermere-sandbox\",\"environment\":\"sandbox\"}]",
+      "json": [
+        {
+          "subject": "auth0|opwindermere93",
+          "businessID": "windermere",
+          "environment": "production"
+        },
+        {
+          "subject": "auth0|opwindermere93",
+          "businessID": "windermere-sandbox",
+          "environment": "sandbox"
+        }
+      ],
+      "ms": 10
+    }
+  ]
+}

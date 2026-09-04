@@ -1,0 +1,8 @@
+{
+  "tests": [
+    {
+      "name": "AppController root should return \"Hello World!\"",
+      "status": "passed"
+    }
+  ]
+}

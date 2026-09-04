@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "task": "03-analytics-stream-reducer",
+  "arm": "opus-5-claude-code-bedrock-company",
+  "trial_number": 1,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "company-simulation published index"
+}

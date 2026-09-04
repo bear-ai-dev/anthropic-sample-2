@@ -1,0 +1,8 @@
+[32m[Nest] 1098  - [39m09/01/2026, 10:53:43 PM [32m    LOG[39m [38;5;3m[awsEc2] [39m[32mStarting DescribeVolumes across 7 region(s): ap-northeast-1, ap-southeast-2, ca-central-1, eu-north-1, eu-west-2, us-east-1, us-west-2[39m
+[33m[Nest] 1098  - [39m09/01/2026, 10:53:44 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mDescribeVolumes in ap-southeast-2 hit transient error RequestLimitExceeded; retry 1 of 7 in 120ms[39m
+[33m[Nest] 1098  - [39m09/01/2026, 10:53:44 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mDescribeVolumes unreadable in eu-north-1, leaving region out: UnauthorizedOperation You are not authorized to perform this operation in this Region[39m
+[33m[Nest] 1098  - [39m09/01/2026, 10:53:44 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mDescribeVolumes skipped 1 region(s): eu-north-1[39m
+[32m[Nest] 1098  - [39m09/01/2026, 10:53:44 PM [32m    LOG[39m [38;5;3m[awsEc2] [39m[32mStarting DescribeSnapshots across 7 region(s): ap-northeast-1, ap-southeast-2, ca-central-1, eu-north-1, eu-west-2, us-east-1, us-west-2[39m
+[33m[Nest] 1098  - [39m09/01/2026, 10:53:45 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mDescribeSnapshots in ca-central-1 hit transient error RequestLimitExceeded; retry 1 of 7 in 163ms[39m
+[33m[Nest] 1098  - [39m09/01/2026, 10:53:46 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mDescribeSnapshots unreadable in ap-northeast-1, leaving region out: UnauthorizedOperation You are not authorized to perform this operation in this Region[39m
+[33m[Nest] 1098  - [39m09/01/2026, 10:53:46 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mDescribeSnapshots skipped 1 region(s): ap-northeast-1[39m

@@ -1,0 +1,320 @@
+{
+  "booted": true,
+  "reachable": true,
+  "operatorTokenMinted": true,
+  "viewerTokenMinted": true,
+  "keyTokenMinted": true,
+  "exchanges": [
+    {
+      "label": "list.production",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdBilling@clients\"},{\"clientId\":\"keyWindermereProdEvents\",\"name\":\"Windermere production events\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdEvents@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdBilling@clients"
+          },
+          {
+            "clientId": "keyWindermereProdEvents",
+            "name": "Windermere production events",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdEvents@clients"
+          }
+        ]
+      },
+      "ms": 227
+    },
+    {
+      "label": "rotate.otherTenant",
+      "method": "PUT",
+      "route": "/keys/keyAshcombeProdEvents",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /keys/keyAshcombeProdEvents\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /keys/keyAshcombeProdEvents",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 14
+    },
+    {
+      "label": "revoke.unclaimed",
+      "method": "DELETE",
+      "route": "/keys/appMeteringCoDocsSite",
+      "status": 404,
+      "body": "{\"message\":\"Machine credential: appMeteringCoDocsSite was not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Machine credential: appMeteringCoDocsSite was not found",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 133
+    },
+    {
+      "label": "rotate.retired",
+      "method": "PUT",
+      "route": "/keys/keyWindermereProdLegacy",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /keys/keyWindermereProdLegacy\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /keys/keyWindermereProdLegacy",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 4
+    },
+    {
+      "label": "switch.sandbox",
+      "method": "PUT",
+      "route": "/users/environment",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /users/environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /users/environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 3
+    },
+    {
+      "label": "list.sandbox",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdBilling@clients\"},{\"clientId\":\"keyWindermereProdEvents\",\"name\":\"Windermere production events\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdEvents@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdBilling@clients"
+          },
+          {
+            "clientId": "keyWindermereProdEvents",
+            "name": "Windermere production events",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdEvents@clients"
+          }
+        ]
+      },
+      "ms": 174
+    },
+    {
+      "label": "rotate.otherEnvironment",
+      "method": "PUT",
+      "route": "/keys/keyWindermereProdEvents",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /keys/keyWindermereProdEvents\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /keys/keyWindermereProdEvents",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 2
+    },
+    {
+      "label": "revoke.otherEnvironment",
+      "method": "DELETE",
+      "route": "/keys/keyWindermereProdEvents",
+      "status": 200,
+      "body": "{\"message\":\"Retired the machine credential\"}",
+      "json": {
+        "message": "Retired the machine credential"
+      },
+      "ms": 132
+    },
+    {
+      "label": "viewer.list",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdBilling@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdBilling@clients"
+          }
+        ]
+      },
+      "ms": 173
+    },
+    {
+      "label": "viewer.rotate",
+      "method": "PUT",
+      "route": "/keys/keyWindermereSbxDrill",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /keys/keyWindermereSbxDrill\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /keys/keyWindermereSbxDrill",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 2
+    },
+    {
+      "label": "viewer.revoke",
+      "method": "DELETE",
+      "route": "/keys/keyWindermereSbxEvents",
+      "status": 403,
+      "body": "{\"message\":\"Permission denied\",\"error\":\"Forbidden\",\"statusCode\":403}",
+      "json": {
+        "message": "Permission denied",
+        "error": "Forbidden",
+        "statusCode": 403
+      },
+      "ms": 4
+    },
+    {
+      "label": "key.beforeRevocation",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereSbxDrill@clients\"},{\"clientId\":\"keyWindermereSbxEvents\",\"name\":\"Windermere sandbox events\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereSbxEvents@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "appType": "non_interactive",
+            "subject": "keyWindermereSbxDrill@clients"
+          },
+          {
+            "clientId": "keyWindermereSbxEvents",
+            "name": "Windermere sandbox events",
+            "appType": "non_interactive",
+            "subject": "keyWindermereSbxEvents@clients"
+          }
+        ]
+      },
+      "ms": 213
+    },
+    {
+      "label": "rotate.sandbox",
+      "method": "PUT",
+      "route": "/keys/keyWindermereSbxDrill",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /keys/keyWindermereSbxDrill\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /keys/keyWindermereSbxDrill",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 3
+    },
+    {
+      "label": "revoke.sandbox",
+      "method": "DELETE",
+      "route": "/keys/keyWindermereSbxEvents",
+      "status": 404,
+      "body": "{\"message\":\"Machine credential: keyWindermereSbxEvents was not found\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Machine credential: keyWindermereSbxEvents was not found",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 130
+    },
+    {
+      "label": "key.afterRevocation",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereSbxDrill\",\"name\":\"Windermere sandbox drill\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereSbxDrill@clients\"},{\"clientId\":\"keyWindermereSbxEvents\",\"name\":\"Windermere sandbox events\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereSbxEvents@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereSbxDrill",
+            "name": "Windermere sandbox drill",
+            "appType": "non_interactive",
+            "subject": "keyWindermereSbxDrill@clients"
+          },
+          {
+            "clientId": "keyWindermereSbxEvents",
+            "name": "Windermere sandbox events",
+            "appType": "non_interactive",
+            "subject": "keyWindermereSbxEvents@clients"
+          }
+        ]
+      },
+      "ms": 215
+    },
+    {
+      "label": "list.afterChanges",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdBilling@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdBilling@clients"
+          }
+        ]
+      },
+      "ms": 173
+    },
+    {
+      "label": "switch.production",
+      "method": "PUT",
+      "route": "/users/environment",
+      "status": 404,
+      "body": "{\"message\":\"Cannot PUT /users/environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot PUT /users/environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 4
+    },
+    {
+      "label": "list.productionAgain",
+      "method": "GET",
+      "route": "/keys",
+      "status": 200,
+      "body": "{\"message\":\"Found machine credentials\",\"data\":[{\"clientId\":\"keyWindermereProdBilling\",\"name\":\"Windermere production billing\",\"appType\":\"non_interactive\",\"subject\":\"keyWindermereProdBilling@clients\"}]}",
+      "json": {
+        "message": "Found machine credentials",
+        "data": [
+          {
+            "clientId": "keyWindermereProdBilling",
+            "name": "Windermere production billing",
+            "appType": "non_interactive",
+            "subject": "keyWindermereProdBilling@clients"
+          }
+        ]
+      },
+      "ms": 172
+    },
+    {
+      "label": "environments",
+      "method": "GET",
+      "route": "/users/environment",
+      "status": 404,
+      "body": "{\"message\":\"Cannot GET /users/environment\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "json": {
+        "message": "Cannot GET /users/environment",
+        "error": "Not Found",
+        "statusCode": 404
+      },
+      "ms": 2
+    }
+  ]
+}

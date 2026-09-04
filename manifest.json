@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "name": "anthropic-sample-2",
+  "title": "Anthropic Sample 2",
+  "created_at": "2026-09-04T18:17:43.466217+00:00",
+  "task_count": 10,
+  "tasks": [
+    {
+      "path": "tasks/01-entitlement-overage-lines",
+      "sha256": "9a2cb9b18c32f44eeae716b21538a3d143be13fec1989c0f912c15a04e3b484a",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/01-entitlement-overage-lines",
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "path": "tasks/02-multi-region-sweep",
+      "sha256": "24677e8a3ca232fd1e7af74156a8ce186075209e7e9cbc5539e6498720da0c37",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/02-multi-region-sweep",
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "path": "tasks/04-tax-jurisdiction",
+      "sha256": "14bed3b6424a462c369ed2d831e469ea7817bf9195418a40ac483034ef43097e",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/04-tax-jurisdiction",
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "path": "tasks/06-api-token-metering",
+      "sha256": "d9c9f4db0c30985d80d209a10ca998ed4e7e8555d9bf61c8158e1d286b176907",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/06-api-token-metering",
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "path": "tasks/07-api-keys-and-environments",
+      "sha256": "f9484c3e65ee01066372b10140d7faa03bfed24c1ddc29b19acdf07f1c8a34e7",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/07-api-keys-and-environments",
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "evaluation_sha256": "6cc5da16edfad5649195992c02b34ec2ff4bc2b96e7b3acf67906586b3777718",
+      "path": "tasks/09-s3-datastore-measurement",
+      "sha256": "a78985a672076a39be8b53164d144e50a71e0323ea1f561af2e3b847959cc931",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/09-s3-datastore-measurement",
+      "verifier_repair": {
+        "date": "2026-09-04",
+        "evaluation_sha256": "6cc5da16edfad5649195992c02b34ec2ff4bc2b96e7b3acf67906586b3777718",
+        "evidence": "results/regrades/verifier-repair-20260904/manifest.json",
+        "scope": "verifier-only repair; model trajectories were replayed without new model calls"
+      },
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "evaluation_sha256": "1ebaf007ebd10a05e9c420d93f94aa91de34fe2de7a1201ba2d4ea86c99803d7",
+      "path": "tasks/10-customer-identity-migration",
+      "sha256": "18b283b9fbe0864a8c6501fb527e369f0cc4c80ed8dbfe2cfbffd6fdf6fa5323",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/10-customer-identity-migration",
+      "verifier_repair": {
+        "date": "2026-09-04",
+        "evaluation_sha256": "1ebaf007ebd10a05e9c420d93f94aa91de34fe2de7a1201ba2d4ea86c99803d7",
+        "evidence": "results/regrades/verifier-repair-20260904/manifest.json",
+        "scope": "verifier-only repair; model trajectories were replayed without new model calls"
+      },
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "path": "tasks/11-customer-billing-schedule-migration",
+      "sha256": "54e9776cbe7b5b90dd97ee70531a404cd4e7abaad19b0b15507754339e3e037a",
+      "source_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+      "source_task": "tasks/11-customer-billing-schedule-migration",
+      "family": "Real-SWE",
+      "source": {
+        "repository": "licensed Real-SWE source",
+        "commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+      }
+    },
+    {
+      "path": "tasks/01-linearizable-scan",
+      "family": "company-simulation",
+      "sha256": "0b2ba0805bb4bce70c37ac250a48e2b64ab41bb4da7440f7b5eb3e3af895eb86",
+      "source": {
+        "repository": "licensed company-simulation source",
+        "commit": "f25142f1180f36a361251b5740d4c73fb18ef68e"
+      },
+      "publication_note": "Licensed application workspace omitted; task contract, verifier, and reference materials retained with redactions."
+    },
+    {
+      "path": "tasks/03-analytics-stream-reducer",
+      "family": "company-simulation",
+      "sha256": "9be6711c735ca0c6ef86e8d22fbcf7e6e0b32972392a229aee8a31f7c83e44f6",
+      "source": {
+        "repository": "licensed company-simulation source",
+        "commit": "f25142f1180f36a361251b5740d4c73fb18ef68e"
+      },
+      "publication_note": "Licensed application workspace omitted; task contract, verifier, and reference materials retained with redactions."
+    }
+  ],
+  "scored_trials": 576,
+  "passes": 149,
+  "trajectory_count": 576,
+  "canonical_verdict_count": 576,
+  "artifact_count": 8770,
+  "index_sha256": "adc5273dc4ff5919bc190d281fe71cef245c6132fdd1fd400a770fe1f10f80ac",
+  "artifact_index_sha256": "3f37e4016d1cb36dd6e248bbf8401a1cee6ea4e41392c5ae273a88df18356aa8",
+  "sources": {
+    "real_swe_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
+    "real_swe_grok_opus_evidence_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
+    "company_simulation_publication_commit": "6d36d6329365e8ec773024a633e9282bc57ea03f",
+    "company_simulation_execution_commit": "f25142f1180f36a361251b5740d4c73fb18ef68e",
+    "modal_strict_snapshot_created_at": "2026-09-04T17:38:42.248869+00:00"
+  },
+  "admission": "strict-valid trials only; provider and infrastructure failures excluded"
+}

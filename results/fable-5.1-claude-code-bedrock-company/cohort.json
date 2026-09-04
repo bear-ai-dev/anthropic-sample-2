@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "arm": "fable-5.1-claude-code-bedrock-company",
+  "model_label": "Fable 5.1",
+  "model": "bedrock/us.anthropic.claude-fable-5-1",
+  "provider": "Bedrock",
+  "harness": "Claude Code",
+  "harness_version": "2.1.258",
+  "reasoning_effort": [],
+  "tasks": [
+    "01-linearizable-scan",
+    "03-analytics-stream-reducer"
+  ],
+  "scored_trials": 16,
+  "passes": 0,
+  "admission": "strict-valid trials only"
+}

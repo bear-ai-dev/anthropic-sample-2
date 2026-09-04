@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "task": "03-analytics-stream-reducer",
+  "arm": "glm-5.3-mini-swe-agent-openrouter",
+  "trial_number": 7,
+  "reward": 0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "company-simulation published index"
+}

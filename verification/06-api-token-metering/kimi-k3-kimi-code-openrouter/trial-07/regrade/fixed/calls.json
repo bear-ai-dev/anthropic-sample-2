@@ -1,0 +1,137 @@
+{
+  "calls": [
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788482677.0365663
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.1244109
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.129216
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.1718519
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.2168574
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.2609842
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.307596
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.349757
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.3934221
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.588184
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.7405922
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.742233
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.7859225
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.9802685
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482680.9817102
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482681.0244339
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482681.217232
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482681.3693044
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482681.5211947
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788482681.6747074
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788482681.6753933
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788482681.677057
+    }
+  ],
+  "fault_counters": {}
+}

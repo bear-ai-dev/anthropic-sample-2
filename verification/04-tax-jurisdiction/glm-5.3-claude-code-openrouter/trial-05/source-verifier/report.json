@@ -1,0 +1,3 @@
+{
+  "detail": "4 of 228 checks failed:\n  - calloway-marlowe-sanfrancisco: expected one rate lookup, saw 0\n  - calloway-ellery-postcode-mismatch: an address the authority rejects should be reported, not swallowed silently\n  - verdant-ostergaard-stockholm: no transaction should have been filed with the authority (1 seen)\n  - verdant-navarro-sydney: expected one filed transaction, saw 0"
+}

@@ -1,0 +1,4 @@
+[32m[Nest] 2943  - [39m09/01/2026, 7:43:15 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[32m[Nest] 2943  - [39m09/01/2026, 7:43:15 PM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mClosing token period from 2026-09-01T07:43:12.323Z to 2026-09-01T13:43:12.323Z[39m
+[32m[Nest] 2943  - [39m09/01/2026, 7:43:16 PM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mClosing token period from 2026-09-01T13:43:12.323Z to 2026-09-01T21:43:12.323Z[39m
+[32m[Nest] 2943  - [39m09/01/2026, 7:43:16 PM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mClosing token period from 2026-09-01T13:43:12.323Z to 2026-09-01T21:43:12.323Z[39m

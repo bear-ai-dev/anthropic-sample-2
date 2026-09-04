@@ -1,0 +1,35 @@
+{
+  "calls": [
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788296583.2079518
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788296585.7631888
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788296586.3704827
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788296586.5223694
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788296586.6750698
+    }
+  ],
+  "fault_counters": {}
+}

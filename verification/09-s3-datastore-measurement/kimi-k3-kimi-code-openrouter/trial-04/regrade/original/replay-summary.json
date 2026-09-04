@@ -1,0 +1,11 @@
+{
+  "executed": 37,
+  "label": "kimi-k3-kimi-code/trial-04",
+  "missing_user_errors": 0,
+  "nonzero": 1,
+  "recorded_ops": 37,
+  "skipped": 0,
+  "source_trajectory": "trajectories/09-s3-datastore-measurement/kimi-k3-kimi-code/trajectory-trial-4.json",
+  "timed_out": 0,
+  "unsupported": 0
+}

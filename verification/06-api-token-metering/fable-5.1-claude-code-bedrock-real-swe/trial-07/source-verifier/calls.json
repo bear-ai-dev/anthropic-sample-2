@@ -1,0 +1,95 @@
+{
+  "calls": [
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303887.3841095
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303895.4189818
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788303895.5791588
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788303895.5818644
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303895.5892334
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303895.7458875
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303895.9005318
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303896.0540652
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788303896.2069793
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788303896.2097113
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303896.2131844
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788303896.3672652
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/query",
+      "access_key": null,
+      "at": 1788303896.3686852
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303896.37164
+    },
+    {
+      "service": "influx",
+      "action": "POST /api/v2/write",
+      "access_key": null,
+      "at": 1788303896.5251548
+    }
+  ],
+  "fault_counters": {}
+}

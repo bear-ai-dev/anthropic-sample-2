@@ -1,0 +1,290 @@
+{
+  "cases": {
+    "calloway-marlowe-sanfrancisco": {
+      "create": {
+        "ok": true,
+        "invoiceId": "d9b1094f-9967-4b5e-bdf9-00b219cf7077",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "d9b1094f-9967-4b5e-bdf9-00b219cf7077",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0.06375,
+        "taxAmount": 94.03125,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Calloway Instrumentation\n245 Main Street\nCambridge, ma 02139\nUnited States of America\n\n",
+        "toEntity": "Marlowe Robotics\nap@marlowe.example\n500 Howard Street\nSuite 210\nSan Francisco, ca 94105\nUnited States of America\n\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "d9b1094f-9967-4b5e-bdf9-00b219cf7077",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0.06375,
+        "taxAmount": 94.03125,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Calloway Instrumentation\n245 Main Street\nCambridge, ma 02139\nUnited States of America\n\n",
+        "toEntity": "Marlowe Robotics\nap@marlowe.example\n500 Howard Street\nSuite 210\nSan Francisco, ca 94105\nUnited States of America\n\n"
+      }
+    },
+    "calloway-tarrant-exempt-chicago": {
+      "create": {
+        "ok": true,
+        "invoiceId": "efa9692f-2cd7-46d6-8577-99fc9bc7d565",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "efa9692f-2cd7-46d6-8577-99fc9bc7d565",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1362.5,
+        "fromEntity": "Calloway Instrumentation\n245 Main Street\nCambridge, ma 02139\nUnited States of America\n\n",
+        "toEntity": "Tarrant Civic Trust\nfinance@tarrant.example\n233 South Wacker Drive\nChicago, il 60601\nUnited States of America\n\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "efa9692f-2cd7-46d6-8577-99fc9bc7d565",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1362.5,
+        "fromEntity": "Calloway Instrumentation\n245 Main Street\nCambridge, ma 02139\nUnited States of America\n\n",
+        "toEntity": "Tarrant Civic Trust\nfinance@tarrant.example\n233 South Wacker Drive\nChicago, il 60601\nUnited States of America\n\n"
+      }
+    },
+    "calloway-ellery-postcode-mismatch": {
+      "create": {
+        "ok": true,
+        "invoiceId": "ef03ee40-caf6-4429-8948-00bc3a3f5580",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "ef03ee40-caf6-4429-8948-00bc3a3f5580",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1389,
+        "fromEntity": "Calloway Instrumentation\n245 Main Street\nCambridge, ma 02139\nUnited States of America\n\n",
+        "toEntity": "Ellery Foods\nar@ellery.example\n1 Front Street\nSan Francisco, ca 60601\nUnited States of America\n\n"
+      }
+    },
+    "verdant-ostergaard-stockholm": {
+      "create": {
+        "ok": true,
+        "invoiceId": "69134c2b-c5da-4d9e-90d0-e71af7eff64a",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "69134c2b-c5da-4d9e-90d0-e71af7eff64a",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0.125,
+        "taxAmount": 184.375,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Ostergaard Kraft AB\nfaktura@ostergaard.example\nKungsgatan 8\nStockholm, 111 22\nSweden\nVAT Registration Number: SE 556036 0793\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "69134c2b-c5da-4d9e-90d0-e71af7eff64a",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0.125,
+        "taxAmount": 184.375,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Ostergaard Kraft AB\nfaktura@ostergaard.example\nKungsgatan 8\nStockholm, 111 22\nSweden\nVAT Registration Number: SE 556036 0793\n"
+      }
+    },
+    "verdant-fenwick-london": {
+      "create": {
+        "ok": true,
+        "invoiceId": "d2bfd1e7-c6fe-4bc4-8fc4-f8bcead70ff0",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "d2bfd1e7-c6fe-4bc4-8fc4-f8bcead70ff0",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0.1,
+        "taxAmount": 136.25,
+        "totalAmountWithoutTax": 1362.5,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Fenwick Analytics Ltd\nap@fenwick.example\n40 Bowling Green Lane\nLondon, EC1V 9BW\nUnited Kingdom of Great Britain and Northern Ireland\nVAT Registration Number: GB 245 7761 30\n"
+      }
+    },
+    "verdant-navarro-sydney": {
+      "create": {
+        "ok": true,
+        "invoiceId": "8d7676a7-ad5d-49c1-93ad-c5202ef2f6ef",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "8d7676a7-ad5d-49c1-93ad-c5202ef2f6ef",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0.05,
+        "taxAmount": 69.45,
+        "totalAmountWithoutTax": 1389,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Navarro Pty Ltd\naccounts@navarro.example\n55 Pitt Street\nSydney, nsw 2000\nAustralia\n\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "8d7676a7-ad5d-49c1-93ad-c5202ef2f6ef",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0.05,
+        "taxAmount": 69.45,
+        "totalAmountWithoutTax": 1389,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Navarro Pty Ltd\naccounts@navarro.example\n55 Pitt Street\nSydney, nsw 2000\nAustralia\n\n"
+      }
+    },
+    "verdant-quillon-osaka-no-state": {
+      "create": {
+        "ok": true,
+        "invoiceId": "9afcd43b-cc7c-4d60-81b4-ecbed33613e0",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "9afcd43b-cc7c-4d60-81b4-ecbed33613e0",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0.05,
+        "taxAmount": 73.75,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Quillon KK\nkeiri@quillon.example\n1-1-88 Oyodonaka\nOsaka, 5310076\nJapan\n\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "9afcd43b-cc7c-4d60-81b4-ecbed33613e0",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0.05,
+        "taxAmount": 73.75,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n",
+        "toEntity": "Quillon KK\nkeiri@quillon.example\n1-1-88 Oyodonaka\nOsaka, 5310076\nJapan\n\n"
+      }
+    },
+    "ostara-bellhaven-manual": {
+      "create": {
+        "ok": true,
+        "invoiceId": "d3419c63-e383-462c-a828-6d57a08a44df",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "d3419c63-e383-462c-a828-6d57a08a44df",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0.21,
+        "taxAmount": 286.125,
+        "totalAmountWithoutTax": 1362.5,
+        "fromEntity": "Ostara Netwerk BV\nKeizersgracht 555\nAmsterdam, 1017 DR\nNetherlands\nVAT Registration Number: NL 8123 45 678 B01\n",
+        "toEntity": "Bellhaven Havens BV\ncrediteuren@bellhaven.example\nWeena 505\nRotterdam, Zuid-Holland 3013 AL\nNetherlands\nVAT Registration Number: NL 8099 12 345 B01\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "d3419c63-e383-462c-a828-6d57a08a44df",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0.21,
+        "taxAmount": 286.125,
+        "totalAmountWithoutTax": 1362.5,
+        "fromEntity": "Ostara Netwerk BV\nKeizersgracht 555\nAmsterdam, 1017 DR\nNetherlands\nVAT Registration Number: NL 8123 45 678 B01\n",
+        "toEntity": "Bellhaven Havens BV\ncrediteuren@bellhaven.example\nWeena 505\nRotterdam, Zuid-Holland 3013 AL\nNetherlands\nVAT Registration Number: NL 8099 12 345 B01\n"
+      }
+    },
+    "ostara-pelham-exempt-manual": {
+      "create": {
+        "ok": true,
+        "invoiceId": "7c8a0d7c-021e-4f46-b140-782ae985e678",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "7c8a0d7c-021e-4f46-b140-782ae985e678",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Ostara Netwerk BV\nKeizersgracht 555\nAmsterdam, 1017 DR\nNetherlands\nVAT Registration Number: NL 8123 45 678 B01\n",
+        "toEntity": "Pelham Onderwijs Stichting\nfinancien@pelham.example\nSint Jacobsstraat 200\nUtrecht, Utrecht 3511 BT\nNetherlands\nVAT Registration Number: NL 8044 55 123 B01\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "7c8a0d7c-021e-4f46-b140-782ae985e678",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1475,
+        "fromEntity": "Ostara Netwerk BV\nKeizersgracht 555\nAmsterdam, 1017 DR\nNetherlands\nVAT Registration Number: NL 8123 45 678 B01\n",
+        "toEntity": "Pelham Onderwijs Stichting\nfinancien@pelham.example\nSint Jacobsstraat 200\nUtrecht, Utrecht 3511 BT\nNetherlands\nVAT Registration Number: NL 8044 55 123 B01\n"
+      }
+    },
+    "tidewell-marchmont-no-regime": {
+      "create": {
+        "ok": true,
+        "invoiceId": "c057ebd7-08e7-487f-b36f-0f1b14e30724",
+        "message": "Generated invoice",
+        "error": null
+      },
+      "record": {
+        "invoiceId": "c057ebd7-08e7-487f-b36f-0f1b14e30724",
+        "invoiceStatus": "Open",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1389,
+        "fromEntity": "Tidewell Compute\n1301 2nd Avenue\nSeattle, wa 98104\nUnited States of America\n\n",
+        "toEntity": "Marchmont Health\nap@marchmont.example\n701 Pike Street\nSeattle, wa 98104\nUnited States of America\n\n"
+      },
+      "settle": {
+        "ok": true,
+        "message": "Invoice status updated to Paid"
+      },
+      "settled": {
+        "invoiceId": "c057ebd7-08e7-487f-b36f-0f1b14e30724",
+        "invoiceStatus": "Paid",
+        "salesTaxRate": 0,
+        "taxAmount": 0,
+        "totalAmountWithoutTax": 1389,
+        "fromEntity": "Tidewell Compute\n1301 2nd Avenue\nSeattle, wa 98104\nUnited States of America\n\n",
+        "toEntity": "Marchmont Health\nap@marchmont.example\n701 Pike Street\nSeattle, wa 98104\nUnited States of America\n\n"
+      }
+    },
+    "solano-ridley-no-credential": {
+      "create": {
+        "ok": false,
+        "invoiceId": null,
+        "error": {
+          "name": "BadRequestException",
+          "message": "TaxJar API Key is not set",
+          "status": 400
+        }
+      },
+      "record": null
+    }
+  }
+}

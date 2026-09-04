@@ -1,0 +1,11 @@
+{
+  "executed": 99,
+  "label": "kimi-k3-kimi-code/trial-07",
+  "missing_user_errors": 0,
+  "nonzero": 7,
+  "recorded_ops": 99,
+  "skipped": 0,
+  "source_trajectory": "trajectories/06-api-token-metering/kimi-k3-kimi-code/trajectory-trial-7.json",
+  "timed_out": 0,
+  "unsupported": 0
+}

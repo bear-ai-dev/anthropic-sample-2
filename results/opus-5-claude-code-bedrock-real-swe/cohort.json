@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "arm": "opus-5-claude-code-bedrock-real-swe",
+  "model_label": "Opus 5",
+  "model": "us.anthropic.claude-opus-5",
+  "provider": "Bedrock",
+  "harness": "Claude Code",
+  "harness_version": "2.1.250",
+  "reasoning_effort": [],
+  "tasks": [
+    "01-entitlement-overage-lines",
+    "02-multi-region-sweep",
+    "04-tax-jurisdiction",
+    "06-api-token-metering",
+    "07-api-keys-and-environments",
+    "09-s3-datastore-measurement",
+    "10-customer-identity-migration",
+    "11-customer-billing-schedule-migration"
+  ],
+  "scored_trials": 64,
+  "passes": 39,
+  "admission": "strict-valid trials only"
+}

@@ -1,0 +1,128 @@
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_calloway, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mPricing order against the sandbox tax authority: {"from_country":"us","from_zip":"02139","from_state":"ma","from_city":"Cambridge","from_street":"245 Main Street","to_country":"us","to_zip":"94105","to_state":"ca","to_city":"San Francisco","to_street":"500 Howard Street","shipping":0,"line_items":[{"quantity":1,"product_tax_code":"31000","unit_price":1250},{"quantity":12,"product_tax_code":"31000","unit_price":18.75}]}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mTax authority priced invoice 38f895fb-9321-4a7d-9cd5-8fb8a92d32ab at rate 0.06375, tax 94.03125[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 38f895fb-9321-4a7d-9cd5-8fb8a92d32ab for business biz_calloway[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mFiling sale with the sandbox tax authority: {"transaction_id":"38f895fb-9321-4a7d-9cd5-8fb8a92d32ab","transaction_date":"2026-08-12T10:00:00.000Z","provider":"meteringco","to_country":"us","to_zip":"94105","to_state":"ca","to_city":"San Francisco","to_street":"500 Howard Street Suite 210","amount":1475,"shipping":0,"sales_tax":94.03125}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mFiled invoice 38f895fb-9321-4a7d-9cd5-8fb8a92d32ab with the tax authority[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_calloway, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mCustomer cus_tarrant is tax exempt, invoice 1de2896f-f6a2-41ab-a082-fcf4040c1c84 is issued untaxed[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 1de2896f-f6a2-41ab-a082-fcf4040c1c84 for business biz_calloway[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mFiling sale with the sandbox tax authority: {"transaction_id":"1de2896f-f6a2-41ab-a082-fcf4040c1c84","transaction_date":"2026-08-12T10:00:00.000Z","provider":"meteringco","to_country":"us","to_zip":"60601","to_state":"il","to_city":"Chicago","to_street":"233 South Wacker Drive","amount":1362.5,"shipping":0,"sales_tax":0}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mFiled invoice 1de2896f-f6a2-41ab-a082-fcf4040c1c84 with the tax authority[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_calloway, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mPricing order against the sandbox tax authority: {"from_country":"us","from_zip":"02139","from_state":"ma","from_city":"Cambridge","from_street":"245 Main Street","to_country":"us","to_zip":"60601","to_state":"ca","to_city":"San Francisco","to_street":"1 Front Street","shipping":0,"line_items":[{"quantity":340,"product_tax_code":"31000","unit_price":0.85},{"quantity":25,"product_tax_code":"31000","unit_price":44}]}[39m
+[31m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [31m  ERROR[39m [38;5;3m[Invoice] [39m[31mTax authority refused to price invoice 388b32e5-4236-46c8-a8ff-702d496f58f4 for customer cus_ellery: to_zip is not a valid postal code for to_state[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mPricing order against the production tax authority: {"from_country":"ie","from_zip":"D02 P820","from_state":"","from_city":"Dublin","from_street":"1 Grand Canal Square","to_country":"se","to_zip":"111 22","to_state":"","to_city":"Stockholm","to_street":"Kungsgatan 8","shipping":0,"line_items":[{"quantity":1,"product_tax_code":"40030","unit_price":1250},{"quantity":12,"product_tax_code":"40030","unit_price":18.75}]}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mTax authority priced invoice 77a74849-e808-4351-b25f-954d5cc24a65 at rate 0.125, tax 184.375[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 77a74849-e808-4351-b25f-954d5cc24a65 for business biz_verdant[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mFiling sale with the production tax authority: {"transaction_id":"77a74849-e808-4351-b25f-954d5cc24a65","transaction_date":"2026-08-12T10:00:00.000Z","provider":"meteringco","to_country":"se","to_zip":"111 22","to_state":"","to_city":"Stockholm","to_street":"Kungsgatan 8","amount":1475,"shipping":0,"sales_tax":184.375}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mFiled invoice 77a74849-e808-4351-b25f-954d5cc24a65 with the tax authority[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mPricing order against the production tax authority: {"from_country":"ie","from_zip":"D02 P820","from_state":"","from_city":"Dublin","from_street":"1 Grand Canal Square","to_country":"gb","to_zip":"EC1V 9BW","to_state":"","to_city":"London","to_street":"40 Bowling Green Lane","shipping":0,"line_items":[{"quantity":18,"product_tax_code":"40030","unit_price":65},{"quantity":1,"product_tax_code":"40030","unit_price":192.5}]}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mTax authority priced invoice e3fe49be-b98f-4e27-b4df-d36666a8dac8 at rate 0.1, tax 136.25[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mPricing order against the production tax authority: {"from_country":"ie","from_zip":"D02 P820","from_state":"","from_city":"Dublin","from_street":"1 Grand Canal Square","to_country":"au","to_zip":"2000","to_state":"nsw","to_city":"Sydney","to_street":"55 Pitt Street","shipping":0,"line_items":[{"quantity":340,"product_tax_code":"40030","unit_price":0.85},{"quantity":25,"product_tax_code":"40030","unit_price":44}]}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mTax authority priced invoice 1a5bfa6e-6f8c-4a8f-b837-0b60fb744ba0 at rate 0.05, tax 69.45[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 1a5bfa6e-6f8c-4a8f-b837-0b60fb744ba0 for business biz_verdant[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mFiling sale with the production tax authority: {"transaction_id":"1a5bfa6e-6f8c-4a8f-b837-0b60fb744ba0","transaction_date":"2026-08-12T10:00:00.000Z","provider":"meteringco","to_country":"au","to_zip":"2000","to_state":"nsw","to_city":"Sydney","to_street":"55 Pitt Street","amount":1389,"shipping":0,"sales_tax":69.45}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mFiled invoice 1a5bfa6e-6f8c-4a8f-b837-0b60fb744ba0 with the tax authority[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mPricing order against the production tax authority: {"from_country":"ie","from_zip":"D02 P820","from_state":"","from_city":"Dublin","from_street":"1 Grand Canal Square","to_country":"jp","to_zip":"5310076","to_state":"","to_city":"Osaka","to_street":"1-1-88 Oyodonaka","shipping":0,"line_items":[{"quantity":1,"product_tax_code":"40030","unit_price":1250},{"quantity":12,"product_tax_code":"40030","unit_price":18.75}]}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mTax authority priced invoice 8a48d236-6bc6-4de3-80d4-db1d6f368c82 at rate 0.05, tax 73.75[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 8a48d236-6bc6-4de3-80d4-db1d6f368c82 for business biz_verdant[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mTax authority takes no returns for sales into jp, invoice 8a48d236-6bc6-4de3-80d4-db1d6f368c82 not filed[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_ostara, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 3c5f47ce-092d-45f9-b046-d7b24a2b514b for business biz_ostara[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mFiling sale with the sandbox tax authority: {"transaction_id":"3c5f47ce-092d-45f9-b046-d7b24a2b514b","transaction_date":"2026-08-12T10:00:00.000Z","provider":"meteringco","to_country":"nl","to_zip":"3013 AL","to_state":"Zuid-Holland","to_city":"Rotterdam","to_street":"Weena 505","amount":1362.5,"shipping":0,"sales_tax":286.125}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mFiled invoice 3c5f47ce-092d-45f9-b046-d7b24a2b514b with the tax authority[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_ostara, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mCustomer cus_pelham is tax exempt, invoice e1f03cb9-7276-4d34-912e-2e3772416fb1 is issued untaxed[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice e1f03cb9-7276-4d34-912e-2e3772416fb1 for business biz_ostara[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[TaxAuthority] [39m[95mFiling sale with the sandbox tax authority: {"transaction_id":"e1f03cb9-7276-4d34-912e-2e3772416fb1","transaction_date":"2026-08-12T10:00:00.000Z","provider":"meteringco","to_country":"nl","to_zip":"3511 BT","to_state":"Utrecht","to_city":"Utrecht","to_street":"Sint Jacobsstraat 200","amount":1475,"shipping":0,"sales_tax":0}[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mFiled invoice e1f03cb9-7276-4d34-912e-2e3772416fb1 with the tax authority[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_tidewell, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 965d5a3f-5cbe-4ea8-9826-f5609eb2f7cf for business biz_tidewell[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mBusiness biz_tidewell holds no tax authority key, invoice 965d5a3f-5cbe-4ea8-9826-f5609eb2f7cf not filed[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_solano, currency: USD[39m
+[32m[Nest] 1029  - [39m09/01/2026, 10:52:40 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m

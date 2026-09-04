@@ -1,0 +1,24 @@
+reward 0.0
+failed: registration_shape, call_time_placement, windowed_rollup, platform_account
+
+[FAIL] registration_shape
+        each API call becomes one registration in the aggregate bucket
+        - O: no registration carries its identity
+[pass] identity_in_series_key
+        calls sharing an instant stay apart by identity
+[FAIL] call_time_placement
+        a registration sits at the time of the call, not the time it was recorded
+        - O: nothing to place
+[pass] redelivery_idempotent
+        a redelivered call leaves one registration, whichever batch it arrives in
+[FAIL] windowed_rollup
+        each window produces one billable roll-up worth the window's traffic
+        - billed [] for cus-6a17-harborline-alt, the windows are worth [0.001]
+[FAIL] platform_account
+        the roll-up is billed to the platform's own account for that customer
+        - no billable row is attributed to cus-6a17-harborline-alt
+[pass] request_path_meters
+        serving a measurement meters the call that asked for it
+
+registrations written: True
+billable roll-up produced: True

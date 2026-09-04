@@ -1,0 +1,3 @@
+{
+  "detail": "1 of 256 checks failed:\n  - calloway-ellery-postcode-mismatch: an address the authority rejects should be reported, not swallowed silently"
+}

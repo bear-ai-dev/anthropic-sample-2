@@ -1,0 +1,6 @@
+Starting get all Volumes across 7 enabled regions
+Region ap-southeast-2 read succeeded after 5 attempts (rate limited)
+Omitting eu-north-1 from volume inventory: UnauthorizedOperation You are not authorized to perform this operation in this Region
+Starting get all Snapshots across 7 enabled regions
+Region ca-central-1 read succeeded after 5 attempts (rate limited)
+Omitting ap-northeast-1 from snapshot inventory: UnauthorizedOperation You are not authorized to perform this operation in this Region

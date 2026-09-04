@@ -1,0 +1,11 @@
+{
+  "executed": 57,
+  "label": "06-api-token-metering/trial-01",
+  "missing_user_errors": 0,
+  "nonzero": 1,
+  "recorded_ops": 58,
+  "skipped": 1,
+  "source_trajectory": "trajectories/06-api-token-metering/fable-5.1-claude-code/trajectory-trial-1.json",
+  "timed_out": 0,
+  "unsupported": 0
+}

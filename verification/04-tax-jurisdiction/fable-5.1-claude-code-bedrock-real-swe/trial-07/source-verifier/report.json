@@ -1,0 +1,3 @@
+{
+  "detail": "2 of 256 checks failed:\n  - verdant-ostergaard-stockholm: no transaction should have been filed with the authority (1 seen)\n  - the authority holds 6 filed transactions, expected 5"
+}

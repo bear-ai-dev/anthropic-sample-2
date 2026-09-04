@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "arm": "gemini-3.1-pro-antigravity-openrouter",
+  "model_label": "Gemini 3.1 Pro",
+  "model": "google/gemini-3.1-pro-preview",
+  "provider": "OpenRouter",
+  "harness": "Antigravity",
+  "harness_version": "1.1.23",
+  "reasoning_effort": [
+    "high"
+  ],
+  "tasks": [
+    "01-entitlement-overage-lines",
+    "02-multi-region-sweep",
+    "04-tax-jurisdiction",
+    "06-api-token-metering",
+    "07-api-keys-and-environments",
+    "09-s3-datastore-measurement",
+    "10-customer-identity-migration",
+    "11-customer-billing-schedule-migration"
+  ],
+  "scored_trials": 64,
+  "passes": 2,
+  "admission": "strict-valid trials only"
+}

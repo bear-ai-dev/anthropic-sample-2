@@ -1,0 +1,11 @@
+{
+  "executed": 128,
+  "label": "glm-5.3-claude-code/trial-06",
+  "missing_user_errors": 0,
+  "nonzero": 6,
+  "recorded_ops": 128,
+  "skipped": 0,
+  "source_trajectory": "trajectories/09-s3-datastore-measurement/glm-5.3-claude-code/trajectory-trial-6.json",
+  "timed_out": 0,
+  "unsupported": 0
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "09-s3-datastore-measurement",
+  "arm": "grok-4.6-grok-build-bedrock",
+  "trial_number": 2,
+  "reward": 1.0,
+  "passed": true,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": true
+}

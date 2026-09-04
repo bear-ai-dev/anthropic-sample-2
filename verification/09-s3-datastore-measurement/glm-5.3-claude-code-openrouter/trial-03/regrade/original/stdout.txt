@@ -1,0 +1,30 @@
+FAIL src/measurement-config/datastoreMeasurement.gold.spec.ts
+  ● S3 connector usage delivery › writes malformed connector records to the mirrored message key in the DLQ
+
+    expect(received).toBeTruthy()
+
+    Received: undefined
+
+      296 |         expect(serialized).toContain('business-1/customer/usage.ndjson');
+      297 |         expect(serialized).toContain('{not-json');
+    > 298 |         expect(body.metadata || body.error || body.processedAt || body.processor).toBeTruthy();
+          |                                                                                   ^
+      299 |     });
+      300 |
+      301 |     it('keeps the generic DLQ writer usable for an already-relative source key', async () => {
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:298:83)
+
+[32m[Nest] 4719  - [39m09/04/2026, 2:41:21 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mCreating Measurement Config with the following inputs[39m
+[32m[Nest] 4719  - [39m09/04/2026, 2:41:21 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32m[object Object][39m
+[32m[Nest] 4719  - [39m09/04/2026, 2:41:21 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mLoaded information into DB[39m
+[32m[Nest] 4719  - [39m09/04/2026, 2:41:21 AM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+[32m[Nest] 4719  - [39m09/04/2026, 2:41:21 AM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+PASS src/appControllerHistorical.gold.spec.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       1 failed, 9 passed, 10 total
+Snapshots:   0 total
+Time:        1.823 s
+Test results written to: ../tmp/jest-unit.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

@@ -1,0 +1,44 @@
+FAIL src/measurement-config/datastoreMeasurement.gold.spec.ts
+  ● Test suite failed to run
+
+    Cannot find module '@aws-sdk/client-iam' from 'measurement-config/datastoreMeasurement.gold.spec.ts'
+
+      34 | });
+      35 |
+    > 36 | jest.mock('@aws-sdk/client-iam', () => ({
+         |      ^
+      37 |     IAM: jest.fn(() => ({
+      38 |         createPolicy: mockCreatePolicy,
+      39 |         createRole: mockCreateRole,
+
+      at Resolver._throwModNotFoundError (../node_modules/jest-resolve/build/resolver.js:491:11)
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:36:6)
+
+PASS src/appControllerHistorical.gold.spec.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.761 s
+Test results written to: ../tmp/jest-unit.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+{
+  "tests": [
+    {
+      "name": "AppController root should return \"Hello World!\"",
+      "status": "passed"
+    }
+  ]
+}
+
+required passed: 1/10
+  NOT PASSED (not-run): S3 datastore measurement configuration accepts datastoreBased S3 configuration and materializes nested validation
+  NOT PASSED (not-run): S3 datastore measurement configuration defaults an omitted platform to S3 and region to us-east-1
+  NOT PASSED (not-run): S3 datastore measurement configuration persists and restores every datastore access field
+  NOT PASSED (not-run): S3 datastore measurement configuration provisions a scoped IAM role and returns ingestion and DLQ locations
+  NOT PASSED (not-run): S3 datastore measurement configuration updates account trust while preserving the existing role and external ID
+  NOT PASSED (not-run): S3 datastore measurement configuration creates, persists, and returns provisioned datastore configuration
+  NOT PASSED (not-run): S3 connector usage delivery derives the business from the object key and ingests a valid record
+  NOT PASSED (not-run): S3 connector usage delivery writes malformed connector records to the mirrored message key in the DLQ
+  NOT PASSED (not-run): S3 connector usage delivery keeps the generic DLQ writer usable for an already-relative source key
+reward: 0

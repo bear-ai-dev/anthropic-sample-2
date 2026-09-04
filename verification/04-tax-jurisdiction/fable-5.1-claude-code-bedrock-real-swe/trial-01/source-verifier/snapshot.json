@@ -1,0 +1,632 @@
+{
+  "accounts": {},
+  "tax_authority": {
+    "calls": [
+      {
+        "at": 1788303029.9901135,
+        "environment": "sandbox",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "from_country": "US",
+          "from_zip": "02139",
+          "from_state": "MA",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "US",
+          "to_zip": "94105",
+          "to_state": "CA",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "amount": 1475,
+          "shipping": 0,
+          "customer_id": "cus_marlowe",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303029.9998689,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "transaction_id": "60549b43-0d09-4940-a5bb-201b758d3cd4",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "from_country": "US",
+          "from_zip": "02139",
+          "from_state": "MA",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "US",
+          "to_zip": "94105",
+          "to_state": "CA",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 94.03,
+          "customer_id": "cus_marlowe",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_identifier": "Platform subscription",
+              "description": "Platform subscription",
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_identifier": "API calls (millions)",
+              "description": "API calls (millions)",
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.005288,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "transaction_id": "6e0d1cb7-698f-46ce-97e0-6f3fadc59f2f",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "from_country": "US",
+          "from_zip": "02139",
+          "from_state": "MA",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "US",
+          "to_zip": "60601",
+          "to_state": "IL",
+          "to_city": "Chicago",
+          "to_street": "233 South Wacker Drive",
+          "amount": 1362.5,
+          "shipping": 0,
+          "sales_tax": 0,
+          "customer_id": "cus_tarrant",
+          "exemption_type": "other",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1170,
+              "product_identifier": "Engineer seats",
+              "description": "Engineer seats",
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 192.5,
+              "product_identifier": "Support retainer",
+              "description": "Support retainer",
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.0072818,
+        "environment": "sandbox",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "from_country": "US",
+          "from_zip": "02139",
+          "from_state": "MA",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "US",
+          "to_zip": "60601",
+          "to_state": "CA",
+          "to_city": "San Francisco",
+          "to_street": "1 Front Street",
+          "amount": 1389,
+          "shipping": 0,
+          "customer_id": "cus_ellery",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 289,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 1100,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.010594,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "SE",
+          "to_zip": "111 22",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475,
+          "shipping": 0,
+          "customer_id": "cus_ostergaard",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.0141168,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "a4947442-ca43-4725-8512-59bc2bde74be",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "SE",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 184.38,
+          "customer_id": "cus_ostergaard",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_identifier": "Platform subscription",
+              "description": "Platform subscription",
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_identifier": "API calls (millions)",
+              "description": "API calls (millions)",
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.0161421,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "GB",
+          "to_zip": "EC1V 9BW",
+          "to_city": "London",
+          "to_street": "40 Bowling Green Lane",
+          "amount": 1362.5,
+          "shipping": 0,
+          "customer_id": "cus_fenwick",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1170,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 192.5,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.0186937,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "AU",
+          "to_zip": "2000",
+          "to_state": "NSW",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389,
+          "shipping": 0,
+          "customer_id": "cus_navarro",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 289,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 1100,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.022425,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "70a54801-0d63-48c7-8882-af5ac3df992f",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "AU",
+          "to_zip": "2000",
+          "to_state": "NSW",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389,
+          "shipping": 0,
+          "sales_tax": 69.45,
+          "customer_id": "cus_navarro",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 289,
+              "product_identifier": "Ingest volume (GB)",
+              "description": "Ingest volume (GB)",
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 1100,
+              "product_identifier": "Retained series",
+              "description": "Retained series",
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.02479,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "JP",
+          "to_zip": "5310076",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475,
+          "shipping": 0,
+          "customer_id": "cus_quillon",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303030.028166,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "4b97d7d5-b96a-4f59-bba9-7e93bfa26311",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "from_country": "IE",
+          "from_zip": "D02 P820",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "JP",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 73.75,
+          "customer_id": "cus_quillon",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_identifier": "Platform subscription",
+              "description": "Platform subscription",
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_identifier": "API calls (millions)",
+              "description": "API calls (millions)",
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      }
+    ],
+    "orders": [
+      {
+        "transaction_id": "60549b43-0d09-4940-a5bb-201b758d3cd4",
+        "account": "acct_calloway",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "60549b43-0d09-4940-a5bb-201b758d3cd4",
+          "user_id": "acct_calloway",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "to_country": "US",
+          "to_zip": "94105",
+          "to_state": "CA",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 94.03,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_identifier": "Platform subscription",
+              "description": "Platform subscription",
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_identifier": "API calls (millions)",
+              "description": "API calls (millions)",
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "6e0d1cb7-698f-46ce-97e0-6f3fadc59f2f",
+        "account": "acct_calloway",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "6e0d1cb7-698f-46ce-97e0-6f3fadc59f2f",
+          "user_id": "acct_calloway",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "to_country": "US",
+          "to_zip": "60601",
+          "to_state": "IL",
+          "to_city": "Chicago",
+          "to_street": "233 South Wacker Drive",
+          "amount": 1362.5,
+          "shipping": 0.0,
+          "sales_tax": 0.0,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1170,
+              "product_identifier": "Engineer seats",
+              "description": "Engineer seats",
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 192.5,
+              "product_identifier": "Support retainer",
+              "description": "Support retainer",
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "a4947442-ca43-4725-8512-59bc2bde74be",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "a4947442-ca43-4725-8512-59bc2bde74be",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "to_country": "SE",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 184.38,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_identifier": "Platform subscription",
+              "description": "Platform subscription",
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_identifier": "API calls (millions)",
+              "description": "API calls (millions)",
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "70a54801-0d63-48c7-8882-af5ac3df992f",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "70a54801-0d63-48c7-8882-af5ac3df992f",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "to_country": "AU",
+          "to_zip": "2000",
+          "to_state": "NSW",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389.0,
+          "shipping": 0.0,
+          "sales_tax": 69.45,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 289,
+              "product_identifier": "Ingest volume (GB)",
+              "description": "Ingest volume (GB)",
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 1100,
+              "product_identifier": "Retained series",
+              "description": "Retained series",
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "4b97d7d5-b96a-4f59-bba9-7e93bfa26311",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "4b97d7d5-b96a-4f59-bba9-7e93bfa26311",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12",
+          "provider": "api",
+          "to_country": "JP",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 73.75,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_identifier": "Platform subscription",
+              "description": "Platform subscription",
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 225,
+              "product_identifier": "API calls (millions)",
+              "description": "API calls (millions)",
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

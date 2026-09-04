@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "02-multi-region-sweep",
+  "arm": "glm-5.3-claude-code-openrouter",
+  "trial_number": 2,
+  "reward": 1.0,
+  "passed": true,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

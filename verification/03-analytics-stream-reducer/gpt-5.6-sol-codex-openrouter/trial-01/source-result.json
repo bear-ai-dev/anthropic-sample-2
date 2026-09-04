@@ -1,0 +1,155 @@
+{
+  "id": "f1d7765b-c7e0-4a67-8839-6e11f91685f3",
+  "task_name": "sample/analytics-stream-reducer",
+  "trial_name": "03-analytics-stream-reducer__b6ovZiH",
+  "trial_uri": "file:///__modal/volumes/vo-UHPyT4TYEu1VGPOySfkC7v/trials-native-104/ssa104-gpt56sol-codex-oquy85_l/gpt56sol-codex-03-analytics-stream-reducer__trial-01-wave-01-20260903T234628Z/03-analytics-stream-reducer__b6ovZiH",
+  "task_id": {
+    "path": "/work/frozen-modal-tasks-native-104/03-analytics-stream-reducer"
+  },
+  "source": null,
+  "task_checksum": "78365369cef360b1c4562b28a25a560644d75f6540b67fb0c9015bf8b5e496a1",
+  "config": {
+    "task": {
+      "path": "/work/frozen-modal-tasks-native-104/03-analytics-stream-reducer",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "03-analytics-stream-reducer__b6ovZiH",
+    "trials_dir": "/work/trials-native-104/ssa104-gpt56sol-codex-oquy85_l/gpt56sol-codex-03-analytics-stream-reducer__trial-01-wave-01-20260903T234628Z",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": null,
+      "import_path": "harness.modal_native_104_agents:ModalOpenRouterCodex",
+      "model_name": "openai/gpt-5.6-sol",
+      "n_concurrent": 1,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "include_logs": [
+        "trajectory.json",
+        "codex.txt",
+        "modal-task-init.log",
+        "openrouter-request-enforcement.jsonl",
+        "sessions/*"
+      ],
+      "kwargs": {
+        "max_turns": 200,
+        "reasoning_effort": "high",
+        "version": "0.151.0",
+        "web_search": "disabled"
+      },
+      "env": {
+        "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}"
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": "modal",
+      "import_path": null,
+      "force_build": false,
+      "delete": true,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": 6144,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": null,
+      "extra_docker_compose": [],
+      "kwargs": {
+        "app_name": "benchmark-sample-native-104-sandboxes-20260903",
+        "auto_labels": false,
+        "modal_sandbox_v2": true,
+        "sandbox_timeout_secs": 21600,
+        "secrets": [],
+        "volumes": {
+          "/logs": "ssa104-tri-gpt56sol-cod-8e9f5af75a8e90d78cd3"
+        }
+      },
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "include_logs": [
+        "reward.txt",
+        "reward.json",
+        "output.json",
+        "report.json",
+        "report.txt",
+        "*.log"
+      ],
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": "95d9c35a-0f1d-43bf-883a-8843c414db46",
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "codex",
+    "version": "0.151.0",
+    "model_info": {
+      "name": "gpt-5.6-sol",
+      "provider": "openai"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 2245935,
+    "n_cache_tokens": 2149579,
+    "n_output_tokens": 29794,
+    "cost_usd": 1.9373866000000006,
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0,
+      "seam_checks": 3,
+      "seam_failures": 0,
+      "capability_absent": 0,
+      "rules_total": 61,
+      "rules_passed": 58,
+      "rules_expected": 61
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-09-03T23:48:18.760759Z",
+  "finished_at": "2026-09-03T23:57:10.162323Z",
+  "environment_setup": {
+    "started_at": "2026-09-03T23:48:20.618801Z",
+    "finished_at": "2026-09-03T23:48:31.724677Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-09-03T23:48:31.724752Z",
+    "finished_at": "2026-09-03T23:48:53.996284Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-09-03T23:48:53.996599Z",
+    "finished_at": "2026-09-03T23:56:52.774888Z"
+  },
+  "verifier": {
+    "started_at": "2026-09-03T23:57:01.558403Z",
+    "finished_at": "2026-09-03T23:57:08.871646Z"
+  },
+  "step_results": null
+}

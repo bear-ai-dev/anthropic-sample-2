@@ -1,0 +1,46 @@
+=== Snapshot the deliverable for audit ===
+=== Stop the agent-facing endpoint ===
+driver diagnostic exit: 0
+=== Compute reward (root, no submitted code loaded) ===
+reward=0.0
+59 of 226 checks failed:
+  - calloway-marlowe-sanfrancisco: tax is 94.03, expected 94.03125
+  - calloway-marlowe-sanfrancisco: from_country sent as 'US', expected 'us'
+  - calloway-marlowe-sanfrancisco: from_state sent as 'MA', expected 'ma'
+  - calloway-marlowe-sanfrancisco: to_country sent as 'US', expected 'us'
+  - calloway-marlowe-sanfrancisco: to_state sent as 'CA', expected 'ca'
+  - calloway-marlowe-sanfrancisco: a priced line was sent as {'id': '2', 'quantity': 1, 'unit_price': 225, 'product_tax_code': '31000'}, expected {'quantity': 12, 'product_tax_code': '31000', 'unit_price': 18.75}
+  - calloway-marlowe-sanfrancisco: expected one filed transaction, saw 0
+  - calloway-tarrant-exempt-chicago: transaction provider is 'api'
+  - calloway-tarrant-exempt-chicago: transaction to_country is 'US', expected 'us'
+  - calloway-tarrant-exempt-chicago: transaction to_state is 'IL', expected 'il'
+  - calloway-ellery-postcode-mismatch: an address the authority rejects should be reported, not swallowed silently
+  - calloway-ellery-postcode-mismatch: from_country sent as 'US', expected 'us'
+  - calloway-ellery-postcode-mismatch: from_state sent as 'MA', expected 'ma'
+  - calloway-ellery-postcode-mismatch: to_country sent as 'US', expected 'us'
+  - calloway-ellery-postcode-mismatch: to_state sent as 'CA', expected 'ca'
+  - calloway-ellery-postcode-mismatch: a priced line was sent as {'id': '1', 'quantity': 1, 'unit_price': 289, 'product_tax_code': '31000'}, expected {'quantity': 340, 'product_tax_code': '31000', 'unit_price': 0.85}
+  - calloway-ellery-postcode-mismatch: a priced line was sent as {'id': '2', 'quantity': 1, 'unit_price': 1100, 'product_tax_code': '31000'}, expected {'quantity': 25, 'product_tax_code': '31000', 'unit_price': 44.0}
+  - verdant-ostergaard-stockholm: tax is 184.38, expected 184.375
+  - verdant-ostergaard-stockholm: seller block is 'Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\n\nVAT ID: IE 9825613N\n', expected 'Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n'
+  - verdant-ostergaard-stockholm: customer block is 'Ostergaard Kraft AB\nfaktura@ostergaard.example\nKungsgatan 8\nStockholm, 111 22\nSweden\n\nVAT ID: SE 556036 0793\n', expected 'Ostergaard Kraft AB\nfaktura@ostergaard.example\nKungsgatan 8\nStockholm, 111 22\nSweden\nVAT Registration Number: SE 556036 0793\n'
+  - verdant-ostergaard-stockholm: from_country sent as 'IE', expected 'ie'
+  - verdant-ostergaard-stockholm: from_state sent as None, expected ''
+  - verdant-ostergaard-stockholm: to_country sent as 'SE', expected 'se'
+  - verdant-ostergaard-stockholm: to_state sent as None, expected ''
+  - verdant-ostergaard-stockholm: a priced line was sent as {'id': '2', 'quantity': 1, 'unit_price': 225, 'product_tax_code': '40030'}, expected {'quantity': 12, 'product_tax_code': '40030', 'unit_price': 18.75}
+  - verdant-ostergaard-stockholm: no transaction should have been filed with the authority (1 seen)
+  - verdant-fenwick-london: seller block is 'Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\n\nVAT ID: IE 9825613N\n', expected 'Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n'
+  - verdant-fenwick-london: customer block is 'Fenwick Analytics Ltd\nap@fenwick.example\n40 Bowling Green Lane\nLondon, EC1V 9BW\nUnited Kingdom of Great Britain and Northern Ireland\n\nVAT ID: GB 245 7761 30\n', expected 'Fenwick Analytics Ltd\nap@fenwick.example\n40 Bowling Green Lane\nLondon, EC1V 9BW\nUnited Kingdom of Great Britain and Northern Ireland\nVAT Registration Number: GB 245 7761 30\n'
+  - verdant-fenwick-london: from_country sent as 'IE', expected 'ie'
+  - verdant-fenwick-london: from_state sent as None, expected ''
+  - verdant-fenwick-london: to_country sent as 'GB', expected 'gb'
+  - verdant-fenwick-london: to_state sent as None, expected ''
+  - verdant-fenwick-london: a priced line was sent as {'id': '1', 'quantity': 1, 'unit_price': 1170, 'product_tax_code': '40030'}, expected {'quantity': 18, 'product_tax_code': '40030', 'unit_price': 65}
+  - verdant-navarro-sydney: seller block is 'Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\n\n', expected 'Verdant Signal Ltd\n1 Grand Canal Square\nDublin, D02 P820\nIreland\nVAT Registration Number: IE 9825613N\n'
+  - verdant-navarro-sydney: from_country sent as 'IE', expected 'ie'
+  - verdant-navarro-sydney: from_state sent as None, expected ''
+  - verdant-navarro-sydney: to_country sent as 'AU', expected 'au'
+  - verdant-navarro-sydney: to_state sent as 'NSW', expected 'nsw'
+  - verdant-navarro-sydney: a priced line was sent as {'id': '1', 'quantity': 1, 'unit_price': 289, 'product_tax_code': '40030'}, expected {'quantity': 340, 'product_tax_code': '40030', 'unit_price': 0.85}
+  - verdant-navarro-sydney: a priced line was sent as {'id': '2', 'quantity': 1, 'unit_price': 1100, 'product_tax_code': '40030'}, expected {'quantity': 25, 'product_tax_code': '40030', 'unit_price': 44.0}

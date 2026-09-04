@@ -1,0 +1,22 @@
+Starting get all Volumes [
+  'ap-northeast-1',
+  'ap-southeast-2',
+  'ca-central-1',
+  'eu-north-1',
+  'eu-west-2',
+  'us-east-1',
+  'us-west-2'
+]
+[33m[Nest] 986  - [39m09/01/2026, 10:58:04 PM [33m   WARN[39m [38;5;3m[AwsRegions] [39m[33mDescribeVolumes(ap-southeast-2) page: transient RequestLimitExceeded (attempt 1/8), retrying in 140ms[39m
+[33m[Nest] 986  - [39m09/01/2026, 10:58:04 PM [33m   WARN[39m [38;5;3m[AwsRegions] [39m[33mDescribeVolumes: omitting region eu-north-1, read refused with UnauthorizedOperation: You are not authorized to perform this operation in this Region[39m
+Starting get all Snapshots [
+  'ap-northeast-1',
+  'ap-southeast-2',
+  'ca-central-1',
+  'eu-north-1',
+  'eu-west-2',
+  'us-east-1',
+  'us-west-2'
+]
+[33m[Nest] 986  - [39m09/01/2026, 10:58:05 PM [33m   WARN[39m [38;5;3m[AwsRegions] [39m[33mDescribeSnapshots(ca-central-1) page: transient RequestLimitExceeded (attempt 1/8), retrying in 104ms[39m
+[33m[Nest] 986  - [39m09/01/2026, 10:58:05 PM [33m   WARN[39m [38;5;3m[AwsRegions] [39m[33mDescribeSnapshots: omitting region ap-northeast-1, read refused with UnauthorizedOperation: You are not authorized to perform this operation in this Region[39m

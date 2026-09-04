@@ -1,0 +1,4 @@
+Starting get all Volumes across enabled regions
+Skipping region eu-north-1 UnauthorizedOperation You are not authorized to perform this operation in this Region
+Starting get all Snapshots across enabled regions
+Skipping region ap-northeast-1 UnauthorizedOperation You are not authorized to perform this operation in this Region

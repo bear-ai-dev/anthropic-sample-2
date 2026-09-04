@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "10-customer-identity-migration",
+  "arm": "gemini-3.1-pro-antigravity-openrouter",
+  "trial_number": 3,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

@@ -1,0 +1,3 @@
+nothing to score
+observed file is missing
+reward=0.0

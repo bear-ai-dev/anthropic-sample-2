@@ -1,0 +1,153 @@
+[32m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:15 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:16 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-staging, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:16 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:16 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to register API call[39m
+[31m[Nest] 5433  - [39m09/04/2026, 12:41:16 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'getLatestMeteringCoTokenConsumers')\n    at Function.resolveMeteringCoTokenDimensionId (/app/src/token-consumer/token-consumer.service.ts:178:60)\n    at async Function.registerApiCall (/app/src/token-consumer/token-consumer.service.ts:118:33)\n    at async main (/app/.verifier-drive.ts:328:17)"
+}
+
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:16 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRegistering API call for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 5433  - [39m09/04/2026, 12:41:16 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "02-multi-region-sweep",
+  "arm": "grok-4.6-grok-build-bedrock",
+  "trial_number": 4,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

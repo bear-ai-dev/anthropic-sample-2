@@ -1,0 +1,123 @@
+FAIL src/measurement-config/datastoreMeasurement.gold.spec.ts
+  ● S3 datastore measurement configuration › provisions a scoped IAM role and returns ingestion and DLQ locations
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 8
+
+    - ObjectContaining {
+    -   "dlq": "s3://usage-dlq/business-1",
+    + DatastoreAccessInformation {
+    +   "accountId": "000000000000",
+    +   "businessID": "business-1",
+    +   "dlq": "s3://usage-dlq/business-1/",
+    +   "externalId": "26be53ce-3da9-4585-8a5c-b63abba05c79",
+        "iamRoleArn": "arn:aws:iam::meteringco:role/datastore",
+    -   "ingestion": "s3://usage-bucket/business-1",
+    +   "ingestion": "s3://usage-bucket/business-1/",
+    +   "measurementId": "measurement-1",
+    +   "platform": "s3",
+        "region": "us-east-1",
+      }
+
+      195 |     it('provisions a scoped IAM role and returns ingestion and DLQ locations', async () => {
+      196 |         const result = await DatastoreAccessInformation.setupAccess(accessEntity('000000000000'));
+    > 197 |         expect(result).toEqual(
+          |                        ^
+      198 |             expect.objectContaining({
+      199 |                 iamRoleArn: 'arn:aws:iam::meteringco:role/datastore',
+      200 |                 ingestion: 's3://usage-bucket/business-1',
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:197:24)
+
+  ● S3 datastore measurement configuration › creates, persists, and returns provisioned datastore configuration
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 9
+
+    - ObjectContaining {
+    -   "dlq": "s3://usage-dlq/business-1",
+    + DatastoreAccessInformation {
+    +   "accountId": "000000000000",
+    +   "businessID": "business-1",
+    +   "dlq": "s3://usage-dlq/business-1/",
+    +   "externalId": "580e4331-a312-4b9c-8e81-5ab822bd1376",
+        "iamRoleArn": "arn:aws:iam::meteringco:role/datastore",
+    -   "ingestion": "s3://usage-bucket/business-1",
+    +   "ingestion": "s3://usage-bucket/business-1/",
+    +   "measurementId": "575021bc-c788-4641-bd04-9b974fda4f73",
+    +   "platform": "s3",
+    +   "region": "us-east-1",
+      }
+
+      253 |             }),
+      254 |         );
+    > 255 |         expect(returnedConfiguration).toEqual(
+          |                                       ^
+      256 |             expect.objectContaining({
+      257 |                 iamRoleArn: 'arn:aws:iam::meteringco:role/datastore',
+      258 |                 ingestion: 's3://usage-bucket/business-1',
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:255:39)
+
+  ● S3 connector usage delivery › derives the business from the object key and ingests a valid record
+
+    expect(received).resolves.toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+    -   "message": "created",
+    +   "message": "Usage record rejected and written to DLQ: business-1/2023/usage.ndjson.message.text",
+      }
+
+      279 |                 message: JSON.stringify({ dimensionId: 'dimension-1', recordValue: '4', metadata: { source: 's3' } }),
+      280 |             }),
+    > 281 |         ).resolves.toEqual({ message: 'created' });
+          |                    ^
+      282 |         expect(create).toHaveBeenCalledWith(
+      283 |             expect.objectContaining({ businessID: 'business-1', dimensionId: 'dimension-1', recordValue: '4' }),
+      284 |         );
+
+      at Object.toEqual (../node_modules/expect/build/index.js:194:22)
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:281:20)
+
+  ● S3 connector usage delivery › keeps the generic DLQ writer usable for an already-relative source key
+
+    A DLQ bucket and key are required to publish a failure
+
+      90 |     }: DLQPublishRequest): Promise<DLQPublishResponse> {
+      91 |         if (!bucket || !key) {
+    > 92 |             throw new Error('A DLQ bucket and key are required to publish a failure');
+         |                   ^
+      93 |         }
+      94 |         const body = JSON.stringify(
+      95 |             {
+
+      at publishFailureToDLQ (measurement-config/entities/standardMeasurement.entity.ts:92:19)
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:317:19)
+
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[DatastoreAccessInformation] [39m[32mProvisioning IAM role datastore-business-1-measurement-1 trusting account 000000000000[39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[DatastoreAccessInformation] [39m[32mUpdating trust of IAM role datastore-business-1-measurement-1 to account 000000000000[39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mCreating Measurement Config with the following inputs[39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32m[object Object][39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[DatastoreAccessInformation] [39m[32mProvisioning IAM role datastore-business-1-575021bc-c788-4641-bd04-9b974fda4f73 trusting account 000000000000[39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mLoaded information into DB[39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[PublicAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+[33m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [33m   WARN[39m [38;5;3m[PublicAPIUsageController] [39m[33mRejected DB usage record from business-1/2023/usage.ndjson: message is not a valid usage record[39m
+[33m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [33m   WARN[39m [38;5;3m[StandardMeasurementEntity] [39m[33mPublishing failed input to DLQ s3://usage-dlq/business-1/2023/usage.ndjson.message.text[39m
+[32m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [32m    LOG[39m [38;5;3m[PublicAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+[33m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [33m   WARN[39m [38;5;3m[PublicAPIUsageController] [39m[33mRejected DB usage record from business-1/customer/usage.ndjson: message is not valid JSON: Unexpected token n in JSON at position 1[39m
+[33m[Nest] 918  - [39m09/02/2026, 12:23:20 AM [33m   WARN[39m [38;5;3m[StandardMeasurementEntity] [39m[33mPublishing failed input to DLQ s3://usage-dlq/business-1/customer/usage.ndjson.message.text[39m
+PASS src/appControllerHistorical.gold.spec.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       4 failed, 6 passed, 10 total
+Snapshots:   0 total
+Time:        5.528 s
+Test results written to: ../tmp/jest-unit.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

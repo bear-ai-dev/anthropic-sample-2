@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "06-api-token-metering",
+  "arm": "gpt-5.6-sol-codex-bedrock",
+  "trial_number": 8,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "09-s3-datastore-measurement",
+  "arm": "kimi-k3-kimi-code-openrouter",
+  "trial_number": 1,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

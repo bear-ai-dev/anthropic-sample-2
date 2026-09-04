@@ -1,0 +1,86 @@
+FAIL src/measurement-config/datastoreMeasurement.gold.spec.ts
+  ● S3 datastore measurement configuration › provisions a scoped IAM role and returns ingestion and DLQ locations
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "datastore-business-1-measurement-1"
+    Received: "datastore-business-1-undefined"
+
+      206 |         expect(result.externalId).not.toHaveLength(0);
+      207 |         const role = mockCreateRole.mock.calls[0][0];
+    > 208 |         expect(role.RoleName).toBe('datastore-business-1-measurement-1');
+          |                               ^
+      209 |         expect(JSON.parse(role.AssumeRolePolicyDocument).Statement[0]).toEqual(
+      210 |             expect.objectContaining({
+      211 |                 Principal: { AWS: 'arn:aws:iam::000000000000:root' },
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:208:31)
+
+  ● S3 connector usage delivery › derives the business from the object key and ingests a valid record
+
+    expect(received).resolves.toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 2
+
+      Object {
+    -   "message": "created",
+    +   "key": "business-1/2023/usage.ndjson.message.text",
+    +   "message": "Measurement sent to DLQ",
+      }
+
+      279 |                 message: JSON.stringify({ dimensionId: 'dimension-1', recordValue: '4', metadata: { source: 's3' } }),
+      280 |             }),
+    > 281 |         ).resolves.toEqual({ message: 'created' });
+          |                    ^
+      282 |         expect(create).toHaveBeenCalledWith(
+      283 |             expect.objectContaining({ businessID: 'business-1', dimensionId: 'dimension-1', recordValue: '4' }),
+      284 |         );
+
+      at Object.toEqual (../node_modules/expect/build/index.js:194:22)
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:281:20)
+
+  ● S3 connector usage delivery › writes malformed connector records to the mirrored message key in the DLQ
+
+    expect(received).toBeTruthy()
+
+    Received: undefined
+
+      296 |         expect(serialized).toContain('business-1/customer/usage.ndjson');
+      297 |         expect(serialized).toContain('{not-json');
+    > 298 |         expect(body.metadata || body.error || body.processedAt || body.processor).toBeTruthy();
+          |                                                                                   ^
+      299 |     });
+      300 |
+      301 |     it('keeps the generic DLQ writer usable for an already-relative source key', async () => {
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:298:83)
+
+  ● S3 connector usage delivery › keeps the generic DLQ writer usable for an already-relative source key
+
+    TypeError: Cannot read properties of undefined (reading 'sourceKeyToRelative')
+
+      61 |         processingMetadata: Record<string, unknown> = {}
+      62 |     ) {
+    > 63 |         const relativeSourceKey = this.sourceKeyToRelative(sourceKey);
+         |                                        ^
+      64 |         const s3 = new S3Client({ region: process.env.AWS_REGION || 'us-east-1' });
+      65 |         const failureDocument = {
+      66 |             failedInput,
+
+      at publishFailureToDLQ (measurement-config/entities/standardMeasurement.entity.ts:63:40)
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:317:19)
+
+[32m[Nest] 3637  - [39m09/01/2026, 4:29:03 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mCreating Measurement Config with the following inputs[39m
+[32m[Nest] 3637  - [39m09/01/2026, 4:29:03 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32m[object Object][39m
+[32m[Nest] 3637  - [39m09/01/2026, 4:29:03 AM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mLoaded information into DB[39m
+[32m[Nest] 3637  - [39m09/01/2026, 4:29:03 AM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+[32m[Nest] 3637  - [39m09/01/2026, 4:29:03 AM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+PASS src/appControllerHistorical.gold.spec.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       4 failed, 6 passed, 10 total
+Snapshots:   0 total
+Time:        1.66 s
+Test results written to: ../tmp/jest-unit.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

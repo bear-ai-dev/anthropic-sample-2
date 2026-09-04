@@ -1,0 +1,6 @@
+[32m[Nest] 845  - [39m09/01/2026, 10:40:48 PM [32m    LOG[39m [38;5;3m[awsEc2] [39m[32mStarting get all Volumes across enabled regions[39m
+[95m[Nest] 845  - [39m09/01/2026, 10:40:48 PM [95m  DEBUG[39m [38;5;3m[awsEc2] [39m[95mTransient error RequestLimitExceeded (attempt 1/10), retrying in 110ms[39m
+[33m[Nest] 845  - [39m09/01/2026, 10:40:48 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mRegion eu-north-1 refuses reads (UnauthorizedOperation), omitting it from the sweep[39m
+[32m[Nest] 845  - [39m09/01/2026, 10:40:48 PM [32m    LOG[39m [38;5;3m[awsEc2] [39m[32mStarting get all Snapshots across enabled regions[39m
+[95m[Nest] 845  - [39m09/01/2026, 10:40:49 PM [95m  DEBUG[39m [38;5;3m[awsEc2] [39m[95mTransient error RequestLimitExceeded (attempt 1/10), retrying in 176ms[39m
+[33m[Nest] 845  - [39m09/01/2026, 10:40:50 PM [33m   WARN[39m [38;5;3m[awsEc2] [39m[33mRegion ap-northeast-1 refuses reads (UnauthorizedOperation), omitting it from the sweep[39m

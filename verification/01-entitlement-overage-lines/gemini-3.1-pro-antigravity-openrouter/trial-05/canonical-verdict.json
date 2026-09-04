@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "01-entitlement-overage-lines",
+  "arm": "gemini-3.1-pro-antigravity-openrouter",
+  "trial_number": 5,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

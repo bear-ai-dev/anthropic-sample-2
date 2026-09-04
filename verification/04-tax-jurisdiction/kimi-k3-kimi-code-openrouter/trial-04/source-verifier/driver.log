@@ -1,0 +1,104 @@
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_calloway, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 19cf075e-f9d5-4369-9cfd-3fb0bf2d79f8 for business biz_calloway[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_calloway, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 5ecb90b5-cb4c-405b-b350-46c258531cf2 for business biz_calloway[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_calloway, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[31m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [31m  ERROR[39m [38;5;3m[TaxService] [39m[31mTax authority failed to price invoice destination: TaxjarError: Bad Request - to_zip is not a valid postal code for to_state[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 1ad51ad2-9d10-4e87-99b7-871bc593fc78 for business biz_verdant[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:26 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice efb99ffa-2471-4049-833f-3e131417e8da for business biz_verdant[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_verdant, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 03478174-bdc1-41f7-abbc-5f7103e8b4a9 for business biz_verdant[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_ostara, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice d9a57683-d202-4ae1-b574-d4cd59ee8ff9 for business biz_ostara[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_ostara, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 11b490e2-ccc4-4baf-9bd8-938ac2b2a1e0 for business biz_ostara[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_tidewell, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mUpdating invoice 76cf61c8-3e76-428b-95c5-ca49c5e62dda for business biz_tidewell[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mStarting Update for Invoice, current status: Open, new status: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mUpdating Invoice Status to: Paid[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InvoicesService] [39m[32mCreating invoice for business biz_solano, currency: USD[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566/influx, Influx Org: meteringco[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[Invoice] [39m[32mValidate status update[39m
+[95m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [95m  DEBUG[39m [38;5;3m[Invoice] [39m[95mInvoice status updated to Open[39m
+[32m[Nest] 2125  - [39m09/01/2026, 4:41:27 PM [32m    LOG[39m [38;5;3m[PaymentService] [39m[32mPublishing event for manual[39m

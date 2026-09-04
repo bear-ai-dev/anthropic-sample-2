@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "task": "01-linearizable-scan",
+  "arm": "kimi-k3-kimi-code-openrouter",
+  "trial_number": 5,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Modal strict deadline snapshot"
+}

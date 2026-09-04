@@ -1,0 +1,494 @@
+{
+  "accounts": {},
+  "tax_authority": {
+    "calls": [
+      {
+        "at": 1788303400.7817936,
+        "environment": "sandbox",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "from_country": "us",
+          "from_zip": "02139",
+          "from_state": "ma",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "us",
+          "to_zip": "94105",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "shipping": 0,
+          "line_items": [
+            {
+              "quantity": 1,
+              "product_tax_code": "31000",
+              "unit_price": 1250
+            },
+            {
+              "quantity": 12,
+              "product_tax_code": "31000",
+              "unit_price": 18.75
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303400.7974913,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "transaction_id": "25286ea0-6d05-4049-85e1-2b283a63d51e",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "us",
+          "to_zip": "94105",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street Suite 210",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 94.03125
+        }
+      },
+      {
+        "at": 1788303400.8053703,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "transaction_id": "10b790a5-afc7-49c1-94c0-282f94ca9945",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "us",
+          "to_zip": "60601",
+          "to_state": "il",
+          "to_city": "Chicago",
+          "to_street": "233 South Wacker Drive",
+          "amount": 1362.5,
+          "shipping": 0,
+          "sales_tax": 0
+        }
+      },
+      {
+        "at": 1788303400.8093042,
+        "environment": "sandbox",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "from_country": "us",
+          "from_zip": "02139",
+          "from_state": "ma",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "us",
+          "to_zip": "60601",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "1 Front Street",
+          "shipping": 0,
+          "line_items": [
+            {
+              "quantity": 340,
+              "product_tax_code": "31000",
+              "unit_price": 0.85
+            },
+            {
+              "quantity": 25,
+              "product_tax_code": "31000",
+              "unit_price": 44
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303400.8140569,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "se",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "shipping": 0,
+          "line_items": [
+            {
+              "quantity": 1,
+              "product_tax_code": "40030",
+              "unit_price": 1250
+            },
+            {
+              "quantity": 12,
+              "product_tax_code": "40030",
+              "unit_price": 18.75
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303400.8217716,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "3dbdab58-160a-483b-8c9c-69843b7a4edd",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "se",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 184.375
+        }
+      },
+      {
+        "at": 1788303400.825004,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "gb",
+          "to_zip": "EC1V 9BW",
+          "to_state": "",
+          "to_city": "London",
+          "to_street": "40 Bowling Green Lane",
+          "shipping": 0,
+          "line_items": [
+            {
+              "quantity": 18,
+              "product_tax_code": "40030",
+              "unit_price": 65
+            },
+            {
+              "quantity": 1,
+              "product_tax_code": "40030",
+              "unit_price": 192.5
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303400.8303072,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "au",
+          "to_zip": "2000",
+          "to_state": "nsw",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "shipping": 0,
+          "line_items": [
+            {
+              "quantity": 340,
+              "product_tax_code": "40030",
+              "unit_price": 0.85
+            },
+            {
+              "quantity": 25,
+              "product_tax_code": "40030",
+              "unit_price": 44
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303400.835998,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "b068774d-6622-46b1-96ed-64d186eedbee",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "au",
+          "to_zip": "2000",
+          "to_state": "nsw",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389,
+          "shipping": 0,
+          "sales_tax": 69.45
+        }
+      },
+      {
+        "at": 1788303400.8390825,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "jp",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "shipping": 0,
+          "line_items": [
+            {
+              "quantity": 1,
+              "product_tax_code": "40030",
+              "unit_price": 1250
+            },
+            {
+              "quantity": 12,
+              "product_tax_code": "40030",
+              "unit_price": 18.75
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788303400.8455596,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "3c519e7a-a319-4d67-aca4-f0690afefffd",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "jp",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 73.75
+        }
+      },
+      {
+        "at": 1788303400.851775,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_ostara_6d44",
+        "account": "acct_ostara",
+        "body": {
+          "transaction_id": "f87a5920-9da4-4de3-a5eb-ba864a54a0ec",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "nl",
+          "to_zip": "3013 AL",
+          "to_state": "Zuid-Holland",
+          "to_city": "Rotterdam",
+          "to_street": "Weena 505",
+          "amount": 1362.5,
+          "shipping": 0,
+          "sales_tax": 286.125
+        }
+      },
+      {
+        "at": 1788303400.8576937,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_ostara_6d44",
+        "account": "acct_ostara",
+        "body": {
+          "transaction_id": "cbba6212-adcb-4fb5-816a-65079848f2ee",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "nl",
+          "to_zip": "3511 BT",
+          "to_state": "Utrecht",
+          "to_city": "Utrecht",
+          "to_street": "Sint Jacobsstraat 200",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 0
+        }
+      }
+    ],
+    "orders": [
+      {
+        "transaction_id": "25286ea0-6d05-4049-85e1-2b283a63d51e",
+        "account": "acct_calloway",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "25286ea0-6d05-4049-85e1-2b283a63d51e",
+          "user_id": "acct_calloway",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "us",
+          "to_zip": "94105",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street Suite 210",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 94.03125,
+          "line_items": []
+        }
+      },
+      {
+        "transaction_id": "10b790a5-afc7-49c1-94c0-282f94ca9945",
+        "account": "acct_calloway",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "10b790a5-afc7-49c1-94c0-282f94ca9945",
+          "user_id": "acct_calloway",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "us",
+          "to_zip": "60601",
+          "to_state": "il",
+          "to_city": "Chicago",
+          "to_street": "233 South Wacker Drive",
+          "amount": 1362.5,
+          "shipping": 0.0,
+          "sales_tax": 0.0,
+          "line_items": []
+        }
+      },
+      {
+        "transaction_id": "3dbdab58-160a-483b-8c9c-69843b7a4edd",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "3dbdab58-160a-483b-8c9c-69843b7a4edd",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "se",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 184.375,
+          "line_items": []
+        }
+      },
+      {
+        "transaction_id": "b068774d-6622-46b1-96ed-64d186eedbee",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "b068774d-6622-46b1-96ed-64d186eedbee",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "au",
+          "to_zip": "2000",
+          "to_state": "nsw",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389.0,
+          "shipping": 0.0,
+          "sales_tax": 69.45,
+          "line_items": []
+        }
+      },
+      {
+        "transaction_id": "3c519e7a-a319-4d67-aca4-f0690afefffd",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "3c519e7a-a319-4d67-aca4-f0690afefffd",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "jp",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 73.75,
+          "line_items": []
+        }
+      },
+      {
+        "transaction_id": "f87a5920-9da4-4de3-a5eb-ba864a54a0ec",
+        "account": "acct_ostara",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "f87a5920-9da4-4de3-a5eb-ba864a54a0ec",
+          "user_id": "acct_ostara",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "nl",
+          "to_zip": "3013 AL",
+          "to_state": "Zuid-Holland",
+          "to_city": "Rotterdam",
+          "to_street": "Weena 505",
+          "amount": 1362.5,
+          "shipping": 0.0,
+          "sales_tax": 286.125,
+          "line_items": []
+        }
+      },
+      {
+        "transaction_id": "cbba6212-adcb-4fb5-816a-65079848f2ee",
+        "account": "acct_ostara",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "cbba6212-adcb-4fb5-816a-65079848f2ee",
+          "user_id": "acct_ostara",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "meteringco",
+          "to_country": "nl",
+          "to_zip": "3511 BT",
+          "to_state": "Utrecht",
+          "to_city": "Utrecht",
+          "to_street": "Sint Jacobsstraat 200",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 0.0,
+          "line_items": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing automated token aggregation event, logging inputs[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "rate": "0 */6 * * *",
+  "businessID": "harborline-freight",
+  "subject": "auth0|harborline-ops-6d21",
+  "scheduleParameters": {
+    "businessID": "harborline-freight",
+    "subject": "auth0|harborline-ops-6d21",
+    "dimensionType": "aggregation-processor",
+    "startDate": "2026-08-31T16:02:39.974Z",
+    "endDate": "2026-08-31T22:02:39.974Z"
+  }
+}
+
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mClosing token period for businessID: harborline-freight, meteringcoCustomerId: cus-2d83-harborline-prod, window: 2026-08-31T16:02:39.974Z to 2026-08-31T22:02:39.974Z, tokenAmount: 0.008[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for meteringco customerId: cus-2d83-harborline-prod[39m
+WARN: Write to InfluxDB failed (attempt: 1). m [HttpError]: invalid literal for int() with base 10: 'NaN000000'
+    at IncomingMessage.<anonymous> (/app/node_modules/@influxdata/influxdb-client/src/impl/node/NodeHttpTransport.ts:354:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  statusCode: 500,
+  statusMessage: 'Internal Server Error',
+  body: `{"error": "ValueError", "message": "invalid literal for int() with base 10: 'NaN000000'"}`,
+  contentType: 'application/json',
+  json: {
+    error: 'ValueError',
+    message: "invalid literal for int() with base 10: 'NaN000000'"
+  },
+  code: undefined,
+  _retryAfter: 0
+}
+[33m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [33m   WARN[39m [38;5;3m[InfluxService] [39m[33mFailed to initally load points into DB. Retrying[39m
+[33m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [33m   WARN[39m [38;5;3m[InfluxService] [39m[33mObject:[39m
+{
+  "statusCode": 500,
+  "statusMessage": "Internal Server Error",
+  "body": "{\"error\": \"ValueError\", \"message\": \"invalid literal for int() with base 10: 'NaN000000'\"}",
+  "contentType": "application/json",
+  "json": {
+    "error": "ValueError",
+    "message": "invalid literal for int() with base 10: 'NaN000000'"
+  },
+  "message": "invalid literal for int() with base 10: 'NaN000000'",
+  "name": "HttpError",
+  "_retryAfter": 0,
+  "stack": "HttpError: invalid literal for int() with base 10: 'NaN000000'\n    at IncomingMessage.<anonymous> (/app/node_modules/@influxdata/influxdb-client/src/impl/node/NodeHttpTransport.ts:354:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)"
+}
+
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing automated token aggregation event, logging inputs[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "rate": "0 */6 * * *",
+  "businessID": "harborline-freight",
+  "subject": "auth0|harborline-ops-6d21",
+  "scheduleParameters": {
+    "businessID": "harborline-freight",
+    "subject": "auth0|harborline-ops-6d21",
+    "dimensionType": "aggregation-processor",
+    "startDate": "2026-08-31T22:02:39.974Z",
+    "endDate": "2026-09-01T06:02:39.974Z"
+  }
+}
+
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mClosing token period for businessID: harborline-freight, meteringcoCustomerId: cus-2d83-harborline-prod, window: 2026-08-31T22:02:39.974Z to 2026-09-01T06:02:39.974Z, tokenAmount: 0.003[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for meteringco customerId: cus-2d83-harborline-prod[39m
+WARN: Write to InfluxDB failed (attempt: 1). m [HttpError]: invalid literal for int() with base 10: 'NaN000000'
+    at IncomingMessage.<anonymous> (/app/node_modules/@influxdata/influxdb-client/src/impl/node/NodeHttpTransport.ts:354:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  statusCode: 500,
+  statusMessage: 'Internal Server Error',
+  body: `{"error": "ValueError", "message": "invalid literal for int() with base 10: 'NaN000000'"}`,
+  contentType: 'application/json',
+  json: {
+    error: 'ValueError',
+    message: "invalid literal for int() with base 10: 'NaN000000'"
+  },
+  code: undefined,
+  _retryAfter: 0
+}
+[33m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [33m   WARN[39m [38;5;3m[InfluxService] [39m[33mFailed to initally load points into DB. Retrying[39m
+[33m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [33m   WARN[39m [38;5;3m[InfluxService] [39m[33mObject:[39m
+{
+  "statusCode": 500,
+  "statusMessage": "Internal Server Error",
+  "body": "{\"error\": \"ValueError\", \"message\": \"invalid literal for int() with base 10: 'NaN000000'\"}",
+  "contentType": "application/json",
+  "json": {
+    "error": "ValueError",
+    "message": "invalid literal for int() with base 10: 'NaN000000'"
+  },
+  "message": "invalid literal for int() with base 10: 'NaN000000'",
+  "name": "HttpError",
+  "_retryAfter": 0,
+  "stack": "HttpError: invalid literal for int() with base 10: 'NaN000000'\n    at IncomingMessage.<anonymous> (/app/node_modules/@influxdata/influxdb-client/src/impl/node/NodeHttpTransport.ts:354:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)"
+}
+
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing automated token aggregation event, logging inputs[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "rate": "0 */6 * * *",
+  "businessID": "harborline-staging",
+  "subject": "auth0|harborline-ops-6d21",
+  "scheduleParameters": {
+    "businessID": "harborline-staging",
+    "subject": "auth0|harborline-ops-6d21",
+    "dimensionType": "aggregation-processor",
+    "startDate": "2026-08-31T22:02:39.974Z",
+    "endDate": "2026-09-01T06:02:39.974Z"
+  }
+}
+
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[32m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mClosing token period for businessID: harborline-staging, meteringcoCustomerId: cus-6a17-harborline-alt, window: 2026-08-31T22:02:39.974Z to 2026-09-01T06:02:39.974Z, tokenAmount: 0.001[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-staging, purpose: apiCall[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for meteringco customerId: cus-6a17-harborline-alt[39m
+WARN: Write to InfluxDB failed (attempt: 1). m [HttpError]: invalid literal for int() with base 10: 'NaN000000'
+    at IncomingMessage.<anonymous> (/app/node_modules/@influxdata/influxdb-client/src/impl/node/NodeHttpTransport.ts:354:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  statusCode: 500,
+  statusMessage: 'Internal Server Error',
+  body: `{"error": "ValueError", "message": "invalid literal for int() with base 10: 'NaN000000'"}`,
+  contentType: 'application/json',
+  json: {
+    error: 'ValueError',
+    message: "invalid literal for int() with base 10: 'NaN000000'"
+  },
+  code: undefined,
+  _retryAfter: 0
+}
+[33m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [33m   WARN[39m [38;5;3m[InfluxService] [39m[33mFailed to initally load points into DB. Retrying[39m
+[33m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [33m   WARN[39m [38;5;3m[InfluxService] [39m[33mObject:[39m
+{
+  "statusCode": 500,
+  "statusMessage": "Internal Server Error",
+  "body": "{\"error\": \"ValueError\", \"message\": \"invalid literal for int() with base 10: 'NaN000000'\"}",
+  "contentType": "application/json",
+  "json": {
+    "error": "ValueError",
+    "message": "invalid literal for int() with base 10: 'NaN000000'"
+  },
+  "message": "invalid literal for int() with base 10: 'NaN000000'",
+  "name": "HttpError",
+  "_retryAfter": 0,
+  "stack": "HttpError: invalid literal for int() with base 10: 'NaN000000'\n    at IncomingMessage.<anonymous> (/app/node_modules/@influxdata/influxdb-client/src/impl/node/NodeHttpTransport.ts:354:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)"
+}
+
+[95m[Nest] 2783  - [39m09/01/2026, 4:02:44 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m

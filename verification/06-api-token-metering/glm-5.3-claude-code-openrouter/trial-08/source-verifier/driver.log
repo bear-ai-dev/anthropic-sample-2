@@ -1,0 +1,34 @@
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:12 AM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:12 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing Automated Token aggregation event, logging inputs[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:12 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "rate": "0 */6 * * *",
+  "businessID": "harborline-freight",
+  "subject": "auth0|harborline-ops-6d21"
+}
+
+[95m[Nest] 2771  - [39m09/01/2026, 4:45:12 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mAggregating tokens for businessID: harborline-freight[39m
+[95m[Nest] 2771  - [39m09/01/2026, 4:45:12 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:12 AM [32m    LOG[39m [38;5;3m[TokenConsumerService] [39m[32mNo registered traffic for businessID: harborline-freight between 2026-08-31T16:45:09.252Z and 2026-08-31T22:45:09.252Z[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing Automated Token aggregation event, logging inputs[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "rate": "0 */6 * * *",
+  "businessID": "harborline-freight",
+  "subject": "auth0|harborline-ops-6d21"
+}
+
+[95m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mAggregating tokens for businessID: harborline-freight[39m
+[95m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [32m    LOG[39m [38;5;3m[TokenConsumerService] [39m[32mNo registered traffic for businessID: harborline-freight between 2026-08-31T22:45:09.252Z and 2026-09-01T06:45:09.252Z[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing Automated Token aggregation event, logging inputs[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "rate": "0 */6 * * *",
+  "businessID": "harborline-staging",
+  "subject": "auth0|harborline-ops-6d21"
+}
+
+[95m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mAggregating tokens for businessID: harborline-staging[39m
+[95m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[32m[Nest] 2771  - [39m09/01/2026, 4:45:13 AM [32m    LOG[39m [38;5;3m[TokenConsumerService] [39m[32mNo registered traffic for businessID: harborline-staging between 2026-08-31T22:45:09.252Z and 2026-09-01T06:45:09.252Z[39m

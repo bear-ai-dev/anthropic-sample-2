@@ -1,0 +1,122 @@
+{
+  "steps": {
+    "p1.call-a": {
+      "ok": true
+    },
+    "p1.call-b": {
+      "ok": true
+    },
+    "p1.call-d": {
+      "ok": true
+    },
+    "p1.burst-1": {
+      "ok": true
+    },
+    "p1.burst-2": {
+      "ok": true
+    },
+    "p1.burst-3": {
+      "ok": true
+    },
+    "p1.burst-4": {
+      "ok": true
+    },
+    "p1.burst-5": {
+      "ok": true
+    },
+    "p1.flush": {
+      "ok": true
+    },
+    "p1.rollup": {
+      "ok": true
+    },
+    "p2.call-c": {
+      "ok": true
+    },
+    "p2.twin-1": {
+      "ok": true
+    },
+    "p2.twin-2": {
+      "ok": true
+    },
+    "p2.flush": {
+      "ok": true
+    },
+    "p2.redeliver-d": {
+      "ok": true
+    },
+    "p2.late-p": {
+      "ok": true
+    },
+    "p2.redeliver-c": {
+      "ok": true
+    },
+    "p2.flush-2": {
+      "ok": true
+    },
+    "p2.other-customer": {
+      "ok": true
+    },
+    "p2.flush-3": {
+      "ok": true
+    },
+    "p2.rollup": {
+      "ok": false,
+      "error": {
+        "name": "Error",
+        "message": "the aggregation entry point rejected every job shape offered",
+        "stack": "Error: the aggregation entry point rejected every job shape offered\n    at main (/app/.verifier-drive.ts:296:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+      }
+    },
+    "p2.rollup-other": {
+      "ok": false,
+      "error": {
+        "name": "Error",
+        "message": "the aggregation entry point rejected every job shape offered",
+        "stack": "Error: the aggregation entry point rejected every job shape offered\n    at main (/app/.verifier-drive.ts:296:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+      }
+    },
+    "callsite": {
+      "ok": true
+    }
+  },
+  "diagnostics": {
+    "registerEntryPoint": "register",
+    "aggregateEntryPoint": "aggregateTokens",
+    "p1.rollup.shape0": {
+      "name": "BadRequestException",
+      "message": "No apiCall dimension found for MeteringCo customer",
+      "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer\n    at Function.getTokenDimension (/app/src/token-consumer/token-consumer.service.ts:149:15)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:51:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:100:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    },
+    "p2.rollup.shape0": {
+      "name": "BadRequestException",
+      "message": "No apiCall dimension found for MeteringCo customer",
+      "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer\n    at Function.getTokenDimension (/app/src/token-consumer/token-consumer.service.ts:149:15)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:51:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:100:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    },
+    "p2.rollup.shape1": {
+      "name": "BadRequestException",
+      "message": "No apiCall dimension found for MeteringCo customer",
+      "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer\n    at Function.getTokenDimension (/app/src/token-consumer/token-consumer.service.ts:149:15)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:51:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:100:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    },
+    "p2.rollup.shape2": {
+      "name": "BadRequestException",
+      "message": "No customer found for businessID: undefined",
+      "stack": "BadRequestException: No customer found for businessID: undefined\n    at TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:91:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    },
+    "p2.rollup-other.shape0": {
+      "name": "BadRequestException",
+      "message": "No apiCall dimension found for MeteringCo customer",
+      "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer\n    at Function.getTokenDimension (/app/src/token-consumer/token-consumer.service.ts:149:15)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:51:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:100:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    },
+    "p2.rollup-other.shape1": {
+      "name": "BadRequestException",
+      "message": "No apiCall dimension found for MeteringCo customer",
+      "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer\n    at Function.getTokenDimension (/app/src/token-consumer/token-consumer.service.ts:149:15)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:51:56)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:100:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    },
+    "p2.rollup-other.shape2": {
+      "name": "BadRequestException",
+      "message": "No customer found for businessID: undefined",
+      "stack": "BadRequestException: No customer found for businessID: undefined\n    at TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:91:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async main (/app/.verifier-drive.ts:289:25)"
+    }
+  }
+}

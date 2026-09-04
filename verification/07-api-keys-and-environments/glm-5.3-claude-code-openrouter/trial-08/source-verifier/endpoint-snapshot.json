@@ -1,0 +1,484 @@
+{
+  "accounts": {},
+  "influx": {
+    "buckets": {
+      "local-config": [
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyWindermereProdEvents@clients",
+            "businessID": "windermere",
+            "environment": "production"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 1
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyWindermereProdEvents@clients"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 2
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyWindermereProdBilling@clients",
+            "businessID": "windermere",
+            "environment": "production"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 3
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyWindermereProdBilling@clients"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 4
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyWindermereSbxEvents@clients",
+            "businessID": "windermere-sandbox",
+            "environment": "sandbox"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 5
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyWindermereSbxEvents@clients"
+          },
+          "fields": {
+            "environment": "sandbox"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 6
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyWindermereSbxDrill@clients",
+            "businessID": "windermere-sandbox",
+            "environment": "sandbox"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 7
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyWindermereSbxDrill@clients"
+          },
+          "fields": {
+            "environment": "sandbox"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 8
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyAshcombeProdEvents@clients",
+            "businessID": "ashcombe",
+            "environment": "production"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 11
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyAshcombeProdEvents@clients"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 12
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyAshcombeSbxEvents@clients",
+            "businessID": "ashcombe-sandbox",
+            "environment": "sandbox"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 13
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyAshcombeSbxEvents@clients"
+          },
+          "fields": {
+            "environment": "sandbox"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 14
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "auth0|opwindermere93",
+            "businessID": "windermere",
+            "environment": "production"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 15
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "auth0|opwindermere93",
+            "businessID": "windermere-sandbox",
+            "environment": "sandbox"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 16
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "auth0|opwindermere93"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 17
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "auth0|opashcombe58",
+            "businessID": "ashcombe",
+            "environment": "production"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 18
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "auth0|opashcombe58",
+            "businessID": "ashcombe-sandbox",
+            "environment": "sandbox"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 19
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "auth0|opashcombe58"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2024-02-05T09:00:00.000000000Z",
+          "time_ns": 1707123600000000000,
+          "seq": 20
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "subject": "keyWindermereProdLegacy@clients",
+            "businessID": "windermere",
+            "environment": "production",
+            "softDelete": "deleted"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2024-02-06T09:00:00.000000000Z",
+          "time_ns": 1707210000000000000,
+          "seq": 9
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "keyWindermereProdLegacy@clients"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2024-02-06T09:00:00.000000000Z",
+          "time_ns": 1707210000000000000,
+          "seq": 10
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "auth0|opwindermere93"
+          },
+          "fields": {
+            "environment": "sandbox"
+          },
+          "time": "2026-09-01T03:49:54.681944219Z",
+          "time_ns": 1788234594681944219,
+          "seq": 21
+        },
+        {
+          "measurement": "UserDataEnv",
+          "tags": {
+            "businessID": "windermere-sandbox",
+            "environment": "sandbox",
+            "softDelete": "deleted",
+            "subject": "keyWindermereSbxEvents@clients"
+          },
+          "fields": {
+            "userStatus": "live"
+          },
+          "time": "2026-09-01T03:49:55.875644995Z",
+          "time_ns": 1788234595875644995,
+          "seq": 22
+        },
+        {
+          "measurement": "UserActiveEnvironment",
+          "tags": {
+            "subject": "auth0|opwindermere93"
+          },
+          "fields": {
+            "environment": "production"
+          },
+          "time": "2026-09-01T03:49:56.143454606Z",
+          "time_ns": 1788234596143454606,
+          "seq": 23
+        }
+      ]
+    },
+    "writes": 3,
+    "deletes": [],
+    "queries": [
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.000Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.044Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.087Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.130Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.173Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"windermere\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.316Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.359Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.400Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyAshcombeProdEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.448Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.491Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.534Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"appMeteringCoDocsSite@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.542Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.584Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.626Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereProdLegacy@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.639Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"environment\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.687Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.730Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.773Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.816Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.857Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"windermere-sandbox\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.945Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:54.987Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.029Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereProdEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.038Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.080Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.123Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereProdEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.129Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.173Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.215Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"windermere-sandbox\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.309Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.351Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.395Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.438Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.479Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"windermere-sandbox\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.574Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.617Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.660Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxDrill@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.747Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.788Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.831Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.879Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.922Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"keyWindermereSbxEvents@clients\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.929Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:55.971Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.013Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"windermere-sandbox\")\n        |> filter(fn: (r) => r[\"environment\"] == \"sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.102Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"environment\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.147Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.188Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.233Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserActiveEnvironment\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.276Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.317Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"windermere\")\n        |> filter(fn: (r) => r[\"environment\"] == \"production\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"subject\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"local-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-01T03:49:56.406Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"UserDataEnv\")\n        |> filter(fn: (r) => r[\"subject\"] == \"auth0|opwindermere93\")\n        |> group(columns: [\"environment\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> top(n: 1, columns:[\"_time\"])\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")"
+    ]
+  },
+  "identity": {
+    "clients": {
+      "appMeteringCoDocsSite": {
+        "name": "MeteringCo documentation site",
+        "client_secret": "meteringco-docs-site-secret",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "appWindermerePortalSite": {
+        "name": "Windermere customer portal",
+        "client_secret": "windermere-portal-site-secret",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "dashWindermereConsoleMgmt02": {
+        "name": "MeteringCo Console Management",
+        "client_secret": "console-management-secret-holdout",
+        "app_type": "non_interactive",
+        "management": true
+      },
+      "keyAshcombeProdEvents": {
+        "name": "Ashcombe production events",
+        "client_secret": "ashcombe-prod-events-secret",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "keyAshcombeSbxEvents": {
+        "name": "Ashcombe sandbox events",
+        "client_secret": "ashcombe-sbx-events-secret",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "keyWindermereProdBilling": {
+        "name": "Windermere production billing",
+        "client_secret": "windermere-prod-[REDACTED_AWS_SECRET_ACCESS_KEY]",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "keyWindermereProdEvents": {
+        "name": "Windermere production events",
+        "client_secret": "windermere-prod-events-secret",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "keyWindermereProdLegacy": {
+        "name": "Windermere production, retired",
+        "client_secret": "windermere-prod-legacy-secret",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "keyWindermereSbxDrill": {
+        "name": "Windermere sandbox drill",
+        "client_secret": "sk_12be9bffefbc8f02acc8d52e210f5d873fb68b5c",
+        "app_type": "non_interactive",
+        "management": false
+      },
+      "sessAshcombeConsole02": {
+        "name": "Ashcombe console sign-in",
+        "client_secret": "ashcombe-console-secret",
+        "app_type": "spa",
+        "management": false
+      },
+      "sessWindermereConsole02": {
+        "name": "Windermere console sign-in",
+        "client_secret": "windermere-console-secret",
+        "app_type": "spa",
+        "management": false
+      },
+      "sessWindermereViewer02": {
+        "name": "Windermere console sign-in, view only",
+        "client_secret": "windermere-viewer-secret",
+        "app_type": "spa",
+        "management": false
+      }
+    },
+    "permissions": {
+      "keyWindermereProdEvents@clients": [
+        "keys:read"
+      ],
+      "keyWindermereSbxEvents@clients": [
+        "keys:read"
+      ]
+    },
+    "rotations": [
+      {
+        "at": 1788234595.7026975,
+        "client_id": "keyWindermereSbxDrill"
+      }
+    ],
+    "deleted_client_ids": [
+      "keyWindermereSbxEvents"
+    ],
+    "token_grants": [
+      {
+        "at": 1788234593.885764,
+        "client_id": "sessWindermereConsole02",
+        "audience": "https://example1234.execute-api.us-east-1.amazonaws.com"
+      },
+      {
+        "at": 1788234593.907973,
+        "client_id": "sessWindermereViewer02",
+        "audience": "https://example1234.execute-api.us-east-1.amazonaws.com"
+      },
+      {
+        "at": 1788234593.9313872,
+        "client_id": "keyWindermereSbxEvents",
+        "audience": "https://example1234.execute-api.us-east-1.amazonaws.com"
+      },
+      {
+        "at": 1788234594.2168388,
+        "client_id": "dashWindermereConsoleMgmt02",
+        "audience": "https://example-tenant.us.auth0.com/api/v2/"
+      }
+    ],
+    "token_denials": [],
+    "permission_grants": []
+  }
+}

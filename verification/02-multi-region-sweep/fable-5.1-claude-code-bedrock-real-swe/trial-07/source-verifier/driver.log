@@ -1,0 +1,14 @@
+[32m[Nest] 925  - [39m09/01/2026, 10:55:34 PM [32m    LOG[39m [38;5;3m[awsEc2RegionSweep] [39m[32mStarting multi-region EBS volume sweep[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:34 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 1/6) after 346ms[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:34 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 2/6) after 473ms[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:35 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 3/6) after 1585ms[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:36 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 4/6) after 1359ms[39m
+[33m[Nest] 925  - [39m09/01/2026, 10:55:38 PM [33m   WARN[39m [38;5;3m[awsEc2RegionSweep] [39m[33mSkipping region eu-north-1: unauthorized (UnauthorizedOperation) You are not authorized to perform this operation in this Region[39m
+[32m[Nest] 925  - [39m09/01/2026, 10:55:38 PM [32m    LOG[39m [38;5;3m[awsEc2RegionSweep] [39m[32mEBS volume sweep complete: 6 region(s) read, 1 skipped[39m
+[32m[Nest] 925  - [39m09/01/2026, 10:55:38 PM [32m    LOG[39m [38;5;3m[awsEc2RegionSweep] [39m[32mStarting multi-region EBS snapshot sweep[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:38 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 1/6) after 189ms[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:38 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 2/6) after 728ms[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:39 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 3/6) after 101ms[39m
+[95m[Nest] 925  - [39m09/01/2026, 10:55:39 PM [95m  DEBUG[39m [38;5;3m[awsEc2RegionSweep] [39m[95mRetrying RequestLimitExceeded (attempt 4/6) after 2191ms[39m
+[33m[Nest] 925  - [39m09/01/2026, 10:55:41 PM [33m   WARN[39m [38;5;3m[awsEc2RegionSweep] [39m[33mSkipping region ap-northeast-1: unauthorized (UnauthorizedOperation) You are not authorized to perform this operation in this Region[39m
+[32m[Nest] 925  - [39m09/01/2026, 10:55:41 PM [32m    LOG[39m [38;5;3m[awsEc2RegionSweep] [39m[32mEBS snapshot sweep complete: 6 region(s) read, 1 skipped[39m

@@ -1,0 +1,54 @@
+{
+  "id": "de4c77b5-aa2b-4189-b71e-f02146740060",
+  "trial_name": "sample-linearizable-scan__XkgWtZL",
+  "task_name": "sample/linearizable-scan",
+  "trial_uri": "file:///private/tmp/benchmark-recovery-4qG6HI/trials/run-6aceaecb8b55/sample-linearizable-scan__XkgWtZL",
+  "task_id": {
+    "path": "/tmp/benchmark-recovery-4qG6HI/tasks/sample-linearizable-scan"
+  },
+  "task_checksum": "recovered-from-original-sandbox",
+  "config": {
+    "task": {
+      "path": "/tmp/benchmark-recovery-4qG6HI/tasks/sample-linearizable-scan"
+    },
+    "agent": {
+      "name": "claude-code",
+      "model_name": "bedrock/us.anthropic.claude-opus-5"
+    },
+    "trial_name": "sample-linearizable-scan__XkgWtZL",
+    "job_id": "run-6aceaecb8b55"
+  },
+  "agent_info": {
+    "name": "claude-code",
+    "version": "2.1.236",
+    "model_info": {
+      "name": "bedrock/us.anthropic.claude-opus-5",
+      "provider": "bedrock"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 15645600,
+    "n_cache_tokens": 15279358,
+    "n_output_tokens": 132513,
+    "cost_usd": 0.5833402499999999,
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "exception_info": null,
+  "started_at": "2026-09-02T13:24:26.791706+00:00",
+  "finished_at": "2026-09-02T13:26:00.754565+00:00",
+  "verifier": {
+    "started_at": "2026-09-02T13:24:26.791706+00:00",
+    "finished_at": "2026-09-02T13:26:00.754580+00:00"
+  },
+  "recovery": {
+    "driver": "local",
+    "source_task_arn": "arn:aws:ecs:us-east-1:000000000000:task/benchmark-runner/5a271d6ae9164af79fe72ba3ccb9705a",
+    "verifier_exit_code": 0
+  }
+}

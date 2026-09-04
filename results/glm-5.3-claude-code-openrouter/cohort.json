@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "arm": "glm-5.3-claude-code-openrouter",
+  "model_label": "GLM 5.3",
+  "model": "z-ai/glm-5.3",
+  "provider": "OpenRouter",
+  "harness": "Claude Code",
+  "harness_version": "2.1.250",
+  "reasoning_effort": [
+    "high"
+  ],
+  "tasks": [
+    "01-entitlement-overage-lines",
+    "01-linearizable-scan",
+    "02-multi-region-sweep",
+    "03-analytics-stream-reducer",
+    "04-tax-jurisdiction",
+    "06-api-token-metering",
+    "07-api-keys-and-environments",
+    "09-s3-datastore-measurement",
+    "10-customer-identity-migration",
+    "11-customer-billing-schedule-migration"
+  ],
+  "scored_trials": 80,
+  "passes": 23,
+  "admission": "strict-valid trials only"
+}

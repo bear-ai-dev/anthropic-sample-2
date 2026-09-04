@@ -1,0 +1,596 @@
+{
+  "accounts": {},
+  "tax_authority": {
+    "calls": [
+      {
+        "at": 1788297440.2554169,
+        "environment": "sandbox",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "from_country": "us",
+          "from_zip": "02139",
+          "from_state": "ma",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "us",
+          "to_zip": "94105",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "amount": 1475,
+          "shipping": 0,
+          "customer_id": "cus_marlowe",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.2629287,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "transaction_id": "01ebf26f-42c4-494a-a7ca-95989f93bde1",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "from_country": "us",
+          "from_zip": "02139",
+          "from_state": "ma",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "us",
+          "to_zip": "94105",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 94.03,
+          "customer_id": "cus_marlowe",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.3085337,
+        "environment": "sandbox",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "transaction_id": "5ca4baee-0ccd-4c78-b74d-657133b77dc2",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "from_country": "us",
+          "from_zip": "02139",
+          "from_state": "ma",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "us",
+          "to_zip": "60601",
+          "to_state": "il",
+          "to_city": "Chicago",
+          "to_street": "233 South Wacker Drive",
+          "amount": 1362.5,
+          "shipping": 0,
+          "sales_tax": 0,
+          "customer_id": "cus_tarrant",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 18,
+              "unit_price": 65,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 192.5,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.3517914,
+        "environment": "sandbox",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_sbx_calloway_5e83",
+        "account": "acct_calloway",
+        "body": {
+          "from_country": "us",
+          "from_zip": "02139",
+          "from_state": "ma",
+          "from_city": "Cambridge",
+          "from_street": "245 Main Street",
+          "to_country": "us",
+          "to_zip": "60601",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "1 Front Street",
+          "amount": 1389,
+          "shipping": 0,
+          "customer_id": "cus_ellery",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 340,
+              "unit_price": 0.85,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 25,
+              "unit_price": 44,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.3967097,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "se",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475,
+          "shipping": 0,
+          "customer_id": "cus_ostergaard",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.4400575,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "523db651-8751-4e14-9284-476fc3ea506f",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "se",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 184.38,
+          "customer_id": "cus_ostergaard",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.48349,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "gb",
+          "to_zip": "EC1V 9BW",
+          "to_state": "",
+          "to_city": "London",
+          "to_street": "40 Bowling Green Lane",
+          "amount": 1362.5,
+          "shipping": 0,
+          "customer_id": "cus_fenwick",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 18,
+              "unit_price": 65,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 192.5,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.5281823,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "au",
+          "to_zip": "2000",
+          "to_state": "nsw",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389,
+          "shipping": 0,
+          "customer_id": "cus_navarro",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 340,
+              "unit_price": 0.85,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 25,
+              "unit_price": 44,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.5726752,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "8ca61c2c-ea5d-4298-afef-18e73ee61ab7",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "au",
+          "to_zip": "2000",
+          "to_state": "nsw",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389,
+          "shipping": 0,
+          "sales_tax": 69.45,
+          "customer_id": "cus_navarro",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 340,
+              "unit_price": 0.85,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 25,
+              "unit_price": 44,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.615821,
+        "environment": "production",
+        "resource": "taxes",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "jp",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475,
+          "shipping": 0,
+          "customer_id": "cus_quillon",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "at": 1788297440.6597326,
+        "environment": "production",
+        "resource": "transactions/orders",
+        "method": "POST",
+        "api_key": "tjk_prd_verdant_2a19",
+        "account": "acct_verdant",
+        "body": {
+          "transaction_id": "53a2d94a-109f-48e7-bafa-b59b6809c422",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "from_country": "ie",
+          "from_zip": "D02 P820",
+          "from_state": "",
+          "from_city": "Dublin",
+          "from_street": "1 Grand Canal Square",
+          "to_country": "jp",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475,
+          "shipping": 0,
+          "sales_tax": 73.75,
+          "customer_id": "cus_quillon",
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      }
+    ],
+    "orders": [
+      {
+        "transaction_id": "01ebf26f-42c4-494a-a7ca-95989f93bde1",
+        "account": "acct_calloway",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "01ebf26f-42c4-494a-a7ca-95989f93bde1",
+          "user_id": "acct_calloway",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "api",
+          "to_country": "us",
+          "to_zip": "94105",
+          "to_state": "ca",
+          "to_city": "San Francisco",
+          "to_street": "500 Howard Street",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 94.03,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "5ca4baee-0ccd-4c78-b74d-657133b77dc2",
+        "account": "acct_calloway",
+        "environment": "sandbox",
+        "payload": {
+          "transaction_id": "5ca4baee-0ccd-4c78-b74d-657133b77dc2",
+          "user_id": "acct_calloway",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "api",
+          "to_country": "us",
+          "to_zip": "60601",
+          "to_state": "il",
+          "to_city": "Chicago",
+          "to_street": "233 South Wacker Drive",
+          "amount": 1362.5,
+          "shipping": 0.0,
+          "sales_tax": 0.0,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 18,
+              "unit_price": 65,
+              "product_tax_code": "31000"
+            },
+            {
+              "id": "2",
+              "quantity": 1,
+              "unit_price": 192.5,
+              "product_tax_code": "31000"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "523db651-8751-4e14-9284-476fc3ea506f",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "523db651-8751-4e14-9284-476fc3ea506f",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "api",
+          "to_country": "se",
+          "to_zip": "111 22",
+          "to_state": "",
+          "to_city": "Stockholm",
+          "to_street": "Kungsgatan 8",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 184.38,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "8ca61c2c-ea5d-4298-afef-18e73ee61ab7",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "8ca61c2c-ea5d-4298-afef-18e73ee61ab7",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "api",
+          "to_country": "au",
+          "to_zip": "2000",
+          "to_state": "nsw",
+          "to_city": "Sydney",
+          "to_street": "55 Pitt Street",
+          "amount": 1389.0,
+          "shipping": 0.0,
+          "sales_tax": 69.45,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 340,
+              "unit_price": 0.85,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 25,
+              "unit_price": 44,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      },
+      {
+        "transaction_id": "53a2d94a-109f-48e7-bafa-b59b6809c422",
+        "account": "acct_verdant",
+        "environment": "production",
+        "payload": {
+          "transaction_id": "53a2d94a-109f-48e7-bafa-b59b6809c422",
+          "user_id": "acct_verdant",
+          "transaction_date": "2026-08-12T10:00:00.000Z",
+          "provider": "api",
+          "to_country": "jp",
+          "to_zip": "5310076",
+          "to_state": "",
+          "to_city": "Osaka",
+          "to_street": "1-1-88 Oyodonaka",
+          "amount": 1475.0,
+          "shipping": 0.0,
+          "sales_tax": 73.75,
+          "line_items": [
+            {
+              "id": "1",
+              "quantity": 1,
+              "unit_price": 1250,
+              "product_tax_code": "40030"
+            },
+            {
+              "id": "2",
+              "quantity": 12,
+              "unit_price": 18.75,
+              "product_tax_code": "40030"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

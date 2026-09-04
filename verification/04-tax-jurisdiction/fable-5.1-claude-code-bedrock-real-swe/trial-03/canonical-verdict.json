@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "04-tax-jurisdiction",
+  "arm": "fable-5.1-claude-code-bedrock-real-swe",
+  "trial_number": 3,
+  "reward": 0.0,
+  "passed": false,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

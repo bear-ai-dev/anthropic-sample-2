@@ -1,0 +1,124 @@
+{
+  "accounts": {},
+  "influx": {
+    "buckets": {
+      "dev-usage-data": [
+        {
+          "measurement": "usageMeasurement",
+          "tags": {
+            "businessID": "harborline-freight",
+            "customerId": "cus-harborline-4417",
+            "dimensionId": "8c3f5b21-7d94-4e60-a1f8-2b5c9d7e0a36"
+          },
+          "fields": {
+            "recordValue": 23.5
+          },
+          "time": "2026-09-04T00:34:36.468000000Z",
+          "time_ns": 1788482076468000000,
+          "seq": 5
+        }
+      ],
+      "dogfood-aggregate-bucket": [
+        {
+          "measurement": "tokenConsumer",
+          "tags": {
+            "customerId": "cus-2d83-harborline-prod",
+            "dimensionId": "697f07d0-3180-4351-bdff-7ca029e6c18d",
+            "businessID": "meteringco-production",
+            "metadata_tokenType": "\"apiCall\"",
+            "metadata_uuid": "\"ea9160b7-5c34-4d28-8f01-6b3e7a2c9d45\""
+          },
+          "fields": {
+            "recordValue": 0.001
+          },
+          "time": "2025-01-02T04:17:33.628000000Z",
+          "time_ns": 1735791453628000000,
+          "seq": 1
+        },
+        {
+          "measurement": "tokenConsumer",
+          "tags": {
+            "businessID": "meteringco-production",
+            "customerId": "cus-2d83-harborline-prod",
+            "dimensionId": "697f07d0-3180-4351-bdff-7ca029e6c18d",
+            "metadata_tokenType": "\"apiCall\"",
+            "metadata_uuid": "\"7447f45c-8601-4c92-8b2f-73bb14f2d9b3\""
+          },
+          "fields": {
+            "recordValue": 0.1
+          },
+          "time": "2026-09-04T00:44:41.673000000Z",
+          "time_ns": 1788482681673000000,
+          "seq": 6
+        }
+      ],
+      "prod-config": [
+        {
+          "measurement": "customer",
+          "tags": {
+            "customerId": "cus-2d83-harborline-prod",
+            "businessID": "meteringco-production",
+            "metadata": "{\"businessID\": \"harborline-freight\"}"
+          },
+          "fields": {
+            "recordValue": "Harborline Freight"
+          },
+          "time": "2024-11-19T11:02:41.339000000Z",
+          "time_ns": 1732014161339000000,
+          "seq": 2
+        },
+        {
+          "measurement": "customer",
+          "tags": {
+            "customerId": "cus-6a17-harborline-alt",
+            "businessID": "meteringco-sandbox",
+            "metadata": "{\"businessID\": \"harborline-staging\"}"
+          },
+          "fields": {
+            "recordValue": "Harborline Staging"
+          },
+          "time": "2024-11-19T11:03:16.882000000Z",
+          "time_ns": 1732014196882000000,
+          "seq": 3
+        }
+      ],
+      "verifier-marker": [
+        {
+          "measurement": "runMarker",
+          "tags": {
+            "run": "ddb862ad609f8baa0bca7b05"
+          },
+          "fields": {
+            "present": 1
+          },
+          "time": "2001-09-09T01:46:40.000000000Z",
+          "time_ns": 1000000000000000000,
+          "seq": 4
+        }
+      ]
+    },
+    "writes": 3,
+    "deletes": [],
+    "queries": [
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.118Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.128Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.171Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.216Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.260Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.303Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.349Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.392Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"dogfood-aggregate-bucket\")\n        |> range(start: 2026-09-03T12:44:36.468Z, stop:2026-09-03T18:44:36.468Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"tokenConsumer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"customerId\"] == \"cus-2d83-harborline-prod\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sum()\n        ",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.739Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.741Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.785Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.979Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:40.981Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:41.024Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"prod-config\")\n        |> range(start: 1970-01-01T00:00:00.000Z, stop:2026-09-04T00:44:41.216Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"CustomerConfig\" or r[\"_measurement\"] == \"customer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> unique(column: \"customerId\")\n        |> filter(fn: (r) => not exists r.softDelete or r.softDelete != \"deleted\")",
+      "from(bucket: \"dogfood-aggregate-bucket\")\n        |> range(start: 2026-09-03T18:44:36.468Z, stop:2026-09-04T02:44:36.468Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"tokenConsumer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"customerId\"] == \"cus-2d83-harborline-prod\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sum()\n        ",
+      "from(bucket: \"dogfood-aggregate-bucket\")\n        |> range(start: 2026-09-03T18:44:36.468Z, stop:2026-09-04T02:44:36.468Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"tokenConsumer\")\n        |> filter(fn: (r) => exists r.customerId)\n        |> filter(fn: (r) => r[\"customerId\"] == \"cus-6a17-harborline-alt\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\" or r[\"businessID\"] == \"meteringco-sandbox\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sum()\n        ",
+      "from(bucket: \"dogfood-aggregate-bucket\")\n        |> range(start: 1970-01-01T00:00:00.000Z)\n        |> filter(fn: (r) => r[\"_measurement\"] == \"tokenConsumer\")\n        |> filter(fn: (r) => r[\"businessID\"] == \"meteringco-production\")\n        |> filter(fn: (r) => exists r.dimensionId)\n        |> filter(fn: (r) => r[\"metadata_tokenType\"] == \"\\\"apiCall\\\"\")\n        |> group(columns: [\"_measurement\"], mode:\"by\")\n        |> sort(columns: [\"_time\"], desc: true)\n        |> limit(n: 1)"
+    ]
+  }
+}

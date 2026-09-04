@@ -1,0 +1,42 @@
+[31m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [31m  ERROR[39m [38;5;3m[PrivateAPIUsageController] [39m[31mFailed to process DB usage record for key: business-1/customer/usage.ndjson, publishing to DLQ[39m
+[31m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [31m  ERROR[39m [38;5;3m[PrivateAPIUsageController] [39m[31mSyntaxError: Unexpected token n in JSON at position 1[39m
+FAIL src/measurement-config/datastoreMeasurement.gold.spec.ts
+  ● S3 datastore measurement configuration › creates, persists, and returns provisioned datastore configuration
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 4
+    + Received  + 3
+
+    - ObjectContaining {
+    -   "dlq": "s3://usage-dlq/business-1",
+    -   "iamRoleArn": "arn:aws:iam::meteringco:role/datastore",
+    -   "ingestion": "s3://usage-bucket/business-1",
+    + Object {
+    +   "measurementId": "3f43b841-1452-430e-bca0-3ce3613fd97c",
+    +   "message": "Created Measurement Configuration",
+      }
+
+      253 |             }),
+      254 |         );
+    > 255 |         expect(returnedConfiguration).toEqual(
+          |                                       ^
+      256 |             expect.objectContaining({
+      257 |                 iamRoleArn: 'arn:aws:iam::meteringco:role/datastore',
+      258 |                 ingestion: 's3://usage-bucket/business-1',
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:255:39)
+
+[32m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mCreating Measurement Config with the following inputs[39m
+[32m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32m[object Object][39m
+[32m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mLoaded information into DB[39m
+[32m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+[32m[Nest] 2457  - [39m09/01/2026, 4:46:15 PM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+PASS src/appControllerHistorical.gold.spec.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       1 failed, 9 passed, 10 total
+Snapshots:   0 total
+Time:        1.683 s
+Test results written to: ../tmp/jest-unit.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

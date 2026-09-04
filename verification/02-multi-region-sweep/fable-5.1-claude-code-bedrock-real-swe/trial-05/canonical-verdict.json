@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "task": "02-multi-region-sweep",
+  "arm": "fable-5.1-claude-code-bedrock-real-swe",
+  "trial_number": 5,
+  "reward": 1.0,
+  "passed": true,
+  "admission": "strict-valid",
+  "canonical_source": "Real-SWE indexes/trials.json",
+  "verifier_regrade": false
+}

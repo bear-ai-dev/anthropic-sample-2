@@ -1,0 +1,11 @@
+{
+  "executed": 26,
+  "label": "grok-4.6-grok-build/trial-02",
+  "missing_user_errors": 0,
+  "nonzero": 2,
+  "recorded_ops": 26,
+  "skipped": 0,
+  "source_trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-2.json",
+  "timed_out": 0,
+  "unsupported": 0
+}

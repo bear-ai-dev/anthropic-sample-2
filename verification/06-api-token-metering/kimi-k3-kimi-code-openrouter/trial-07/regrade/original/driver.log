@@ -1,0 +1,167 @@
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing Token aggregation event, logging inputs[39m
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "businessID": "harborline-freight",
+  "startDate": "2026-09-03T12:21:01.285Z",
+  "endDate": "2026-09-03T18:21:01.285Z"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:04 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mAggregated 0 tokens for meteringco customerId: cus-2d83-harborline-prod from 2026-09-03T12:21:01.285Z to 2026-09-03T18:21:01.285Z[39m
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to aggregate tokens[39m
+[31m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "RangeError",
+  "message": "Invalid time value",
+  "stack": "RangeError: Invalid time value\n    at Date.toISOString (<anonymous>)\n    at InfluxService.aggregateMeteringCoToken (/app/src/influx/influx.service.ts:208:47)\n    at TokenConsumerService.aggregateTokens (/app/src/token-consumer/token-consumer.service.ts:201:55)\n    at async main (/app/.verifier-drive.ts:256:17)"
+}
+
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing Token aggregation event, logging inputs[39m
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "businessID": "harborline-freight",
+  "startDate": "2026-09-03T18:21:01.285Z",
+  "endDate": "2026-09-04T02:21:01.285Z"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mAggregated 0 tokens for meteringco customerId: cus-2d83-harborline-prod from 2026-09-03T18:21:01.285Z to 2026-09-04T02:21:01.285Z[39m
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing Token aggregation event, logging inputs[39m
+[32m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "businessID": "harborline-staging",
+  "startDate": "2026-09-03T18:21:01.285Z",
+  "endDate": "2026-09-04T02:21:01.285Z"
+}
+
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mAggregated 0 tokens for meteringco customerId: cus-6a17-harborline-alt from 2026-09-03T18:21:01.285Z to 2026-09-04T02:21:01.285Z[39m
+[95m[Nest] 2591  - [39m09/04/2026, 12:21:05 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m

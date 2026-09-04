@@ -1,0 +1,96 @@
+FAIL src/measurement-config/datastoreMeasurement.gold.spec.ts
+  ● S3 datastore measurement configuration › persists and restores every datastore access field
+
+    expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+    Expected: "ingestion", "s3://usage-bucket/business-1"
+    Received
+           1: "measurementId", "measurement-1"
+           2: "businessID", "business-1"
+           3: "subject", "subject-1"
+
+    Number of calls: 9
+
+      172 |             ['region', 'us-west-2'],
+      173 |         ]) {
+    > 174 |             expect(point.tag).toHaveBeenCalledWith(key, value);
+          |                               ^
+      175 |         }
+      176 |         const restored = MeasurementConfigEntity.dbModelToEntity({
+      177 |             _value: measurementMode.datastoreBased,
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:174:31)
+
+  ● S3 datastore measurement configuration › provisions a scoped IAM role and returns ingestion and DLQ locations
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: ObjectContaining {"dlq": "s3://usage-dlq/business-1", "iamRoleArn": "arn:aws:iam::meteringco:role/datastore", "ingestion": "s3://usage-bucket/business-1", "region": "us-east-1"}
+    Received: undefined
+
+      195 |     it('provisions a scoped IAM role and returns ingestion and DLQ locations', async () => {
+      196 |         const result = await DatastoreAccessInformation.setupAccess(accessEntity('000000000000'));
+    > 197 |         expect(result).toEqual(
+          |                        ^
+      198 |             expect.objectContaining({
+      199 |                 iamRoleArn: 'arn:aws:iam::meteringco:role/datastore',
+      200 |                 ingestion: 's3://usage-bucket/business-1',
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:197:24)
+
+  ● S3 datastore measurement configuration › updates account trust while preserving the existing role and external ID
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: ObjectContaining {"externalId": "external-1", "iamRoleArn": "arn:role"}
+    Received: undefined
+
+      233 |             accessEntity('000000000000', { iamRoleArn: 'arn:role', externalId: 'external-1' }),
+      234 |         );
+    > 235 |         expect(result).toEqual(expect.objectContaining({ iamRoleArn: 'arn:role', externalId: 'external-1' }));
+          |                        ^
+      236 |         const policy = JSON.parse(mockUpdateAssumeRolePolicy.mock.calls[0][0].PolicyDocument);
+      237 |         expect(policy.Statement[0].Principal.AWS).toBe('arn:aws:iam::000000000000:root');
+      238 |         expect(policy.Statement[0].Condition.StringEquals['sts:ExternalId']).toBe('external-1');
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:235:24)
+
+  ● S3 datastore measurement configuration › creates, persists, and returns provisioned datastore configuration
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 4
+    + Received  + 3
+
+    - ObjectContaining {
+    -   "dlq": "s3://usage-dlq/business-1",
+    -   "iamRoleArn": "arn:aws:iam::meteringco:role/datastore",
+    -   "ingestion": "s3://usage-bucket/business-1",
+    + Object {
+    +   "measurementId": "99754d4b-45fe-4772-8435-6f2e52c49671",
+    +   "message": "Created Measurement Configuration",
+      }
+
+      253 |             }),
+      254 |         );
+    > 255 |         expect(returnedConfiguration).toEqual(
+          |                                       ^
+      256 |             expect.objectContaining({
+      257 |                 iamRoleArn: 'arn:aws:iam::meteringco:role/datastore',
+      258 |                 ingestion: 's3://usage-bucket/business-1',
+
+      at Object.<anonymous> (measurement-config/datastoreMeasurement.gold.spec.ts:255:39)
+
+[32m[Nest] 2753  - [39m09/01/2026, 8:51:48 PM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mCreating Measurement Config with the following inputs[39m
+[32m[Nest] 2753  - [39m09/01/2026, 8:51:48 PM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32m[object Object][39m
+[32m[Nest] 2753  - [39m09/01/2026, 8:51:48 PM [32m    LOG[39m [38;5;3m[MeasurementConfigService] [39m[32mLoaded information into DB[39m
+[32m[Nest] 2753  - [39m09/01/2026, 8:51:48 PM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+[32m[Nest] 2753  - [39m09/01/2026, 8:51:48 PM [32m    LOG[39m [38;5;3m[PrivateAPIUsageController] [39m[32mStarting DB Usage Endpoint execution[39m
+PASS src/appControllerHistorical.gold.spec.ts
+
+Test Suites: 1 failed, 1 passed, 2 total
+Tests:       4 failed, 6 passed, 10 total
+Snapshots:   0 total
+Time:        1.753 s
+Test results written to: ../tmp/jest-unit.json
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

@@ -1,0 +1,124 @@
+[32m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:42 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "response": {
+    "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+    "error": "Bad Request",
+    "statusCode": 400
+  },
+  "status": 400,
+  "options": {},
+  "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+  "name": "BadRequestException",
+  "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod\n    at Function.getDimensionId (/app/src/token-consumer/token-consumer.service.ts:118:19)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:44:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:129:9)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "response": {
+    "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+    "error": "Bad Request",
+    "statusCode": 400
+  },
+  "status": 400,
+  "options": {},
+  "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+  "name": "BadRequestException",
+  "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod\n    at Function.getDimensionId (/app/src/token-consumer/token-consumer.service.ts:118:19)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:44:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:129:9)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "response": {
+    "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+    "error": "Bad Request",
+    "statusCode": 400
+  },
+  "status": 400,
+  "options": {},
+  "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+  "name": "BadRequestException",
+  "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod\n    at Function.getDimensionId (/app/src/token-consumer/token-consumer.service.ts:118:19)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:44:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:129:9)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "response": {
+    "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+    "error": "Bad Request",
+    "statusCode": 400
+  },
+  "status": 400,
+  "options": {},
+  "message": "No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod",
+  "name": "BadRequestException",
+  "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer: cus-2d83-harborline-prod\n    at Function.getDimensionId (/app/src/token-consumer/token-consumer.service.ts:118:19)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:44:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:129:9)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-staging, purpose: apiCall[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "response": {
+    "message": "No apiCall dimension found for MeteringCo customer: cus-6a17-harborline-alt",
+    "error": "Bad Request",
+    "statusCode": 400
+  },
+  "status": 400,
+  "options": {},
+  "message": "No apiCall dimension found for MeteringCo customer: cus-6a17-harborline-alt",
+  "name": "BadRequestException",
+  "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer: cus-6a17-harborline-alt\n    at Function.getDimensionId (/app/src/token-consumer/token-consumer.service.ts:118:19)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:44:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:129:9)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-staging, purpose: apiCall[39m
+[95m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 3324  - [39m09/01/2026, 1:14:43 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "response": {
+    "message": "No apiCall dimension found for MeteringCo customer: cus-6a17-harborline-alt",
+    "error": "Bad Request",
+    "statusCode": 400
+  },
+  "status": 400,
+  "options": {},
+  "message": "No apiCall dimension found for MeteringCo customer: cus-6a17-harborline-alt",
+  "name": "BadRequestException",
+  "stack": "BadRequestException: No apiCall dimension found for MeteringCo customer: cus-6a17-harborline-alt\n    at Function.getDimensionId (/app/src/token-consumer/token-consumer.service.ts:118:19)\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:44:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:129:9)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+

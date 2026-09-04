@@ -1,0 +1,6 @@
+cardinal-july: cus_falconry should carry no line for ['cardinal-support-tickets']
+cardinal-july: cus_larkspur should carry no line for ['cardinal-sandbox-hours']
+cardinal-july: cus_meridian should carry no line for ['cardinal-support-tickets']
+solstice-july: cus_cobalt is missing lines for ['solstice-model-invocations']
+solstice-july: cus_juniper is missing lines for ['solstice-bandwidth-gigabytes']
+reward=0.0
