@@ -1,4 +1,4 @@
-The agent has access to a private NestJS and TypeScript billing backend. It must finish customer-based billing schedules, route billing jobs correctly, create invoices for the correct period, and report failures without partial records.
+The agent has access to the full source code for a private billing application. It must create or replace a monthly billing schedule when a customer receives or changes a product plan, then generate each invoice for the correct customer and time period. Each billing job must go to the correct background worker, and a failed job must be reported without leaving behind an incomplete billing record.
 
 | Model | Harness | Passes | Scored rollouts | Pass rate |
 |---|---|---:|---:|---:|
@@ -13,5 +13,5 @@ The agent has access to a private NestJS and TypeScript billing backend. It must
 | Fable 5.1 | Claude Code | 11m | 26,216.4 | 20.0 |
 | GLM 5.3 | Claude Code | 25m | 57,737.9 | 97.0 |
 | Grok 4.6 | Grok Build | 9m | 6,050.0 | 16.9 |
-| Kimi K3 | Kimi Code | 11m | Not recorded | 26.9 |
+| Kimi K3 | Kimi Code | 11m | 18,692.2 | 26.9 |
 | GPT-5.6 Sol | Codex CLI | 18m | 12,946.1 | 28.1 |

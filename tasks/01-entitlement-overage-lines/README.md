@@ -1,4 +1,4 @@
-The agent has access to a private NestJS and TypeScript billing backend with a local AWS-compatible emulator. It must restore allowance and overage billing so invoices show the correct usage lines and quantities.
+The agent has access to the full source code for a private billing application and a local mock cloud account with example plans and usage. It must fix invoicing so customers are charged only for usage above the amount included in their plan, only when the plan allows extra usage, while free and unlimited usage appears correctly.
 
 | Model | Harness | Passes | Scored rollouts | Pass rate |
 |---|---|---:|---:|---:|
@@ -13,5 +13,5 @@ The agent has access to a private NestJS and TypeScript billing backend with a l
 | Fable 5.1 | Claude Code | 18m | 34,069.4 | 21.0 |
 | GLM 5.3 | Claude Code | 39m | 68,281.0 | 124.4 |
 | Grok 4.6 | Grok Build | 14m | 7,437.2 | 22.9 |
-| Kimi K3 | Kimi Code | 37m | Not recorded | 69.1 |
+| Kimi K3 | Kimi Code | 37m | 30,462.9 | 69.1 |
 | GPT-5.6 Sol | Codex CLI | 7m | 11,889.1 | 30.4 |

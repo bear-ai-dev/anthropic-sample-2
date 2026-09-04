@@ -1,4 +1,4 @@
-The agent has access to a private NestJS and TypeScript metering backend. It must move offering ownership and usage reads from legacy services to customers while preserving existing behavior and safely handling customers without offerings.
+The agent has access to the full source code for a private usage and billing platform. It must change the system so product plans belong directly to customers instead of older service or application records. Customer pages must return the customer's plan and usage, plans that are still in use cannot be deleted, and the old service APIs that outside programs can call must be removed without breaking the rest of the application.
 
 | Model | Harness | Passes | Scored rollouts | Pass rate |
 |---|---|---:|---:|---:|
@@ -13,5 +13,5 @@ The agent has access to a private NestJS and TypeScript metering backend. It mus
 | Fable 5.1 | Claude Code | 19m | 67,102.0 | 27.6 |
 | GLM 5.3 | Claude Code | 32m | 89,911.9 | 176.5 |
 | Grok 4.6 | Grok Build | 18m | 19,616.1 | 39.6 |
-| Kimi K3 | Kimi Code | 35m | Not recorded | 122.0 |
+| Kimi K3 | Kimi Code | 35m | 65,775.8 | 122.0 |
 | GPT-5.6 Sol | Codex CLI | 22m | 23,782.4 | 45.5 |

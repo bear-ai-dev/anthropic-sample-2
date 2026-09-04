@@ -111,8 +111,8 @@
   },
   {
     "path": "results/kimi-k3-kimi-code-openrouter/index.json",
-    "bytes": 164028,
-    "sha256": "4e14de66fff1d11c66e7c19f2489cf542957dba3658604b35e759f23df5f79a1"
+    "bytes": 164103,
+    "sha256": "ee610c12d5b8176039f4b3be2a5e332629dc75f126bb616467f7777f5edf4552"
   },
   {
     "path": "results/kimi-k3-kimi-code-openrouter/redaction-manifest.json",
@@ -126,8 +126,8 @@
   },
   {
     "path": "tasks/01-entitlement-overage-lines/README.md",
-    "bytes": 864,
-    "sha256": "003c932073c394bcc8e62c5d229be4e0b4b70e1e38ebe10e937c754b647793f2"
+    "bytes": 979,
+    "sha256": "b1c4170a4acf5374e115a878c117209c93a038dfb4f6dd062b5dd4d8adedb8bb"
   },
   {
     "path": "tasks/01-entitlement-overage-lines/environment/Dockerfile",
@@ -3301,8 +3301,8 @@
   },
   {
     "path": "tasks/01-linearizable-scan/README.md",
-    "bytes": 883,
-    "sha256": "3d82fba4ed9896258211c9bf3b423fcd75dba30ecc624a432de9261e00919bcb"
+    "bytes": 1069,
+    "sha256": "1880ca3ed9e1c40918e012341520c1f70319f8d83484db529253ebda8f72ec06"
   },
   {
     "path": "tasks/01-linearizable-scan/environment/Dockerfile",
@@ -3751,8 +3751,8 @@
   },
   {
     "path": "tasks/02-multi-region-sweep/README.md",
-    "bytes": 887,
-    "sha256": "3cbc4908e655fe6d3a1e67dda88e4a8ee7e91d09a18ea4e647948984a173559a"
+    "bytes": 1043,
+    "sha256": "ade2c5806ce8cf2e75b4bb160368226a67d8e385bd70c6cb1b0aee31a020a257"
   },
   {
     "path": "tasks/02-multi-region-sweep/environment/Dockerfile",
@@ -6921,8 +6921,8 @@
   },
   {
     "path": "tasks/03-analytics-stream-reducer/README.md",
-    "bytes": 910,
-    "sha256": "9104f51a1cf6efb05448bf83b0afc54895d277d1bd311cce9811a754c6c2be64"
+    "bytes": 1105,
+    "sha256": "79d2cfdd63461bbe55a3998c53fba61e62cebcf604fe497dda2bc1e080d32875"
   },
   {
     "path": "tasks/03-analytics-stream-reducer/environment/.dockerignore",
@@ -7411,8 +7411,8 @@
   },
   {
     "path": "tasks/04-tax-jurisdiction/README.md",
-    "bytes": 843,
-    "sha256": "c42594d035d2683df83db6d3bcf78c5532eb518d1a65fc28dd8e4aca5edfd9ff"
+    "bytes": 1012,
+    "sha256": "100b75c34c623e7594e032bb619335c86c0f6871e5017f90397c3b9cf01fa7d1"
   },
   {
     "path": "tasks/04-tax-jurisdiction/environment/.dockerignore",
@@ -10611,8 +10611,8 @@
   },
   {
     "path": "tasks/06-api-token-metering/README.md",
-    "bytes": 938,
-    "sha256": "4614de69eb85d3c333136dfbd876614cdf6c4664875b18e947f69ff7b754da2c"
+    "bytes": 1070,
+    "sha256": "680c034ab6a3a19861c4cc90a235bcd561cc71a64c4a8edfb5eea1bebb7ff9eb"
   },
   {
     "path": "tasks/06-api-token-metering/environment/Dockerfile",
@@ -13761,8 +13761,8 @@
   },
   {
     "path": "tasks/07-api-keys-and-environments/README.md",
-    "bytes": 915,
-    "sha256": "3a7caa31a1afebf1e8f9394475d7e3d468f19374148294e24971837cffbed7f3"
+    "bytes": 1085,
+    "sha256": "592d1776763ceadc52fa0e8b005eb01f67009e4e0322c5fc62e7dee26350f501"
   },
   {
     "path": "tasks/07-api-keys-and-environments/environment/.dockerignore",
@@ -16911,8 +16911,8 @@
   },
   {
     "path": "tasks/09-s3-datastore-measurement/README.md",
-    "bytes": 922,
-    "sha256": "2b371a59ab54189749362e1709ee559a8c78b3d9cd45c94b1d407cac4d57e5d5"
+    "bytes": 1025,
+    "sha256": "2b37511fea8ce120a4ff7c0d631a771dfbaefd6e9fcd66b226ef8fabd4e031e8"
   },
   {
     "path": "tasks/09-s3-datastore-measurement/environment/Dockerfile",
@@ -18651,8 +18651,8 @@
   },
   {
     "path": "tasks/10-customer-identity-migration/README.md",
-    "bytes": 893,
-    "sha256": "eb0b88af98898380e46ea0ecf80801f4ff1b86bacb1000918780ae056f8bf2ae"
+    "bytes": 1080,
+    "sha256": "291f56a58ce163eec36d6d664838dbc1111957b417e8e6bd2a663f8e49bf8043"
   },
   {
     "path": "tasks/10-customer-identity-migration/environment/Dockerfile",
@@ -20596,8 +20596,8 @@
   },
   {
     "path": "tasks/11-customer-billing-schedule-migration/README.md",
-    "bytes": 884,
-    "sha256": "0da75a158f0c302633cef47aade9d4e01b360535e05a1af281f14ca2c05d1578"
+    "bytes": 1043,
+    "sha256": "286300e0c0843f73620d7b3c69ba046bb1f1748fb337fae287de8e778558318e"
   },
   {
     "path": "tasks/11-customer-billing-schedule-migration/environment/Dockerfile",

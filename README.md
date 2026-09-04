@@ -1,6 +1,6 @@
 # Anthropic Sample 2
 
-Anthropic Sample 2 is a Real SWE benchmark sample of engineering tasks on private, real world company codebases. It contains **400 strict-scored rollouts across 10 tasks**. Every row below is computed from [`indexes/trials.json`](indexes/trials.json), and each scored rollout resolves to a normalized trajectory and verifier verdict.
+Anthropic Sample 2 is a Real SWE benchmark sample of engineering tasks on private, real world company codebases. All traces are recorded under [`trajectories/`](trajectories/).
 
 ## Table of contents
 
@@ -29,7 +29,7 @@ All pass rates aggregate the complete Real SWE benchmark by model and listed har
 | Fable 5.1 | Claude Code | 21m | 63,749.6 | 25.8 |
 | GLM 5.3 | Claude Code | 39m | 117,404.9 | 144.4 |
 | Grok 4.6 | Grok Build | 30m | 66,666.1 | 36.4 |
-| Kimi K3 | Kimi Code | 32m | Not recorded | 77.8 |
+| Kimi K3 | Kimi Code | 32m | 43,417.3 | 77.8 |
 | GPT-5.6 Sol | Codex CLI | 15m | 22,678.0 | 42.8 |
 
 Wall clock is `finished_at - started_at` for a complete scored rollout and is rounded to the nearest minute. Output tokens are the total completion/output tokens recorded by the native harness. Steps are normalized trajectory events. Means use only recorded values, and missing values are not treated as zero.

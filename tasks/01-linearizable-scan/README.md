@@ -1,4 +1,4 @@
-The agent has access to a private Go ticketing backend and a local copy of the team's Linear workspace. It must make ticket scans admit each person only once across concurrent doors and keep retries and host reports consistent.
+The agent has access to the full source code for a private event-ticketing system and a local copy of the team's issue tracker. It must fix ticket scanning at a venue so one ticket cannot admit more people than it was bought for, even when staff scan it at several entrances at the same time. Repeating the same scan request must return the same answer, and the event organizer's dashboard must match the scan record.
 
 | Model | Harness | Passes | Scored rollouts | Pass rate |
 |---|---|---:|---:|---:|
@@ -13,5 +13,5 @@ The agent has access to a private Go ticketing backend and a local copy of the t
 | Fable 5.1 | Claude Code | 23m | 86,052.6 | 33.4 |
 | GLM 5.3 | Claude Code | 48m | 172,487.5 | 209.0 |
 | Grok 4.6 | Grok Build | 1h 19m | 260,828.6 | 90.2 |
-| Kimi K3 | Kimi Code | 43m | Not recorded | 133.4 |
+| Kimi K3 | Kimi Code | 43m | 71,327.0 | 133.4 |
 | GPT-5.6 Sol | Codex CLI | 16m | 37,301.0 | 73.4 |
