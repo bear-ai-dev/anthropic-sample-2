@@ -117,5 +117,6 @@ print("PASS: 400 scored rows (398 strict-valid completions + 2 turn-limit failur
 print(f"PASS: {len(artifacts)} artifact hashes and 400 trajectories verified")
 for model in MODELS:
     print(f"  {model}: {totals[model]}/80 = {100 * totals[model] / 80:.1f}%")
-print("PASS: 320 Real-SWE taxonomy rows; each failure has one cause and evidence")
-print("PASS: 12 repaired rows = 7 flips to pass + 5 genuine model failures")
+print("PASS: 320 Real-SWE taxonomy rows; each failure has one recorded label and evidence reference")
+print("PASS: 12 recorded repairs = 7 flips to pass + 5 retained zeroes")
+print("LIMIT: numerical consistency does not adjudicate entry-point fairness or reward-only causal labels; see HANDOFF.md")

@@ -29,7 +29,7 @@ These pass rates cover this release's complete ten-task benchmark. The Grok row 
 - [`analysis/failure-modes.csv`](analysis/failure-modes.csv) provides one primary cause, attribution, concrete mechanism, and evidence path for every rollout on the eight repository-backed Real-SWE tasks.
 - [`analysis/verifier-repair-summary.json`](analysis/verifier-repair-summary.json) indexes the original and repaired evidence for the affected rows.
 
-The September 4 verifier repair replayed saved submissions without making new model calls. Twelve affected rows in this release were replayed: seven changed from 0 to 1 and five remained genuine model failures. After repair, none of the five proposal configurations has a task-side failure in the eight-task qualitative taxonomy. The two licensed company-workflow tasks remain in the pass-rate and resolution tables but are not pooled into that taxonomy.
+The September 4 verifier repair replayed saved submissions without making new model calls. Twelve affected rows in this release were replayed: seven changed from 0 to 1 and five remained zero. A subsequent audit found an unresolved entry-point-selection issue affecting nine labels on API token metering. The Grok taxonomy also has 46 failing rows with reward-only verifier evidence. The recorded scores and labels are retained, but those causal attributions are provisional; this is not a sign-off that all grader issues are resolved. The two licensed company-workflow tasks remain in the pass-rate and resolution tables but are not pooled into that taxonomy.
 
 ## Efficiency
 

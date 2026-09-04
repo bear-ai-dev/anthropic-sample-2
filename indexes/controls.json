@@ -10,7 +10,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/01-entitlement-overage-lines__oracle__trial-01/01-entitlement-overage-lines__pWvEsE2/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "01-entitlement-overage-lines",
@@ -20,7 +22,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/01-entitlement-overage-lines__nop__trial-01/01-entitlement-overage-lines__VrADVaK/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "02-multi-region-sweep",
@@ -30,7 +34,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/02-multi-region-sweep__oracle__trial-01/02-multi-region-sweep__Q8xE4Gv/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "02-multi-region-sweep",
@@ -40,7 +46,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/02-multi-region-sweep__nop__trial-01/02-multi-region-sweep__tTJEnTm/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "04-tax-jurisdiction",
@@ -50,7 +58,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/04-tax-jurisdiction__oracle__trial-01/04-tax-jurisdiction__x84CJbc/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "04-tax-jurisdiction",
@@ -60,7 +70,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/04-tax-jurisdiction__nop__trial-01/04-tax-jurisdiction__LsqoKgM/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "06-api-token-metering",
@@ -70,7 +82,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/06-api-token-metering__oracle__trial-01/06-api-token-metering__Law2XMn/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "06-api-token-metering",
@@ -80,7 +94,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/06-api-token-metering__nop__trial-01/06-api-token-metering__sLRs8DK/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "07-api-keys-and-environments",
@@ -90,7 +106,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/07-api-keys-and-environments__oracle__trial-01/07-api-keys-and-environments__rNftUsR/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "07-api-keys-and-environments",
@@ -100,7 +118,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/07-api-keys-and-environments__nop__trial-01/07-api-keys-and-environments__YfL2LDk/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "09-s3-datastore-measurement",
@@ -110,7 +130,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/09-s3-datastore-measurement__oracle-exact-snapshot-v2__trial-01/09-s3-datastore-measurement__PdR8XJQ/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "09-s3-datastore-measurement",
@@ -120,7 +142,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/09-s3-datastore-measurement__nop-exact-snapshot-v2__trial-01/09-s3-datastore-measurement__H9kTQCY/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "10-customer-identity-migration",
@@ -130,7 +154,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/10-customer-identity-migration__oracle-exact-snapshot-v2__trial-01/10-customer-identity-migration__NyMCjX8/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "10-customer-identity-migration",
@@ -140,7 +166,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/10-customer-identity-migration__nop-exact-snapshot-v2__trial-01/10-customer-identity-migration__6tJxR4A/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "11-customer-billing-schedule-migration",
@@ -150,7 +178,9 @@
         "reward": 1.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/11-customer-billing-schedule-migration__oracle-exact-snapshot-v2__trial-01/11-customer-billing-schedule-mig__CsPHUDY/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       },
       {
         "task": "11-customer-billing-schedule-migration",
@@ -160,7 +190,9 @@
         "reward": 0.0,
         "valid": true,
         "result": "sample-run/controls/xai-grok46-opus5-controls-daytona-20260827/jobs/11-customer-billing-schedule-migration__nop-exact-snapshot-v2__trial-01/11-customer-billing-schedule-mig__zySWa3G/result.json",
-        "problem": null
+        "problem": null,
+        "result_reference_type": "external source path; not bundled in this audit repository",
+        "detailed_evidence_bundled": false
       }
     ],
     "oracle_expected_reward_matches": 8,

@@ -38663,5 +38663,30 @@
     "path": "verification/11-customer-billing-schedule-migration/kimi-k3-kimi-code-openrouter/trial-08/source-verifier/test-stdout.txt",
     "bytes": 6234,
     "sha256": "06a0f44e3db664dbec182ab87fadc1caf2287e67e3902897c826550349695837"
+  },
+  {
+    "path": "HANDOFF.md",
+    "bytes": 1659,
+    "sha256": "ff644627cecd5503d201f5897aef954446f7d050642cf4d63a2d594cf64654b7"
+  },
+  {
+    "path": "analysis/failure-modes.csv",
+    "bytes": 92903,
+    "sha256": "961226ddb36b20f2d2918c9b9591d1fb950c2e2f85bc3d25bdca3ebaa204add9"
+  },
+  {
+    "path": "analysis/trace-report.md",
+    "bytes": 4728,
+    "sha256": "3ad4ed4c0226e46fa221d6b160c704d7677b6428dae746de5506dced410dbb5c"
+  },
+  {
+    "path": "analysis/verifier-repair-summary.json",
+    "bytes": 5400,
+    "sha256": "7adff95ea443e7b10f48ea8ff3739ac22fd1660ffd5c1766bf34dcc484c43a74"
+  },
+  {
+    "path": "analysis/verify.py",
+    "bytes": 5558,
+    "sha256": "3414ee035c40dadd825fbb101e040e490e13af1a06d0c4b105f46637deead6da"
   }
 ]

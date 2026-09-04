@@ -31,7 +31,7 @@ Each cell is passes out of eight independent rollouts.
 
 ## Verifier repair
 
-The 2026-09-04 repair replayed the same saved submissions; it did not make new model calls. Within this proposal's eight repository-backed Real-SWE tasks, twelve affected rows were replayed: seven changed from 0 to 1 and five remained 0 for model-side reasons. The original and repaired verifier artifacts are both retained in `verification/` and indexed in [`verifier-repair-summary.json`](verifier-repair-summary.json).
+The 2026-09-04 repair replayed the same saved submissions; it did not make new model calls. Within this proposal's eight repository-backed Real-SWE tasks, twelve affected rows were replayed: seven changed from 0 to 1 and five remained 0. The original and repaired verifier artifacts are both retained in `verification/` and indexed in [`verifier-repair-summary.json`](verifier-repair-summary.json).
 
 The repaired task controls still satisfy the admission gate: oracle reward 1.0 and no-op reward 0.0.
 
@@ -48,16 +48,16 @@ The taxonomy below covers the eight repository-backed Real-SWE tasks (64 rollout
 | Wrong file | — | 9% | — | 4% | — |
 | Trial incomplete | — | 5% | — | 2% | — |
 
-Every failing row has exactly one primary label, a model/spec/harness attribution, a concrete mechanism, and an evidence path in [`failure-modes.csv`](failure-modes.csv). The two GLM turn-limit zeroes are labeled Trial incomplete; their canonical score is from the termination rule, not a normal completed submission. After the repair, none of the five proposal configurations has a task-side failure in this eight-task taxonomy. Failure taxonomy adapted from DeepSWE.
+Every failing row has exactly one recorded primary label, attribution, mechanism, and evidence path in [`failure-modes.csv`](failure-modes.csv). These labels are provisional: nine API-token-metering entry-point labels require adjudication, and 46 Grok failures have only reward-level verifier evidence. The absence of task-side labels in the current CSV does not prove the absence of grader defects. The two GLM turn-limit zeroes are labeled Trial incomplete under the termination rule. Failure taxonomy adapted from DeepSWE.
 
-## Interpretation
+## Recorded label distribution (provisional)
 
 - Fable 5.1's largest bucket is integration error (52% of 33 failures).
 - Grok 4.6's failures are concentrated in missed requirements (65% of 46 failures).
 - GPT-5.6 Sol most often commits to an unverified assumption (47% of 51 failures).
 - GLM 5.3 and Kimi K3 split more evenly between unverified assumptions, missed requirements, and integration errors.
 
-These are descriptive cohort results, not base-model-only estimates: each score belongs to the model, harness, provider route, task set, and verifier version recorded in the repository.
+These bullets describe the current label file, not independently confirmed causal percentages. In particular, do not infer a model integration failure solely because a grader selected an unreachable or unintended helper method. Resolving that issue requires controls and saved-submission replays; this follow-up does not change the Sample 2 grader or scores. Each score belongs to the model, harness, provider route, task set, and verifier version, not the base model alone.
 
 ## Reproduction
 
