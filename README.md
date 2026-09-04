@@ -60,7 +60,7 @@ The release contains ten tasks: eight repository-backed Real-SWE tasks and two l
 
 ## Evidence and validity
 
-A rollout is scored only when it has no harness exception, a numeric verifier reward, a complete non-empty trajectory, verifier evidence, the task identity, and the declared model route and harness. Infrastructure and provider failures are excluded from denominators.
+A completed rollout is admitted with a numeric verifier reward, a complete non-empty trajectory, verifier evidence, the task identity, and the declared model route and harness. Infrastructure and provider failures are excluded from denominators. Agent turn-limit exhaustion is scored as a model failure under the source benchmark rule: GLM 5.3, Task 3 (tax jurisdiction), trials 05 and 07 are retained as zeroes and labeled `scored-terminal-failure`, not `strict-valid`. The 400 scored rows comprise 398 strict-valid completions and these two turn-limit failures; pass rates are unchanged.
 
 - [`indexes/trials.json`](indexes/trials.json) is the scored index.
 - [`manifest.json`](manifest.json) records task identity, source commits, totals, and content hashes.

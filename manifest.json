@@ -133,8 +133,8 @@
   "trajectory_count": 400,
   "canonical_verdict_count": 400,
   "artifact_count": 7733,
-  "index_sha256": "397c7ec907766700e4ed5cd97b2837f4bf3bd43ec5ee9ea6b7f8edd0af30b857",
-  "artifact_index_sha256": "e8bf2f510dbc254558108302f5714fc7a53559ceec0702753542f7d805996969",
+  "index_sha256": "ce3ac093c8aee9037cb00721e0f2fe0243d38bd69f972a489877467d3b1e8537",
+  "artifact_index_sha256": "378f1d53a60b8352c2884e7da25b57114124e140391654374eaf69297a2b85ca",
   "sources": {
     "real_swe_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
     "real_swe_evidence_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
@@ -142,5 +142,5 @@
     "company_simulation_execution_commit": "f25142f1180f36a361251b5740d4c73fb18ef68e",
     "modal_strict_snapshot_created_at": "2026-09-04T17:38:42.248869+00:00"
   },
-  "admission": "strict-valid trials only; provider and infrastructure failures excluded"
+  "admission": "398 strict-valid completions and 2 scored agent turn-limit failures; provider and infrastructure failures excluded"
 }

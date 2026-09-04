@@ -5,7 +5,10 @@
   "trial_number": 5,
   "reward": 0.0,
   "passed": false,
-  "admission": "strict-valid",
+  "admission": "scored-terminal-failure",
   "canonical_source": "Real-SWE indexes/trials.json",
-  "verifier_regrade": false
+  "verifier_regrade": false,
+  "canonical_valid": false,
+  "terminal_failure_reason": "max_turns",
+  "scoring_note": "Agent turn-limit exhaustion is scored zero under the source benchmark rule; not a normal strict-valid completion."
 }

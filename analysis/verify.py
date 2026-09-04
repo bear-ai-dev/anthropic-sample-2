@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 from collections import Counter
 from pathlib import Path
@@ -49,6 +50,19 @@ assert set(r["model_label"] for r in trials) == set(MODELS)
 
 cells = Counter((r["task"], r["model_label"]) for r in trials)
 assert len(cells) == 50 and set(cells.values()) == {8}
+assert len({(r['task'], r['model_label'], r['trial_number']) for r in trials}) == 400
+assert Counter(r['admission'] for r in trials) == {'strict-valid': 398, 'scored-terminal-failure': 2}
+for row in trials:
+    trajectory = ROOT / row['trajectory']
+    assert hashlib.sha256(trajectory.read_bytes()).hexdigest() == row['trajectory_sha256']
+    assert read_json(trajectory).get('steps')
+    verdict = read_json(ROOT / row['verification'] / 'canonical-verdict.json')
+    assert verdict['reward'] == row['reward'] and verdict['passed'] == row['passed']
+    assert verdict['admission'] == row['admission']
+    if row['admission'] == 'scored-terminal-failure':
+        assert row['model_label'] == 'GLM 5.3' and row['task'] == '04-tax-jurisdiction'
+        assert row['trial_number'] in (5, 7) and row['reward'] == 0
+        assert row['terminal_failure_reason'] == 'max_turns' and not row['canonical_valid']
 totals = {m: sum(bool(r["passed"]) for r in trials if r["model_label"] == m) for m in MODELS}
 assert totals == EXPECTED, totals
 assert sum(totals.values()) == read_json(ROOT / "manifest.json")["passes"] == 101
@@ -86,12 +100,21 @@ for row in repairs:
     assert float(indexed[key]["reward"]) == float(row["fixed_reward"])
 
 manifest = read_json(ROOT / "manifest.json")
+assert hashlib.sha256((ROOT / 'indexes/trials.json').read_bytes()).hexdigest() == manifest['index_sha256']
+assert hashlib.sha256((ROOT / 'indexes/artifacts.json').read_bytes()).hexdigest() == manifest['artifact_index_sha256']
+artifacts = read_json(ROOT / 'indexes/artifacts.json')
+assert len(artifacts) == manifest['artifact_count']
+for artifact in artifacts:
+    path = ROOT / artifact['path']
+    assert path.stat().st_size == artifact['bytes'], artifact['path']
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == artifact['sha256'], artifact['path']
 for task in manifest["tasks"]:
     repair = task.get("verifier_repair")
     if repair:
         assert (ROOT / repair["evidence"]).is_file()
 
-print("PASS: 400 strict-valid rows; 10 tasks x 5 configurations x 8 rollouts")
+print("PASS: 400 scored rows (398 strict-valid completions + 2 turn-limit failures); 10 x 5 x 8")
+print(f"PASS: {len(artifacts)} artifact hashes and 400 trajectories verified")
 for model in MODELS:
     print(f"  {model}: {totals[model]}/80 = {100 * totals[model] / 80:.1f}%")
 print("PASS: 320 Real-SWE taxonomy rows; each failure has one cause and evidence")
