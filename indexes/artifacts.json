@@ -30506,8 +30506,8 @@
   },
   {
     "path": "verification/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trial-05/canonical-verdict.json",
-    "bytes": 273,
-    "sha256": "48074f65b30ff46db6e8baf3ccc8934235ef534d78b2e4bb9f940b41c5b800f9"
+    "bytes": 489,
+    "sha256": "5118afd761dfc68398193235648f7e2b563723e2e2936c2734d1889d273b3c49"
   },
   {
     "path": "verification/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trial-05/source-verifier/driver.log",
@@ -30596,8 +30596,8 @@
   },
   {
     "path": "verification/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trial-07/canonical-verdict.json",
-    "bytes": 273,
-    "sha256": "f333e60d824819997246526e1f9c801539ec920029f2121fc4fa2e18eff8f175"
+    "bytes": 489,
+    "sha256": "2970da739bf920213d477cdeb6ae81c0467fc972877fb176ee30cb101d8a957d"
   },
   {
     "path": "verification/04-tax-jurisdiction/glm-5.3-claude-code-openrouter/trial-07/source-verifier/driver.log",

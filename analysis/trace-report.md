@@ -1,6 +1,6 @@
 # Anthropic Sample 2 trace report
 
-This report is computed against the canonical scored index preserved from repository commit `5b90781a167e5f6a2fe3a4bcde7b3f26fa46b9c3`. It covers 400 strict-valid rollouts: ten tasks, five native model/harness configurations, and eight independent rollouts per task.
+This report is computed from [`indexes/trials.json`](../indexes/trials.json). It covers 400 scored rollouts: ten tasks, five native model/harness configurations, and eight independent rollouts per task. The denominator includes 398 strict-valid completions and two GLM 5.3 turn-limit failures on Task 3, trials 05 and 07. Those two zeroes follow the source benchmark rule and are not strict-valid completions. Provider and infrastructure failures are excluded.
 
 ## Pass rates
 
@@ -18,16 +18,16 @@ Each cell is passes out of eight independent rollouts.
 
 | Task | Fable 5.1 | GLM 5.3 | Grok 4.6 | Kimi K3 | GPT-5.6 Sol |
 |---|---:|---:|---:|---:|---:|
-| `07-api-keys-and-environments` | 8/8 | 5/8 | 4/8 | 0/8 | 7/8 |
-| `01-entitlement-overage-lines` | 8/8 | 3/8 | 1/8 | 6/8 | 1/8 |
-| `10-customer-identity-migration` | 3/8 | 4/8 | 8/8 | 4/8 | 0/8 |
-| `02-multi-region-sweep` | 7/8 | 2/8 | 3/8 | 2/8 | 5/8 |
-| `09-s3-datastore-measurement` | 0/8 | 3/8 | 2/8 | 1/8 | 0/8 |
-| `11-customer-billing-schedule-migration` | 3/8 | 2/8 | 0/8 | 1/8 | 0/8 |
-| `01-linearizable-scan` | 0/8 | 2/8 | 1/8 | 0/8 | 0/8 |
-| `06-api-token-metering` | 1/8 | 1/8 | 0/8 | 1/8 | 0/8 |
-| `04-tax-jurisdiction` | 1/8 | 1/8 | 0/8 | 0/8 | 0/8 |
-| `03-analytics-stream-reducer` | 0/8 | 0/8 | 0/8 | 0/8 | 0/8 |
+| Task 5: `07-api-keys-and-environments` | 8/8 | 5/8 | 4/8 | 0/8 | 7/8 |
+| Task 1: `01-entitlement-overage-lines` | 8/8 | 3/8 | 1/8 | 6/8 | 1/8 |
+| Task 7: `10-customer-identity-migration` | 3/8 | 4/8 | 8/8 | 4/8 | 0/8 |
+| Task 2: `02-multi-region-sweep` | 7/8 | 2/8 | 3/8 | 2/8 | 5/8 |
+| Task 6: `09-s3-datastore-measurement` | 0/8 | 3/8 | 2/8 | 1/8 | 0/8 |
+| Task 8: `11-customer-billing-schedule-migration` | 3/8 | 2/8 | 0/8 | 1/8 | 0/8 |
+| Task 9: `01-linearizable-scan` | 0/8 | 2/8 | 1/8 | 0/8 | 0/8 |
+| Task 4: `06-api-token-metering` | 1/8 | 1/8 | 0/8 | 1/8 | 0/8 |
+| Task 3: `04-tax-jurisdiction` | 1/8 | 1/8 | 0/8 | 0/8 | 0/8 |
+| Task 10: `03-analytics-stream-reducer` | 0/8 | 0/8 | 0/8 | 0/8 | 0/8 |
 
 ## Verifier repair
 
@@ -48,7 +48,7 @@ The taxonomy below covers the eight repository-backed Real-SWE tasks (64 rollout
 | Wrong file | — | 9% | — | 4% | — |
 | Trial incomplete | — | 5% | — | 2% | — |
 
-Every failing row has exactly one primary label, a model/spec/harness attribution, a concrete mechanism, and a verifier-evidence path in [`failure-modes.csv`](failure-modes.csv). After the repair, none of the five proposal configurations has a task-side failure in this eight-task taxonomy.
+Every failing row has exactly one primary label, a model/spec/harness attribution, a concrete mechanism, and an evidence path in [`failure-modes.csv`](failure-modes.csv). The two GLM turn-limit zeroes are labeled Trial incomplete; their canonical score is from the termination rule, not a normal completed submission. After the repair, none of the five proposal configurations has a task-side failure in this eight-task taxonomy. Failure taxonomy adapted from DeepSWE.
 
 ## Interpretation
 
