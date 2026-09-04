@@ -38,16 +38,16 @@ Wall clock is `finished_at - started_at` for a complete scored rollout and is ro
 
 The benchmark contains ten Real SWE tasks:
 
-- [`01-entitlement-overage-lines`](tasks/01-entitlement-overage-lines/instruction.md)
-- [`02-multi-region-sweep`](tasks/02-multi-region-sweep/instruction.md)
-- [`04-tax-jurisdiction`](tasks/04-tax-jurisdiction/instruction.md)
-- [`06-api-token-metering`](tasks/06-api-token-metering/instruction.md)
-- [`07-api-keys-and-environments`](tasks/07-api-keys-and-environments/instruction.md)
-- [`09-s3-datastore-measurement`](tasks/09-s3-datastore-measurement/instruction.md)
-- [`10-customer-identity-migration`](tasks/10-customer-identity-migration/instruction.md)
-- [`11-customer-billing-schedule-migration`](tasks/11-customer-billing-schedule-migration/instruction.md)
-- [`01-linearizable-scan`](tasks/01-linearizable-scan/instruction.md)
-- [`03-analytics-stream-reducer`](tasks/03-analytics-stream-reducer/instruction.md)
+1. [Task 1: Entitlement overage lines](tasks/01-entitlement-overage-lines/instruction.md)
+2. [Task 2: Multi-region sweep](tasks/02-multi-region-sweep/instruction.md)
+3. [Task 3: Tax jurisdiction](tasks/04-tax-jurisdiction/instruction.md)
+4. [Task 4: API token metering](tasks/06-api-token-metering/instruction.md)
+5. [Task 5: API keys and environments](tasks/07-api-keys-and-environments/instruction.md)
+6. [Task 6: S3 datastore measurement](tasks/09-s3-datastore-measurement/instruction.md)
+7. [Task 7: Customer identity migration](tasks/10-customer-identity-migration/instruction.md)
+8. [Task 8: Customer billing-schedule migration](tasks/11-customer-billing-schedule-migration/instruction.md)
+9. [Task 9: Linearizable scan](tasks/01-linearizable-scan/instruction.md)
+10. [Task 10: Analytics stream reducer](tasks/03-analytics-stream-reducer/instruction.md)
 
 ## Evidence and validity
 
