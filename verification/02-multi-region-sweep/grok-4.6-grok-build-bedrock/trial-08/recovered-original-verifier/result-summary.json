@@ -1,0 +1,22 @@
+{
+  "task_name": "meteringco/multi-region-sweep",
+  "trial_name": "02-multi-region-sweep__RLTsQEM",
+  "task_checksum": "668f5e9fe03c4629e9fd786867f91048839699e91335529b72add30c5ca393a3",
+  "started_at": "2026-08-28T05:19:20.667626Z",
+  "finished_at": "2026-08-28T05:32:48.019843Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0,
+      "score": 1.0
+    }
+  }
+}

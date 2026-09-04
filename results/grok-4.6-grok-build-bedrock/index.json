@@ -15,7 +15,7 @@
     "wall_clock_seconds": 704.542349,
     "output_tokens": 5819,
     "steps": 18,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "db8112944ea71dc8335362f1f8a4c8d8dfb969c1ed0a2ffa2cf53e600e5ceb3a",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -44,7 +44,7 @@
     "wall_clock_seconds": 455.055869,
     "output_tokens": 6815,
     "steps": 22,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "03e7af9e6186c4082116dee6bae596a14d1fac04f5767cfd7e2bf9142274922b",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -73,7 +73,7 @@
     "wall_clock_seconds": 740.491953,
     "output_tokens": 8054,
     "steps": 22,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "b175f706c85b0431981d335141644f777bd5e099abe5ec6b2e834f87b0f81fb6",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -102,7 +102,7 @@
     "wall_clock_seconds": 478.00908,
     "output_tokens": 5637,
     "steps": 22,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "181c2607d5e4d389363243b9aa7499486acf1e76f478831273af201e654e1e34",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -131,7 +131,7 @@
     "wall_clock_seconds": 937.624564,
     "output_tokens": 6779,
     "steps": 23,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "fdbd190e3e52e69b96e4008e544a28b2029386f8291c1334e0211a0b73dce698",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -160,7 +160,7 @@
     "wall_clock_seconds": 1169.658935,
     "output_tokens": 8159,
     "steps": 25,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "1b9bfee8d2d9655127c04c0e7733d2b1bbec7904da7f3dd54eecbae8b830aff1",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -189,7 +189,7 @@
     "wall_clock_seconds": 1084.719244,
     "output_tokens": 8831,
     "steps": 25,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "6429929e453a8b7cf98f95db98c0ca35297b405f27ef61bc710ab7053b3e6c8c",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -218,7 +218,7 @@
     "wall_clock_seconds": 1141.414738,
     "output_tokens": 9404,
     "steps": 26,
-    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/01-entitlement-overage-lines/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "a5eefbaf13c26e462017f92d8ddb4c0a43bd0d756af419e027f4fbe40143342f",
     "verification": "verification/01-entitlement-overage-lines/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -247,7 +247,7 @@
     "wall_clock_seconds": 206.624144,
     "output_tokens": 3400,
     "steps": 14,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "69e1946c3c6012f3ad74899c35fec43b17e3a8524d5c8fa37fa76c7fdb08fc05",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -276,7 +276,7 @@
     "wall_clock_seconds": 526.130791,
     "output_tokens": 2419,
     "steps": 12,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "fe6c585ac4aa1d2b216c07925272f683eab2ea3d55ab3adddeaa4555f3bc49e8",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -305,7 +305,7 @@
     "wall_clock_seconds": 503.069242,
     "output_tokens": 2896,
     "steps": 10,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "042118e6d025036f6f5f5839773beee86d73c989e7da2114963f85f34e6b5b35",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -334,7 +334,7 @@
     "wall_clock_seconds": 344.456541,
     "output_tokens": 3596,
     "steps": 14,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "1a167edc0709dbd76d40a20d478766e0def9d67032255d6ad74e14a99a956253",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -363,7 +363,7 @@
     "wall_clock_seconds": 724.444716,
     "output_tokens": 2542,
     "steps": 11,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "de8ee0ff4d0cc0ea13d35b8f1b98c2c01ea294ca45fa444c221c20721d557713",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -392,7 +392,7 @@
     "wall_clock_seconds": 739.926724,
     "output_tokens": 2024,
     "steps": 10,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "2b2c7533f6d747257b1f01fd2d7f45f985e752dcc235605a1d7a707dbbcc7564",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -421,7 +421,7 @@
     "wall_clock_seconds": 815.404431,
     "output_tokens": 2799,
     "steps": 10,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "43bd460a0d4529a6df0b7b868355a1f0e2ebcb9488abb4dea4d640085ad4a135",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -450,7 +450,7 @@
     "wall_clock_seconds": 807.352217,
     "output_tokens": 2737,
     "steps": 10,
-    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/02-multi-region-sweep/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "2372b0ecdfc3a4c53a67433032732d4c383a167484e6ca38cfe08be0539379ca",
     "verification": "verification/02-multi-region-sweep/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -479,7 +479,7 @@
     "wall_clock_seconds": 714.614056,
     "output_tokens": 9333,
     "steps": 26,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "20c01eeb3c097b74fbdf5a1d23e094520849c0e54b167fad8743367701a79f68",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -508,7 +508,7 @@
     "wall_clock_seconds": 1041.819053,
     "output_tokens": 11585,
     "steps": 31,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "09b2eaa2b173f3b6df428273fbc5b329d1f03cd1fa7c9ccbfe4a50e7cf8231b3",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -537,7 +537,7 @@
     "wall_clock_seconds": 1342.301984,
     "output_tokens": 13116,
     "steps": 32,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "87b8e7f617aff4a0594cd0c8b002b1e7e496f62582c7c3942df9bd82fbe395f6",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -566,7 +566,7 @@
     "wall_clock_seconds": 1184.263963,
     "output_tokens": 11745,
     "steps": 35,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "5c3983d9ff731b01db65bfd486d20c8c1ed77aae513e23472ead47c868d728af",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -595,7 +595,7 @@
     "wall_clock_seconds": 969.691509,
     "output_tokens": 9290,
     "steps": 27,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "5b925c417bf314545fba806c4d15cac11b216690111ce37281083e76a2380ed8",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -624,7 +624,7 @@
     "wall_clock_seconds": 1319.702184,
     "output_tokens": 12086,
     "steps": 36,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "0758469830f06d27e92a7bb2f75a8814cd70a7edd32180e5e00b955e66687f8b",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -653,7 +653,7 @@
     "wall_clock_seconds": 1391.420714,
     "output_tokens": 12543,
     "steps": 31,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "941f0b5760712c9783fe64f4257e097fe245464320cbfd882cf78eb0f8958387",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -682,7 +682,7 @@
     "wall_clock_seconds": 1289.540854,
     "output_tokens": 13120,
     "steps": 35,
-    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/04-tax-jurisdiction/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "522b3de99b36ecd7a7536b75b603f339a4cea5063d1df8da115b911dfc1b7a2b",
     "verification": "verification/04-tax-jurisdiction/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -711,7 +711,7 @@
     "wall_clock_seconds": 1119.593196,
     "output_tokens": 15776,
     "steps": 28,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "12cbf65fb2433f91a0a087015c9d2c0e0251c61126d17daf3b491bf2ea862f90",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -740,7 +740,7 @@
     "wall_clock_seconds": 855.437735,
     "output_tokens": 14342,
     "steps": 22,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "af1e43c44251c0ee2946c887849da9e1bf77a0aef2dcf2ccb8f51301420209ab",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -769,7 +769,7 @@
     "wall_clock_seconds": 843.640853,
     "output_tokens": 13750,
     "steps": 28,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "55d9de4227e8d571e67ccdd612f7cd8e05bc3e0a490233b7c22bfd22f5baece4",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -798,7 +798,7 @@
     "wall_clock_seconds": 949.29143,
     "output_tokens": 18023,
     "steps": 29,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "7046d61a84249ef84efc2a9be81627e1f6131b412b2f26640c71c8123068431d",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -827,7 +827,7 @@
     "wall_clock_seconds": 1240.245899,
     "output_tokens": 14472,
     "steps": 25,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "32139c2a09b7bc23e3317489433d80a98b0ffc249af8917de187fcd7b22a2858",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -856,7 +856,7 @@
     "wall_clock_seconds": 1896.302617,
     "output_tokens": 14508,
     "steps": 27,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "a202c4b991cd36a62d227938b14cea7b3a4d4f2debe5be7a4d571ceea4c50a22",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -885,7 +885,7 @@
     "wall_clock_seconds": 1426.079943,
     "output_tokens": 16569,
     "steps": 30,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "ae0bfedc1d481e5c82fd991ac461bbbeb300983a743808ce739c3838398b410f",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -914,7 +914,7 @@
     "wall_clock_seconds": 1298.160673,
     "output_tokens": 13987,
     "steps": 28,
-    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/06-api-token-metering/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "46f2c0f4a5327fa5649ddc8331b72b68887939e0952f8ee6aab925d6a998e759",
     "verification": "verification/06-api-token-metering/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -943,7 +943,7 @@
     "wall_clock_seconds": 1571.611402,
     "output_tokens": 18620,
     "steps": 42,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "40f9a3cae76a58e6c39d5887476b71132b1d04cc48015b6f30801f2e4a8deecb",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -972,7 +972,7 @@
     "wall_clock_seconds": 1373.08747,
     "output_tokens": 17161,
     "steps": 32,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "11ab91bcb281897ca844f9ef49ac2ff59adc9653ba12cdec08b401344d3c3936",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -1001,7 +1001,7 @@
     "wall_clock_seconds": 1389.444812,
     "output_tokens": 15897,
     "steps": 43,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "f7f170fcd4c1e3bf8ce7173da60e7b2c01095d74a30edf24941d5c3293a6f785",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -1030,7 +1030,7 @@
     "wall_clock_seconds": 1295.040189,
     "output_tokens": 15021,
     "steps": 41,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "743c215e45aefff4bfb7884965d77f162be0317a3594cbe97c85cc9f417fbd38",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -1059,7 +1059,7 @@
     "wall_clock_seconds": 1992.349538,
     "output_tokens": 16775,
     "steps": 36,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "d9809fb69fc6f2a33cd7c751514fbd3c40512e6f4bc2f1fb2f95b2ec7d301aa5",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -1088,7 +1088,7 @@
     "wall_clock_seconds": 1431.631022,
     "output_tokens": 15117,
     "steps": 41,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "13a45fddd2f2139d0abf15d1fa1968aa8703a15ad3c24a148753b0fed5206268",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -1117,7 +1117,7 @@
     "wall_clock_seconds": 2054.863331,
     "output_tokens": 14385,
     "steps": 34,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "f560d203097e84cdb6f01aee31610ff05939e723b5410738387c6f8fddff0569",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -1146,7 +1146,7 @@
     "wall_clock_seconds": 1248.589697,
     "output_tokens": 12797,
     "steps": 27,
-    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/07-api-keys-and-environments/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "a884e908b4bdfcfe0123465e6e0513a6ddcd606d7f7d80894f47f48e32738ce2",
     "verification": "verification/07-api-keys-and-environments/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -1175,7 +1175,7 @@
     "wall_clock_seconds": 592.900758,
     "output_tokens": 11296,
     "steps": 20,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "800f04053de80def62f8ad77b1ae921c3fa208cb87eceacdcdd1515ae3bf511f",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -1204,7 +1204,7 @@
     "wall_clock_seconds": 784.846588,
     "output_tokens": 13233,
     "steps": 28,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "33fb40c8362261c197fda9502d87fdc831136efcf083e805bb9cb2cf8d358bfb",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -1243,7 +1243,7 @@
     "wall_clock_seconds": 672.766089,
     "output_tokens": 11905,
     "steps": 26,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "324b95fb40813f92ec6184842bdc458e1f525950b68140d0c673c68888099464",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -1272,7 +1272,7 @@
     "wall_clock_seconds": 744.742679,
     "output_tokens": 11567,
     "steps": 19,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "23027c3f916d6c2f7396ce25d427b2dce12db6261981a0730e74bbb6d552b363",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -1311,7 +1311,7 @@
     "wall_clock_seconds": 640.007916,
     "output_tokens": 13383,
     "steps": 25,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "67e6e3850955ba3239f1892cfd292b2869d1dd73a80b68a9a2b42859f452b811",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -1340,7 +1340,7 @@
     "wall_clock_seconds": 1111.364002,
     "output_tokens": 10836,
     "steps": 18,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "736b82bedeab9b1acbbce9f8ae04832bd6a188c3b21ea08db2d9c0f9d56fe17c",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -1369,7 +1369,7 @@
     "wall_clock_seconds": 690.106411,
     "output_tokens": 13755,
     "steps": 23,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "02c39a8cf76eb1dcc947c99f443a3b4e94ba1ed58772fe24ee3e404088b594b8",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -1398,7 +1398,7 @@
     "wall_clock_seconds": 529.378141,
     "output_tokens": 14103,
     "steps": 22,
-    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/09-s3-datastore-measurement/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "d083a66f5bef9fbdba7c2b3831e902d52a19d51d0a2f26252eb4d95f9784d74a",
     "verification": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -1427,7 +1427,7 @@
     "wall_clock_seconds": 885.852799,
     "output_tokens": 18027,
     "steps": 34,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "1f9e2b83cb03427c30780e40967ee0b7459ba0d70523d3ec9b4ac8f917fef74c",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -1456,7 +1456,7 @@
     "wall_clock_seconds": 1052.564104,
     "output_tokens": 21985,
     "steps": 49,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "5c8054db3b5ed99b6a859168d0e643a5df15df4159354351facaf54b44d3a4a8",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -1485,7 +1485,7 @@
     "wall_clock_seconds": 815.001266,
     "output_tokens": 17433,
     "steps": 33,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "8a0b6b1fffda506254721fcd937b0ef914603c80f525d3ba8d674ea2ffa4f3bd",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -1514,7 +1514,7 @@
     "wall_clock_seconds": 1223.267834,
     "output_tokens": 20340,
     "steps": 42,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "d52c0431eba2ba42d7724354ea2461edb4ab6e4c9dbf8a580bbd93f29b134547",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -1543,7 +1543,7 @@
     "wall_clock_seconds": 927.398363,
     "output_tokens": 18992,
     "steps": 34,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "8986ec3fd3b1af0843ee198cebcf89a8833a146c1224d24791f0fb59d2bb20c2",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -1572,7 +1572,7 @@
     "wall_clock_seconds": 1516.350508,
     "output_tokens": 19306,
     "steps": 38,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "7afda788f287d8724f3878b15a6241b612c100b4e389eb36e52e2b40045c82d9",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -1601,7 +1601,7 @@
     "wall_clock_seconds": 1031.404202,
     "output_tokens": 21799,
     "steps": 46,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "b76cc127df0a6220c1eb95a36174f1996c5337d52f55fd2bc67561ceeb27f82d",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -1630,7 +1630,7 @@
     "wall_clock_seconds": 1169.619875,
     "output_tokens": 19047,
     "steps": 41,
-    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/10-customer-identity-migration/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "264cbd8b9746bd1c2c4dfed1c6e1cfca63907075abbc15652485f5fe9ea5ce18",
     "verification": "verification/10-customer-identity-migration/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [
@@ -1659,7 +1659,7 @@
     "wall_clock_seconds": 478.167335,
     "output_tokens": 5498,
     "steps": 13,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-01.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-01.json",
     "trajectory_sha256": "6e0d06c8645be821b348ab141ab31f5c3ca9d5b91c5871e660c213a9f5326311",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-01",
     "verifier_artifacts": [
@@ -1688,7 +1688,7 @@
     "wall_clock_seconds": 287.914088,
     "output_tokens": 5701,
     "steps": 17,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-02.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-02.json",
     "trajectory_sha256": "9c5079ac9f4fa67b80655fd50a255d00ed4275731bf95b2465ddd3773b811741",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-02",
     "verifier_artifacts": [
@@ -1717,7 +1717,7 @@
     "wall_clock_seconds": 548.506698,
     "output_tokens": 5920,
     "steps": 22,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-03.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-03.json",
     "trajectory_sha256": "ece89b6fd649e673932e372f64cc84dc67899bba2cad25948182615dd7343f85",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-03",
     "verifier_artifacts": [
@@ -1746,7 +1746,7 @@
     "wall_clock_seconds": 337.855532,
     "output_tokens": 5534,
     "steps": 16,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-04.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-04.json",
     "trajectory_sha256": "463d631b608de5644b5ea8a8698a6c9d2a7e309c8251fd9242fd99e27ca070f6",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-04",
     "verifier_artifacts": [
@@ -1775,7 +1775,7 @@
     "wall_clock_seconds": 776.021313,
     "output_tokens": 6892,
     "steps": 19,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-05.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-05.json",
     "trajectory_sha256": "c5c12c9c952ab478ed7cc88a0f13b0be5a54197ba2a9256086bca9790ef18af9",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-05",
     "verifier_artifacts": [
@@ -1804,7 +1804,7 @@
     "wall_clock_seconds": 924.548152,
     "output_tokens": 7632,
     "steps": 17,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-06.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectory_sha256": "f743cc217e21b385b89b03812d2a82d2e9b367424222330ae4182b100e383a7c",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-06",
     "verifier_artifacts": [
@@ -1833,7 +1833,7 @@
     "wall_clock_seconds": 638.725487,
     "output_tokens": 5777,
     "steps": 17,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-07.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectory_sha256": "a88ba4ecbe83ea17209a3878995962f1d6924d90c233fde95b41c33cfe66c734",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-07",
     "verifier_artifacts": [
@@ -1862,7 +1862,7 @@
     "wall_clock_seconds": 311.968769,
     "output_tokens": 5446,
     "steps": 14,
-    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trajectory-trial-08.json",
+    "trajectory": "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-08.json",
     "trajectory_sha256": "7827a03882e470f31ccebc1c4277c79fe1cdd2261c728094c64abdff9fde085c",
     "verification": "verification/11-customer-billing-schedule-migration/grok-4.6-grok-build-bedrock/trial-08",
     "verifier_artifacts": [

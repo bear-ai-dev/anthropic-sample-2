@@ -1,0 +1,21 @@
+=== Snapshot the deliverable for audit ===
+=== Stop the agent-facing endpoint ===
+=== Compile the deliverable ===
+build diagnostic exit: 0
+driver diagnostic exit: 0
+=== Compute reward (root, no submitted code loaded) ===
+[PASS] the credential listing is the account's own, in the environment the operator is in
+[FAIL] changing environment changes the account the request resolves to
+         switch=400 list=200 saw=['keyWindermereProdBilling', 'keyWindermereProdEvents'] expected=['keyWindermereSbxDrill', 'keyWindermereSbxEvents']
+[FAIL] rotating a credential replaces its secret and leaves every other credential alone
+         status=404 rotated_present=True secret_changed=False others_untouched=True
+[FAIL] revoking a credential removes it and retires the configuration behind it
+         status=404 still_at_provider=True row_retired=False
+[FAIL] a revoked credential stops being able to reach the API at once
+         before=200 after=200
+[FAIL] a credential outside the caller's current account can be neither read nor changed
+         statuses={'rotate.otherTenant': 404, 'revoke.unclaimed': 404, 'rotate.retired': 404, 'rotate.otherEnvironment': 200, 'revoke.otherEnvironment': 200} untouched={'keyWindermereProdEvents': False, 'keyAshcombeProdEvents': True, 'appMeteringCoDocsSite': True, 'keyWindermereProdLegacy': True}
+[PASS] a sign-in that may only read cannot rotate or revoke
+[FAIL] work done in one environment leaves the other environment's credentials as they were
+         switch=400 saw=['keyWindermereProdBilling'] expected=['keyWindermereProdBilling', 'keyWindermereProdEvents']
+reward: 0.0

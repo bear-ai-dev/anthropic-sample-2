@@ -1,0 +1,18 @@
+{
+  "task_name": "10-customer-identity-migration",
+  "trial_name": "10-customer-identity-migration__6tJxR4A",
+  "task_checksum": "e5de03fd975b2aa24a19d9caa3b3e9a4daa345840855d263baefe8f6c68fa338",
+  "started_at": "2026-08-28T04:54:54.145991Z",
+  "finished_at": "2026-08-28T04:55:12.163661Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "nop",
+    "version": "1.0.0",
+    "model_info": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  }
+}

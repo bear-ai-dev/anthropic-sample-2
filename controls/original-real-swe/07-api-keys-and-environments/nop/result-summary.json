@@ -1,0 +1,19 @@
+{
+  "task_name": "meteringco/api-keys-and-environments",
+  "trial_name": "07-api-keys-and-environments__YfL2LDk",
+  "task_checksum": "3f6269b97803f429411916a6f0dc1325aecfd69f3a1e995fbd20d5c7bbb17d16",
+  "started_at": "2026-08-28T04:20:45.743363Z",
+  "finished_at": "2026-08-28T04:31:23.374543Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "nop",
+    "version": "1.0.0",
+    "model_info": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0,
+      "score": 0.0
+    }
+  }
+}

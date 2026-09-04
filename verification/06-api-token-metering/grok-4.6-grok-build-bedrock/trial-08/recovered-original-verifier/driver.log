@@ -1,0 +1,77 @@
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [32m    LOG[39m [38;5;3m[InfluxService] [39m[32mInflux URL: http://127.0.0.1:4566, Influx Org: meteringco[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:54 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing token aggregation[39m
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "businessID": "harborline-freight",
+  "startDate": "2026-08-27T17:40:51.544Z",
+  "endDate": "2026-08-27T23:40:51.544Z"
+}
+
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for meteringco customerId: cus-2d83-harborline-prod[39m
+[31m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'create')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'create')\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:50:45)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:124:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing token aggregation[39m
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "businessID": "harborline-freight",
+  "startDate": "2026-08-27T23:40:51.544Z",
+  "endDate": "2026-08-28T07:40:51.544Z"
+}
+
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-freight, purpose: apiCall[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for meteringco customerId: cus-2d83-harborline-prod[39m
+[31m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'create')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'create')\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:50:45)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:124:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mProcessing token aggregation[39m
+[32m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [32m    LOG[39m [38;5;3m[TokenConsumerAsyncProcessor] [39m[32mObject:[39m
+{
+  "businessID": "harborline-staging",
+  "startDate": "2026-08-27T23:40:51.544Z",
+  "endDate": "2026-08-28T07:40:51.544Z"
+}
+
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for businessID: harborline-staging, purpose: apiCall[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-6a17-harborline-alt from token cache with MeteringCoBusinessID: meteringco-sandbox[39m
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mMetering Token for meteringco customerId: cus-6a17-harborline-alt[39m
+[31m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mFailed to create Token Consumer[39m
+[31m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [31m  ERROR[39m [38;5;3m[TokenConsumerService] [39m[31mObject:[39m
+{
+  "name": "TypeError",
+  "message": "Cannot read properties of undefined (reading 'create')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'create')\n    at TokenConsumerService.create (/app/src/token-consumer/token-consumer.service.ts:50:45)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async TokenConsumerAsyncProcessor.aggregateTokens (/app/src/token-consumer/token-consumer-async-processor.ts:124:13)\n    at async main (/app/.verifier-drive.ts:289:25)"
+}
+
+[95m[Nest] 1762  - [39m08/28/2026, 5:40:55 AM [95m  DEBUG[39m [38;5;3m[TokenConsumerService] [39m[95mRetrieved customer: cus-2d83-harborline-prod from token cache with MeteringCoBusinessID: meteringco-production[39m

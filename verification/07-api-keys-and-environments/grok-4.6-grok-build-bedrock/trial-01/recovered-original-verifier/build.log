@@ -1,0 +1,18 @@
+
+> meteringco-backend@1.0.0 prebuild
+> rimraf dist
+
+
+> meteringco-backend@1.0.0 build
+> nest build
+
+[96msrc/keys/keys.service.ts[0m:[93m93[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'softDelete' does not exist on type 'UserTable'.
+
+[7m93[0m         if (!match || match.softDelete === 'deleted') {
+[7m  [0m [91m                            ~~~~~~~~~~[0m
+[96msrc/keys/keys.service.ts[0m:[93m102[0m:[93m71[0m - [91merror[0m[90m TS2339: [0mProperty 'softDelete' does not exist on type 'UserTable'.
+
+[7m102[0m             .filter((row) => row.subject?.endsWith('@clients') && row.softDelete !== 'deleted')
+[7m   [0m [91m                                                                      ~~~~~~~~~~[0m
+
+Found 2 error(s).

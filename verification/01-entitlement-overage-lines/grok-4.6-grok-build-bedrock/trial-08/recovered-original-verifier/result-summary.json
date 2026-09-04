@@ -1,0 +1,22 @@
+{
+  "task_name": "meteringco/entitlement-overage-lines",
+  "trial_name": "01-entitlement-overage-lines__UpBbCqd",
+  "task_checksum": "9882c7ceae2027c37b898cd3bd9e9bb8c08275e8e65ca9349b10f11fe086b68d",
+  "started_at": "2026-08-28T05:19:20.290567Z",
+  "finished_at": "2026-08-28T05:38:21.705305Z",
+  "exception_info": null,
+  "agent_info": {
+    "name": "grok-build",
+    "version": "1.0.5",
+    "model_info": {
+      "name": "bedrock-grok-4-6",
+      "provider": "bedrock"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0,
+      "score": 0.0
+    }
+  }
+}
