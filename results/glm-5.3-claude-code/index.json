@@ -1296,8 +1296,10 @@
     "task_checksum": "14bed3b6424a462c369ed2d831e469ea7817bf9195418a40ac483034ef43097e",
     "reasoning_effort": "high",
     "max_output_tokens": 32768,
-    "admission": "strict-valid",
-    "source_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+    "admission": "scored-terminal-failure",
+    "source_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
+    "canonical_valid": false,
+    "terminal_failure_reason": "max_turns"
   },
   {
     "task": "04-tax-jurisdiction",
@@ -1368,8 +1370,10 @@
     "task_checksum": "14bed3b6424a462c369ed2d831e469ea7817bf9195418a40ac483034ef43097e",
     "reasoning_effort": "high",
     "max_output_tokens": 32768,
-    "admission": "strict-valid",
-    "source_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4"
+    "admission": "scored-terminal-failure",
+    "source_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
+    "canonical_valid": false,
+    "terminal_failure_reason": "max_turns"
   },
   {
     "task": "04-tax-jurisdiction",

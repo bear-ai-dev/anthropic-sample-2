@@ -51,6 +51,18 @@ for folder in ('results', 'verification', 'trajectories', 'controls', 'analysis'
         if path.is_dir():
             assert not re.search(r'bedrock|open.?router', path.name, re.I), path
 assert len(trials) == 400
+trajectory_labels = {Path(r['trajectory']).parent.name for r in trials}
+assert {p.name for p in (ROOT/'results').iterdir() if p.is_dir()} == trajectory_labels
+for label in trajectory_labels:
+    model_rows = read_json(ROOT/'results'/label/'index.json')
+    expected_rows = [r for r in trials if Path(r['trajectory']).parent.name == label]
+    key = lambda r: (r['task'], r['trial_number'])
+    assert len(model_rows) == 80 and sorted(model_rows, key=key) == sorted(expected_rows, key=key)
+    cohort = read_json(ROOT/'results'/label/'cohort.json')
+    assert cohort['scored_trials'] == 80 and cohort['passes'] == sum(r['passed'] for r in model_rows)
+    if 'cohorts' in cohort:
+        assert sum(c['scored_trials'] for c in cohort['cohorts']) == 80
+        assert {c['arm'] for c in cohort['cohorts']} == {r['arm'] for r in model_rows}
 assert len({r["task"] for r in trials}) == 10
 assert set(r["model_label"] for r in trials) == set(MODELS)
 
@@ -60,6 +72,7 @@ assert len({(r['task'], r['model_label'], r['trial_number']) for r in trials}) =
 assert Counter(r['admission'] for r in trials) == {'strict-valid': 398, 'scored-terminal-failure': 2}
 for row in trials:
     trajectory = ROOT / row['trajectory']
+    assert Path(row['verification']).parts[2] == trajectory.parent.name
     assert 'bedrock' not in trajectory.parent.name and 'openrouter' not in trajectory.parent.name
     assert hashlib.sha256(trajectory.read_bytes()).hexdigest() == row['trajectory_sha256']
     assert read_json(trajectory).get('steps')

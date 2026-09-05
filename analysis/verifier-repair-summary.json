@@ -8,8 +8,8 @@
       "original_reward": 0.0,
       "fixed_reward": 0.0,
       "outcome": "retained zero after repair; causal attribution remains provisional",
-      "fixed_evidence": "verification/06-api-token-metering/fable-5.1-claude-code-real-swe/trial-01/regrade/fixed",
-      "original_evidence": "verification/06-api-token-metering/fable-5.1-claude-code-real-swe/trial-01/regrade/original"
+      "fixed_evidence": "verification/06-api-token-metering/fable-5.1-claude-code/trial-01/regrade/fixed",
+      "original_evidence": "verification/06-api-token-metering/fable-5.1-claude-code/trial-01/regrade/original"
     },
     {
       "task": "06-api-token-metering",
@@ -18,8 +18,8 @@
       "original_reward": 0.0,
       "fixed_reward": 1.0,
       "outcome": "pass after repair",
-      "fixed_evidence": "verification/06-api-token-metering/fable-5.1-claude-code-real-swe/trial-04/regrade/fixed",
-      "original_evidence": "verification/06-api-token-metering/fable-5.1-claude-code-real-swe/trial-04/regrade/original"
+      "fixed_evidence": "verification/06-api-token-metering/fable-5.1-claude-code/trial-04/regrade/fixed",
+      "original_evidence": "verification/06-api-token-metering/fable-5.1-claude-code/trial-04/regrade/original"
     },
     {
       "task": "06-api-token-metering",
@@ -98,8 +98,8 @@
       "original_reward": 0.0,
       "fixed_reward": 1.0,
       "outcome": "pass after repair",
-      "fixed_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-02/regrade/fixed",
-      "original_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-02/regrade/original"
+      "fixed_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build/trial-02/regrade/fixed",
+      "original_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build/trial-02/regrade/original"
     },
     {
       "task": "09-s3-datastore-measurement",
@@ -108,8 +108,8 @@
       "original_reward": 0.0,
       "fixed_reward": 1.0,
       "outcome": "pass after repair",
-      "fixed_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-04/regrade/fixed",
-      "original_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-04/regrade/original"
+      "fixed_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build/trial-04/regrade/fixed",
+      "original_evidence": "verification/09-s3-datastore-measurement/grok-4.6-grok-build/trial-04/regrade/original"
     },
     {
       "task": "10-customer-identity-migration",
