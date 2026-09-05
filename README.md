@@ -80,9 +80,9 @@ Private chain-of-thought fields and encrypted provider reasoning blobs are inten
 
 ```text
 tasks/<task>/
-results/<model-harness-provider>/
+results/<model-harness-cohort>/
 trajectories/<task>/<model-harness>/trajectory-trial-<01-08>.json
-verification/<task>/<model-harness-provider>/trial-<01-08>/
+verification/<task>/<model-harness-cohort>/trial-<01-08>/
 indexes/trials.json
 indexes/artifacts.json
 indexes/controls.json

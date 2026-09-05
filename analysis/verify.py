@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from evidence_checks import failure_checks
@@ -45,6 +46,10 @@ def reward_at(path: Path) -> float:
 
 
 trials = read_json(ROOT / "indexes/trials.json")
+for folder in ('results', 'verification', 'trajectories', 'controls', 'analysis', 'indexes', 'docs', 'tasks'):
+    for path in (ROOT/folder).rglob('*'):
+        if path.is_dir():
+            assert not re.search(r'bedrock|open.?router', path.name, re.I), path
 assert len(trials) == 400
 assert len({r["task"] for r in trials}) == 10
 assert set(r["model_label"] for r in trials) == set(MODELS)

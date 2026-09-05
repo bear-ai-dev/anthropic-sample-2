@@ -67,9 +67,9 @@
     "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-06.json",
     "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-07.json",
     "trajectories/11-customer-billing-schedule-migration/grok-4.6-grok-build/trajectory-trial-08.json",
-    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-02/regrade/original/stdout.txt",
-    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-02/regrade/original/test-stdout.txt",
-    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-04/regrade/original/stdout.txt",
-    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-04/regrade/original/test-stdout.txt"
+    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-02/regrade/original/stdout.txt",
+    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-02/regrade/original/test-stdout.txt",
+    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-04/regrade/original/stdout.txt",
+    "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-04/regrade/original/test-stdout.txt"
   ]
 }

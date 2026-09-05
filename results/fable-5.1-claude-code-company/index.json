@@ -17,10 +17,10 @@
     "steps": 42,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-01.json",
     "trajectory_sha256": "6cce524268ae9218f72c7b91fe2e76edbef7c07edf237b48b88cd77f804a19d1",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-01",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-01",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-01/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-01/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-01/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-01/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -46,10 +46,10 @@
     "steps": 48,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-02.json",
     "trajectory_sha256": "eec290eac8054c656b42fd352922d6d41a5f858d0dd0c9cdaf90193502c62852",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-02",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-02",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-02/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-02/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-02/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-02/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -75,10 +75,10 @@
     "steps": 31,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-03.json",
     "trajectory_sha256": "ab5278468fe31b7d6266a1265fb54c153a30f7e8aa49060af15c1868e70857eb",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-03",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-03",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-03/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-03/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-03/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-03/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -104,10 +104,10 @@
     "steps": 28,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-04.json",
     "trajectory_sha256": "1eb4366c612ff7e2dd1e8a5802368749e4a6268563dafc7076630b69c07a8e90",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-04",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-04",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-04/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-04/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-04/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-04/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -133,10 +133,10 @@
     "steps": 30,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-05.json",
     "trajectory_sha256": "b1cbc516d5709941daa56bc1fd1dda88f7387af4816ce163496dbe7829f86c89",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-05",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-05",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-05/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-05/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-05/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-05/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -162,10 +162,10 @@
     "steps": 28,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-06.json",
     "trajectory_sha256": "afa3eb186d0f22b34ef0af5bcfc5e7a2ff4788ba5f73e373f840cbbca37cf8ae",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-06",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-06",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-06/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-06/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-06/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-06/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -191,10 +191,10 @@
     "steps": 28,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-07.json",
     "trajectory_sha256": "83bb64a34d752c1d1624485c2fefe0c234001e5cec5c859504abb147cab7e7be",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-07",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-07",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-07/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-07/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-07/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-07/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -220,10 +220,10 @@
     "steps": 32,
     "trajectory": "trajectories/01-linearizable-scan/fable-5.1-claude-code/trajectory-trial-08.json",
     "trajectory_sha256": "06ff7655fed5a33ccd277533adb8f7ab2f730d3cc4d3e513fa873198fe8449db",
-    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-08",
+    "verification": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-08",
     "verifier_artifacts": [
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-08/canonical-verdict.json",
-      "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-08/source-result.json"
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-08/canonical-verdict.json",
+      "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-08/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -249,10 +249,10 @@
     "steps": 14,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-01.json",
     "trajectory_sha256": "0b3bc8020160c584c5f502a97c62fd2172bbb4d8155294a82c8ebc99de570b51",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-01",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-01",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-01/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-01/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-01/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-01/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -278,10 +278,10 @@
     "steps": 20,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-02.json",
     "trajectory_sha256": "bebde17f2a6710cebaf67d9ea411f7b59b8234b5f645a5081959163bfaf7feb7",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-02",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-02",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-02/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-02/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-02/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-02/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -307,10 +307,10 @@
     "steps": 19,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-03.json",
     "trajectory_sha256": "2bfee589066ad9df9a78fef78add29de747cd8d517ae43f12c84c1a3beb84c63",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-03",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-03",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-03/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-03/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-03/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-03/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -336,10 +336,10 @@
     "steps": 17,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-04.json",
     "trajectory_sha256": "6b3f0ff64f0e0305eafc07a0dc9c49ffe300aeb387449248359e966baf392259",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-04",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-04",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-04/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-04/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-04/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-04/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -365,10 +365,10 @@
     "steps": 18,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-05.json",
     "trajectory_sha256": "31bb3321188caaa5f0e1cbf8d05e07d8f4492b722d4233c2d1e8473828e019e0",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-05",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-05",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-05/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-05/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-05/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-05/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -394,10 +394,10 @@
     "steps": 19,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-06.json",
     "trajectory_sha256": "f1df901f208ee04819b7588427bf9b550ed4d79aada57cf19fca9c0db308c2a3",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-06",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-06",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-06/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-06/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-06/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-06/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -423,10 +423,10 @@
     "steps": 19,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-07.json",
     "trajectory_sha256": "04b7482adf91be0cd1e4522f6fdb2c207ca534d84644c7480644a17d6acf165f",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-07",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-07",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-07/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-07/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-07/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-07/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,
@@ -452,10 +452,10 @@
     "steps": 16,
     "trajectory": "trajectories/03-analytics-stream-reducer/fable-5.1-claude-code/trajectory-trial-08.json",
     "trajectory_sha256": "c960b4698aecacf4f54d7708582c0672b733980e388902a02909c7f252e01105",
-    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-08",
+    "verification": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-08",
     "verifier_artifacts": [
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-08/canonical-verdict.json",
-      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-08/source-result.json"
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-08/canonical-verdict.json",
+      "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-08/source-result.json"
     ],
     "task_checksum": null,
     "reasoning_effort": null,

@@ -133,8 +133,8 @@
   "trajectory_count": 400,
   "canonical_verdict_count": 400,
   "artifact_count": 8279,
-  "index_sha256": "4f89d3db0f32cfb0106f554fc07649f7690a0a2a7963b900ee0a9bb5e837badb",
-  "artifact_index_sha256": "e61714fc13cb335cfeb119b97164586eb53302b59e43fd2aede637c4bdd07f44",
+  "index_sha256": "f0b78a94f3b816e4ef2bd5770a3dd3a078c4394b0b00f375309e994b694ab417",
+  "artifact_index_sha256": "1ef898ea10abbcf01030a1538da3eb1b4b2ac894aca3d069956f5dc1dfd7968f",
   "sources": {
     "real_swe_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
     "real_swe_evidence_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",
