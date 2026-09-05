@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "model_label": "Fable 5.1",
+  "provider": "Bedrock",
+  "harness": "Claude Code",
+  "admission": "strict-valid trials only",
+  "folder_label": "fable-5.1-claude-code",
+  "tasks": [
+    "01-entitlement-overage-lines",
+    "01-linearizable-scan",
+    "02-multi-region-sweep",
+    "03-analytics-stream-reducer",
+    "04-tax-jurisdiction",
+    "06-api-token-metering",
+    "07-api-keys-and-environments",
+    "09-s3-datastore-measurement",
+    "10-customer-identity-migration",
+    "11-customer-billing-schedule-migration"
+  ],
+  "scored_trials": 80,
+  "passes": 31,
+  "cohorts": [
+    {
+      "schema_version": 1,
+      "arm": "fable-5.1-claude-code-bedrock-company",
+      "model_label": "Fable 5.1",
+      "model": "bedrock/us.anthropic.claude-fable-5-1",
+      "provider": "Bedrock",
+      "harness": "Claude Code",
+      "harness_version": "2.1.258",
+      "reasoning_effort": [],
+      "tasks": [
+        "01-linearizable-scan",
+        "03-analytics-stream-reducer"
+      ],
+      "scored_trials": 16,
+      "passes": 0,
+      "admission": "strict-valid trials only"
+    },
+    {
+      "schema_version": 1,
+      "arm": "fable-5.1-claude-code-bedrock-real-swe",
+      "model_label": "Fable 5.1",
+      "model": "bedrock/global.anthropic.claude-fable-5-1",
+      "provider": "Bedrock",
+      "harness": "Claude Code",
+      "harness_version": "2.1.257",
+      "reasoning_effort": [
+        "high"
+      ],
+      "tasks": [
+        "01-entitlement-overage-lines",
+        "02-multi-region-sweep",
+        "04-tax-jurisdiction",
+        "06-api-token-metering",
+        "07-api-keys-and-environments",
+        "09-s3-datastore-measurement",
+        "10-customer-identity-migration",
+        "11-customer-billing-schedule-migration"
+      ],
+      "scored_trials": 64,
+      "passes": 31,
+      "admission": "strict-valid trials only"
+    }
+  ]
+}

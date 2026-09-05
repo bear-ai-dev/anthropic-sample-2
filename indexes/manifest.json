@@ -132,9 +132,9 @@
   "passes": 101,
   "trajectory_count": 400,
   "canonical_verdict_count": 400,
-  "artifact_count": 8279,
-  "index_sha256": "f0b78a94f3b816e4ef2bd5770a3dd3a078c4394b0b00f375309e994b694ab417",
-  "artifact_index_sha256": "1ef898ea10abbcf01030a1538da3eb1b4b2ac894aca3d069956f5dc1dfd7968f",
+  "artifact_count": 8270,
+  "index_sha256": "e039d5cb4d0721b626f3eca91b5e41d50a04e6196a27418bed9b0ab61c55b0de",
+  "artifact_index_sha256": "7eca522c7282e663bc11a767452cf511737e353b766ab15b1388cd790dd42c9b",
   "sources": {
     "real_swe_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
     "real_swe_evidence_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",

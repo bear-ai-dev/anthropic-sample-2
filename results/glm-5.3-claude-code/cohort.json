@@ -23,5 +23,5 @@
   ],
   "scored_trials": 80,
   "passes": 23,
-  "admission": "strict-valid trials only"
+  "admission": "78 strict-valid completions and 2 scored agent turn-limit failures"
 }

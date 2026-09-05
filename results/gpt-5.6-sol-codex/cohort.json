@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "model_label": "GPT-5.6 Sol",
+  "harness": "Codex CLI",
+  "harness_version": "0.151.0",
+  "reasoning_effort": [
+    "high"
+  ],
+  "admission": "strict-valid trials only",
+  "folder_label": "gpt-5.6-sol-codex",
+  "tasks": [
+    "01-entitlement-overage-lines",
+    "01-linearizable-scan",
+    "02-multi-region-sweep",
+    "03-analytics-stream-reducer",
+    "04-tax-jurisdiction",
+    "06-api-token-metering",
+    "07-api-keys-and-environments",
+    "09-s3-datastore-measurement",
+    "10-customer-identity-migration",
+    "11-customer-billing-schedule-migration"
+  ],
+  "scored_trials": 80,
+  "passes": 13,
+  "cohorts": [
+    {
+      "schema_version": 1,
+      "arm": "gpt-5.6-sol-codex-openrouter",
+      "model_label": "GPT-5.6 Sol",
+      "model": "openai/gpt-5.6-sol",
+      "provider": "OpenRouter",
+      "harness": "Codex CLI",
+      "harness_version": "0.151.0",
+      "reasoning_effort": [
+        "high"
+      ],
+      "tasks": [
+        "01-linearizable-scan",
+        "03-analytics-stream-reducer"
+      ],
+      "scored_trials": 16,
+      "passes": 0,
+      "admission": "strict-valid trials only"
+    },
+    {
+      "schema_version": 1,
+      "arm": "gpt-5.6-sol-codex-bedrock",
+      "model_label": "GPT-5.6 Sol",
+      "model": "openai.gpt-5.6-sol",
+      "provider": "Bedrock",
+      "harness": "Codex CLI",
+      "harness_version": "0.151.0",
+      "reasoning_effort": [
+        "high"
+      ],
+      "tasks": [
+        "01-entitlement-overage-lines",
+        "02-multi-region-sweep",
+        "04-tax-jurisdiction",
+        "06-api-token-metering",
+        "07-api-keys-and-environments",
+        "09-s3-datastore-measurement",
+        "10-customer-identity-migration",
+        "11-customer-billing-schedule-migration"
+      ],
+      "scored_trials": 64,
+      "passes": 13,
+      "admission": "strict-valid trials only"
+    }
+  ]
+}
