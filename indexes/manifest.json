@@ -134,7 +134,7 @@
   "canonical_verdict_count": 400,
   "artifact_count": 8279,
   "index_sha256": "4f89d3db0f32cfb0106f554fc07649f7690a0a2a7963b900ee0a9bb5e837badb",
-  "artifact_index_sha256": "933b6fd3d59dc44a19c7fed78a96a3fe2123eb6533e01d97747158d594e8c7be",
+  "artifact_index_sha256": "e61714fc13cb335cfeb119b97164586eb53302b59e43fd2aede637c4bdd07f44",
   "sources": {
     "real_swe_commit": "81a60de3f659c58b2614eda90a7f86eec28b82e4",
     "real_swe_evidence_commit": "6211ba132fb5cfaa0659c265eb5dd19faf4011bf",

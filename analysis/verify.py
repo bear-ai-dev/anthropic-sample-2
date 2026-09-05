@@ -67,7 +67,7 @@ for row in trials:
         assert row['terminal_failure_reason'] == 'max_turns' and not row['canonical_valid']
 totals = {m: sum(bool(r["passed"]) for r in trials if r["model_label"] == m) for m in MODELS}
 assert totals == EXPECTED, totals
-assert sum(totals.values()) == read_json(ROOT / "manifest.json")["passes"] == 101
+assert sum(totals.values()) == read_json(ROOT / "indexes/manifest.json")["passes"] == 101
 
 with (ROOT / "analysis/failure-modes.csv").open(newline="") as handle:
     failures = list(csv.DictReader(handle))
@@ -101,7 +101,7 @@ for row in repairs:
     key = (row["task"], row["model"], int(row["trial"]))
     assert float(indexed[key]["reward"]) == float(row["fixed_reward"])
 
-manifest = read_json(ROOT / "manifest.json")
+manifest = read_json(ROOT / "indexes/manifest.json")
 assert hashlib.sha256((ROOT / 'indexes/trials.json').read_bytes()).hexdigest() == manifest['index_sha256']
 assert hashlib.sha256((ROOT / 'indexes/artifacts.json').read_bytes()).hexdigest() == manifest['artifact_index_sha256']
 artifacts = read_json(ROOT / 'indexes/artifacts.json')
@@ -144,4 +144,4 @@ for model in MODELS:
 print("PASS: 320 Real-SWE taxonomy rows; each failure has one recorded label and evidence reference")
 print("PASS: 12 recorded repairs = 7 flips to pass + 5 retained zeroes")
 print("PASS: 64 exact Grok original evidence bundles, 46 detailed failure records, 16 original controls")
-print("LIMIT: recovered evidence is not a fresh replay or causal sign-off; entry-point fairness remains open. See HANDOFF.md")
+print("LIMIT: recovered evidence is not a fresh replay or causal sign-off; entry-point fairness remains open. See docs/HANDOFF.md")

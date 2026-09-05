@@ -36665,7 +36665,7 @@
     "sha256": "06a0f44e3db664dbec182ab87fadc1caf2287e67e3902897c826550349695837"
   },
   {
-    "path": "HANDOFF.md",
+    "path": "docs/HANDOFF.md",
     "bytes": 2153,
     "sha256": "018550e3b30feb5db09f8dd53a7f2b44148bb30b4b4c696f6f9a9416c30ab907"
   },
@@ -36686,8 +36686,8 @@
   },
   {
     "path": "analysis/verify.py",
-    "bytes": 7212,
-    "sha256": "fa93cadcc583c158bd49bcf1a0c4637460cdf2fdeccce526181fb26afb105d70"
+    "bytes": 7233,
+    "sha256": "4447621c8e3160b91ea6be3a7c0805158dbb0dd7114a85cd7328604661223b4c"
   },
   {
     "path": "analysis/evidence-recovery.json",
