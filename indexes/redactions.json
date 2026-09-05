@@ -5776,1188 +5776,1188 @@
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-01/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-01/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-02/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-02/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-03/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-03/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-04/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-04/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-05/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-05/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-06/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-06/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-07/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-07/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-bedrock-company/trial-08/source-result.json",
+    "path": "verification/01-linearizable-scan/fable-5.1-claude-code-company/trial-08/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-01/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-02/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-03/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-03/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-04/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-05/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-05/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-05/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-06/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-06/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-07/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-07/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-07/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-08/source-result.json",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-08/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/glm-5.3-claude-code-openrouter/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/glm-5.3-claude-code/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-01/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-02/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-03/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-03/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-04/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-05/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-05/source-verifier/reward-detail.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-05/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-05/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-05/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-06/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-06/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-07/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-07/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-07/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-08/source-result.json",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-08/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-openrouter/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/gpt-5.6-sol-codex-company/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-01/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-02/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-03/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-03/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-04/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-05/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-06/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-06/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-07/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-07/source-verifier/reward-detail.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-07/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-07/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-07/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-08/source-result.json",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-08/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-openrouter/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/grok-4.6-grok-build-acp-company/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-01/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-02/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-03/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-03/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-04/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-05/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-05/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-05/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-06/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-06/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-07/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-07/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-07/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-08/source-result.json",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-08/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code-openrouter/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/01-linearizable-scan/kimi-k3-kimi-code/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-01/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-01/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-02/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-02/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-03/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-03/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-04/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-04/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-05/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-05/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-06/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-06/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-07/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-07/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-bedrock-company/trial-08/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/fable-5.1-claude-code-company/trial-08/source-result.json",
     "changes": [
       "restricted-name",
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-01/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-01/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-01/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-02/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-02/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-03/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-03/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-02/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-04/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-04/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-05/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-05/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-03/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-06/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-06/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-07/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-07/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-04/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-08/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code-openrouter/trial-08/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-01/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-02/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-05/source-verifier/reward-detail.json",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-06/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-02/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-06/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-03/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-04/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-04/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-07/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-05/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-06/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-08/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-06/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/glm-5.3-claude-code/trial-08/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-07/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-08/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-openrouter/trial-08/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-01/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-01/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-02/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-02/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-02/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-03/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-03/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-04/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-04/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-04/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-05/source-result.json",
-    "changes": [
-      "restricted-name"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-05/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-06/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-06/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-07/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-06/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-07/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-06/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-08/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-openrouter/trial-08/source-verifier/reward-detail.json",
-    "changes": [
-      "secret-pattern-11"
-    ]
-  },
-  {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-01/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-08/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-01/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/gpt-5.6-sol-codex-company/trial-08/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-02/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-01/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-02/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-01/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-03/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-02/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-03/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-02/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-04/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-03/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-04/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-03/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-05/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-04/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-05/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-04/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-06/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-05/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-06/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-05/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-07/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-06/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-07/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-06/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-08/source-result.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-07/source-result.json",
     "changes": [
       "restricted-name"
     ]
   },
   {
-    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code-openrouter/trial-08/source-verifier/reward-detail.json",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-07/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-01/source-verifier/stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-08/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/grok-4.6-grok-build-acp-company/trial-08/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-01/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-01/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-02/source-verifier/stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-02/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-02/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-03/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-03/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-03/source-verifier/stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-04/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-04/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-05/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-05/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-04/source-verifier/stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-06/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-06/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-07/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-07/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-05/source-verifier/stdout.txt",
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-08/source-result.json",
+    "changes": [
+      "restricted-name"
+    ]
+  },
+  {
+    "path": "verification/03-analytics-stream-reducer/kimi-k3-kimi-code/trial-08/source-verifier/reward-detail.json",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-05/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-01/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-06/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-02/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-07/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-07/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-03/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-08/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-03/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-bedrock-real-swe/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-04/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-02/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-05/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-04/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-05/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-06/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-06/regrade/original/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-06/regrade/original/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-07/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-06/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-07/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-08/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-08/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/fable-5.1-claude-code-real-swe/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code-openrouter/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-02/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-01/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-04/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-02/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-06/regrade/original/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-03/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-06/regrade/original/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-06/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-04/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-04/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-08/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-05/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/glm-5.3-claude-code/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-05/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-01/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-06/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-bedrock/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-02/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-02/regrade/original/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-02/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-02/regrade/original/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-03/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-04/regrade/original/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-03/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-bedrock/trial-04/regrade/original/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-04/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-01/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-04/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-01/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-05/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-02/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-05/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-02/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-06/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-03/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/gpt-5.6-sol-codex-real-swe/trial-06/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-03/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-02/regrade/original/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-05/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-02/regrade/original/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-05/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-04/regrade/original/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-06/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/grok-4.6-grok-build-real-swe/trial-04/regrade/original/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-06/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-01/source-verifier/stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-08/source-verifier/stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-01/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
   },
   {
-    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code-openrouter/trial-08/source-verifier/test-stdout.txt",
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-02/source-verifier/stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-02/source-verifier/test-stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-03/source-verifier/stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-03/source-verifier/test-stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-05/source-verifier/stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-05/source-verifier/test-stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-06/source-verifier/stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-06/source-verifier/test-stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-08/source-verifier/stdout.txt",
+    "changes": [
+      "secret-pattern-11"
+    ]
+  },
+  {
+    "path": "verification/09-s3-datastore-measurement/kimi-k3-kimi-code/trial-08/source-verifier/test-stdout.txt",
     "changes": [
       "secret-pattern-11"
     ]
